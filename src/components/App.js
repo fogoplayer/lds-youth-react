@@ -6,13 +6,8 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import Sidebar from "./Sidebar";
 
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
-};
-
 const App = props => (
-  <div style={styles}>
+  <div>
     <Navbar brand="LDS Youth" />
     <Switch>
       <Route exact path="/" component={Home} />

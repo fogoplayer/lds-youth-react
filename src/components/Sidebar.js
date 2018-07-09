@@ -6,49 +6,72 @@ class Sidebar extends React.Component {
     super(props);
   }
   componentDidMount() {
-    this.elems = document.querySelectorAll(".sidenav");
-    this.instances = M.Sidenav.init(this.elems, {});
+    let elems = document.querySelectorAll(".sidenav");
+    this.sidenavInstances = M.Sidenav.init(elems, {});
+    elems = document.querySelectorAll(".dropdown-trigger");
+    this.dropdownInstances = M.Sidenav.init(elems, {});
   }
 
   render() {
     return (
-      <div>
-        <ul id="slide-out" class="sidenav">
-          <li>
-            <div className="user-view">
-              <div className="background">
-                <img src="images/office.jpg" />
+      <div className="sidenav" id="slide-out">
+        <li>
+          <a href="#!">First Sidebar Link</a>
+        </li>
+        <li>
+          <a href="#!">Second Sidebar Link</a>
+        </li>
+        <li className="no-padding">
+          <ul className="collapsible collapsible-accordion">
+            <li>
+              <a className="collapsible-header">
+                Dropdown<i className="material-icons">arrow_drop_down</i>
+              </a>
+              <div className="collapsible-body">
+                <ul>
+                  <li>
+                    <a href="#!">First</a>
+                  </li>
+                  <li>
+                    <a href="#!">Second</a>
+                  </li>
+                  <li>
+                    <a href="#!">Third</a>
+                  </li>
+                  <li>
+                    <a href="#!">Fourth</a>
+                  </li>
+                </ul>
               </div>
-              <a href="#user">
-                <img className="circle" src="images/yuna.jpg" />
-              </a>
-              <a href="#name">
-                <span className="white-text name">John Doe</span>
-              </a>
-              <a href="#email">
-                <span className="white-text email">jdandturk@gmail.com</span>
-              </a>
-            </div>
+            </li>
+          </ul>
+        </li>
+        <ul className="right hide-on-med-and-down">
+          <li>
+            <a href="#!">First Sidebar Link</a>
           </li>
           <li>
-            <a href="#!">
-              <i className="material-icons">cloud</i>First Link With Icon
+            <a href="#!">Second Sidebar Link</a>
+          </li>
+          <li>
+            <a className="dropdown-trigger" href="#!" data-target="dropdown1">
+              Dropdown<i className="material-icons right">arrow_drop_down</i>
             </a>
           </li>
-          <li>
-            <a href="#!">Second Link</a>
-          </li>
-          <li>
-            <div className="divider" />
-          </li>
-          <li>
-            <a className="subheader">Subheader</a>
-          </li>
-          <li>
-            <a className="waves-effect" href="#!">
-              Third Link With Waves
-            </a>
-          </li>
+          <ul id="dropdown1" className="dropdown-content">
+            <li>
+              <a href="#!">First</a>
+            </li>
+            <li>
+              <a href="#!">Second</a>
+            </li>
+            <li>
+              <a href="#!">Third</a>
+            </li>
+            <li>
+              <a href="#!">Fourth</a>
+            </li>
+          </ul>
         </ul>
       </div>
     );
