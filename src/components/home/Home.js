@@ -2,14 +2,25 @@ import React from "react";
 import { render } from "react-dom";
 import { Link } from "react-router-dom";
 
-import CardButton from "./CardButton";
+import ImageCardButton from "./ImageCardButton";
+import BasicCardButton from "./BasicCardButton";
 
 const Home = props => [
   <div className="row">
-    <CardButton title="Duty to God" url="duty-to-god" />
-    <CardButton title="Personal Progress" url="personal-progress" />
+    <ImageCardButton title="Duty to God" url="duty-to-god" />
+    <ImageCardButton title="Personal Progress" url="personal-progress" />
   </div>,
-  <div>    
+  <div className="row">
+    <BasicCardButton
+      title="Contact the Developer"
+      url="https://goo.gl/forms/mhCJvscVsMq4EM973"
+    />
+    <BasicCardButton
+      title="Contribute"
+      url="https://github.com/fogoplayer/lds-youth-react"
+    />
+  </div>,
+  <div>
     {/*<!--PP card-->
                 <div class="col s12">
                     <Link

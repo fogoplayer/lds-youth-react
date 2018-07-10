@@ -8,9 +8,7 @@ import Sidenav from "./Sidenav";
 
 const App = props => [
   <Navbar brand="LDS Youth" />,
-  <div className="container" style={{
-      paddingLeft: document.body.clientWidth > 992 ? 300 : "",
-    }}>
+  <div className="container">
     <Switch>
       <Route exact path="/" component={Home} />
       {/*<Route path="/duty-to-god/:" component={Page} />*/}
