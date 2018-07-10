@@ -3,18 +3,21 @@ import { render } from "react-dom";
 import { Switch, Route } from "react-router-dom";
 
 import Navbar from "./Navbar";
-import Home from "../pages/Home";
 import Sidenav from "./Sidenav";
 
+import Home from "../pages/Home";
+import Page from "./Page";
+import page from "../pages/duty-to-god";
+
 const App = props => [
-  <Navbar brand="LDS Youth" />,
-  <div className="container">
+  <Navbar key="navbar" brand="LDS Youth" />,
+  <div key="container" className="container">
     <Switch>
       <Route exact path="/" component={Home} />
-      {/*<Route path="/duty-to-god/:" component={Page} />*/}
+      <Route path="/" component={Page} />
     </Switch>
   </div>,
-  <Sidenav />
+  <Sidenav key="sidenav" />
 ];
 
 export default App;

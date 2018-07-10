@@ -24,13 +24,13 @@ class Sidenav extends React.Component {
         <li>
           <a href="#!">Second Sidebar Link</a>
         </li>
-        <li class="no-padding">
-          <ul class="collapsible collapsible-accordion">
+        <li className="no-padding">
+          <ul className="collapsible collapsible-accordion">
             <li>
-              <a class="collapsible-header">
-                Dropdown<i class="material-icons">arrow_drop_down</i>
+              <a className="collapsible-header">
+                Dropdown<i className="material-icons">arrow_drop_down</i>
               </a>
-              <div class="collapsible-body">
+              <div className="collapsible-body">
                 <ul>
                   <li>
                     <a href="#!">First</a>
