@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 import CardButton from "./CardButton";
 
-const Home = props => (
-  <div className="container">
-    <div className="row">
-      <CardButton title="Duty to God" url="duty-to-god" />
-      <CardButton title="Personal Progress" url="personal-progress" />
-    </div>
+const Home = props => [
+  <div className="row">
+    <CardButton title="Duty to God" url="duty-to-god" />
+    <CardButton title="Personal Progress" url="personal-progress" />
+  </div>,
+  <div>    
     {/*<!--PP card-->
                 <div class="col s12">
                     <Link
@@ -57,6 +57,6 @@ const Home = props => (
 
             </div>*/}
   </div>
-);
+];
 
 export default Home;

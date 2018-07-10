@@ -4,17 +4,19 @@ import { Switch, Route } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Home from "./home/Home";
-import Sidebar from "./Sidebar";
+import Sidenav from "./Sidenav";
 
-const App = props => (
-  <div>
-    <Navbar brand="LDS Youth" />
+const App = props => [
+  <Navbar brand="LDS Youth" />,
+  <div className="container" style={{
+      paddingLeft: document.body.clientWidth > 992 ? 300 : "",
+    }}>
     <Switch>
       <Route exact path="/" component={Home} />
       {/*<Route path="/duty-to-god/:" component={Page} />*/}
     </Switch>
-    <Sidebar />
-  </div>
-);
+  </div>,
+  <Sidenav />
+];
 
 export default App;

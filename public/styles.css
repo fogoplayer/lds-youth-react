@@ -1,0 +1,10 @@
+@media screen and (min-width:992px){
+  .sidenav {
+    padding-top: 64px;
+    z-index: 0;
+  }
+  
+  .container {
+    padding-left:300px;
+  }
+}
