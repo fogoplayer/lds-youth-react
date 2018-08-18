@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = props => (
   <div className="navbar-fixed">
@@ -9,9 +10,9 @@ const Navbar = props => (
           <a data-target="sidenav" className="sidenav-trigger">
             <i className="material-icons">menu</i>
           </a>
-          <a href="/" className="brand-logo">
+          <Link to="/" className="brand-logo">
             {props.brand}
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
