@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import ImageCardButton from "../ImageCardButton";
 import BasicCardButton from "../BasicCardButton";
+import "../../styles.css";
 
 const Home = props => [
   <div className="row">

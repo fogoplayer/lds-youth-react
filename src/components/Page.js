@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react-dom";
 
+import "../styles.css";
 //import page from "./pages/duty-to-god/deacon/priesthood-duties";
 
 class Page extends React.Component {
