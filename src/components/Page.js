@@ -16,7 +16,6 @@ class Page extends React.Component {
     path.forEach(pathSegment => {
       componentPath += "/" + pathSegment;
     });
-    // let componentPath = "./pages/duty-to-god";
     import(componentPath).then(module => {
       this.setState({ module: module.default });
     });
