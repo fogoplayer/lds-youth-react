@@ -1,8 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
 
-import CollapsibleHeader from "../components/collapsibleHeader";
-import CollectionItem from "../components/collectionItem";
+import CollapsibleHeader from "../../components/collapsibleHeader";
+import CollectionItem from "../../components/collectionItem";
 
 class page extends React.Component {
   constructor(props) {

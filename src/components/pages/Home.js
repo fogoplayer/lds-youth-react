@@ -2,8 +2,8 @@ import React from "react";
 import { render } from "react-dom";
 import { Link } from "react-router-dom";
 
-import ImageCardButton from "../components/ImageCardButton";
-import BasicCardButton from "../components/BasicCardButton";
+import ImageCardButton from "../ImageCardButton";
+import BasicCardButton from "../BasicCardButton";
 
 const Home = props => [
   <div className="row">
