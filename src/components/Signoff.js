@@ -4,7 +4,7 @@ import { render } from "react-dom";
 const Signoff = props => (
   <div
     contentEditable="true"
-    class={
+    className={
       "textArea " +
       (props.color ? props.color + " lighten-4" : "grey lighten-2")
     }
