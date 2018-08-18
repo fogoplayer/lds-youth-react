@@ -13,11 +13,16 @@ const App = props => [
   <div key="container" className="container">
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/" component={Page} />
-      <Route path="/duty-to-god" component={Page} />
+      <Route
+        path="/"
+        component={props => (
+          <Page timestamp={new Date().toString()} {...props} />
+        )}
+      />
     </Switch>
   </div>,
   <Sidenav key="sidenav" />
 ];
 
 export default App;
+//      <Route path="/duty-to-god" component={Page} />

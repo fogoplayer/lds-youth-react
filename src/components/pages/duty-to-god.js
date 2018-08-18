@@ -20,8 +20,8 @@ class page extends React.Component {
         <h2>Duty To God</h2>
         <ul className="collection">
           <CollectionItem
-            url="duty-to-god/message-from-the-first-presidency"
             text="Message From the First Presidency"
+            url="duty-to-god/message-from-the-first-presidency"
           />
           <CollectionItem
             url="duty-to-god/your-duty-to-god"
