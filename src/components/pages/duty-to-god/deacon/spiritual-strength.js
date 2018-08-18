@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 
-import CollectionItem from "../../../collectionItem";
+import CollectionItem from "../../../CollectionItem";
 
 const Page = props => (
   <div>

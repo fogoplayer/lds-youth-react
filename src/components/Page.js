@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react-dom";
 
-//import page from "../pages/duty-to-god";
+//import page from "./pages/duty-to-god/deacon/priesthood-duties";
 
 class Page extends React.Component {
   constructor(props) {
