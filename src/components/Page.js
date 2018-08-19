@@ -2,7 +2,7 @@ import React from "react";
 import { ReactDOM } from "react-dom";
 
 import "../styles.css";
-// import page from "./pages/duty-to-god/deacon/spiritual-strength/pray-and-study";
+// import page from "./pages/duty-to-god/deacon/spiritual-strength/review";
 
 class Page extends React.Component {
   constructor(props) {
