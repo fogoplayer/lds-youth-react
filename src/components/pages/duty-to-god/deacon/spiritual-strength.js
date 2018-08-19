@@ -20,19 +20,19 @@ const Page = props => (
     <ul className="collection">
       <CollectionItem
         text="Pray and Study the Scriptures"
-        url="/duty-to-god/deacon/spiritual-strenth/pray-and-study"
+        url="/duty-to-god/deacon/spiritual-strength/pray-and-study"
       />
       <CollectionItem
         text="Live Worthily"
-        url="/duty-to-god/deacon/spiritual-strenth/live-worthily"
+        url="/duty-to-god/deacon/spiritual-strength/live-worthily"
       />
       <CollectionItem
         text="Understand Doctrine"
-        url="/duty-to-god/deacon/spiritual-strenth/understand-doctrine"
+        url="/duty-to-god/deacon/spiritual-strength/understand-doctrine"
       />
       <CollectionItem
         text="Review"
-        url="/duty-to-god/deacon/spiritual-strenth/review"
+        url="/duty-to-god/deacon/spiritual-strength/review"
       />
     </ul>
   </div>
