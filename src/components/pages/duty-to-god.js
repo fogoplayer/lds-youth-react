@@ -10,13 +10,13 @@ class page extends React.Component {
   }
 
   componentDidMount() {
-    const elems = document.querySelectorAll(".collapsible");
-    M.Collapsible.init(elems, { accordion: false });
+    const elems = document.getElementById("content").querySelectorAll(".collapsible");
+    M.Collapsible.init(elems, {});
   }
 
   render() {
     return (
-      <div>
+      <div id="content">
         <h2>Duty To God</h2>
         <ul className="collection">
           <CollectionItem
