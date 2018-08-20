@@ -36,7 +36,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h2>Act</h2>
+    <h4>Act</h4>
     <p>My plan to prepare the sacrament in a reverent and dignified manner:</p>
     <TextArea id="teacherPDAdminister1" />
     <p>
@@ -45,7 +45,7 @@ const Page = props => (
     </p>
     <TextArea id="teacherPDAdminister2" />
 
-    <h2>Share</h2>
+    <h4>Share</h4>
     <p>
       After following through with your plan, discuss with members of your
       quorum how your experiences have infl uenced your feelings about the
