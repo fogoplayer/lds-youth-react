@@ -8,47 +8,51 @@ const Page = props => (
 
     <h4>Learn</h4>
     <p>
-      Write down what you learn about serving others from the following
-      scriptures:{" "}
-      <a href="https://www.lds.org/scriptures/nt/james/1.27">James 1:27</a>,{" "}
+      Think about the service you have performed in your years as a deacon and
+      teacher, and answer the following questions:
+    </p>
+    <ol>
+      <li>
+        How did your attitude affect the service you gave? (Review the phrases
+        you wrote as a{" "}
+        <a href="/LDSYouth/dutyToGod/teacher/teacherPDServe.html">teacher</a>.)
+      </li>
+      <li>
+        How does service help you become less self-centered and more aware of
+        others’ needs?
+      </li>
+      <li>How were the people you served affected by your service?</li>
+      <li>What can you do as a priest to give more effective service?</li>
+    </ol>
+    <p>
+      Read{" "}
+      <a href="https://www.lds.org/scriptures/nt/matt/22.36-40">
+        Matthew 22:36–40
+      </a>,{" "}
+      <a href="https://www.lds.org/scriptures/nt/john/13.34-35">
+        John 13:34–35
+      </a>, and{" "}
       <a href="https://www.lds.org/scriptures/bofm/mosiah/2.17">Mosiah 2:17</a>,
-      and{" "}
-      <a href="https://www.lds.org/scriptures/bofm/mosiah/18.8-10">
-        Mosiah 18:8â10
-      </a>. Talk with a parent or quorum leader about the relationship between
-      being a priesthood holder and serving others
+      looking for reasons we serve others. Discuss with your quorum the
+      opportunities you have to serve others (ask your bishop or quorum leaders
+      for ideas). List some specific things your quorum will do to give service.
+      Also plan several things you will do on your own to serve your family and
+      others.
     </p>
 
-    <TextArea id="deaconPDServe1" />
-
-    <p>
-      Discuss with members of your quorum the opportunities you have to serve
-      others (ask your bishop or quorum leaders for ideas). As an Aaronic
-      Priesthood holder, you serve others by assisting your bishop or branch
-      president in âadministering temporal thingsâ (<a href="https://www.lds.org/scriptures/dc-testament/dc/107.68">
-        D&C 107:68
-      </a>). This may include caring for the poor and needy, cleaning the
-      meetinghouse and grounds, gathering fast offerings, and fulfilling
-      assignments from your quorum president. It could also include service
-      projects you decide to do on your own
-    </p>
-    <p>
-      List some specific things your quorum will do to give service. Also plan
-      several things you will do on your own to give service, including service
-      to members of your family
-    </p>
-
-    <h4>Act</h4>
-    <p>My quorumâs plan to give service:</p>
-    <TextArea id="deaconPDServe1" />
+    <h2>Act</h2>
+    <p>My quorum’s plan to give service:</p>
+    <TextArea id="priestPDServe1" />
     <p>My personal plan to give service: </p>
-    <TextArea id="deaconPDServe2" />
+    <TextArea id="priestPDServe2" />
 
-    <h4>Share</h4>
+    <h2>Share</h2>
     <p>
       Share with a parent or quorum members some of your experiences serving
       others. For example, you could talk about how your service has affected
-      you and the people you have served.
+      the people you have served and how your attitude has affected your
+      experiences. Talk about how these experiences are helping you become more
+      Christlike.
     </p>
   </div>
 );

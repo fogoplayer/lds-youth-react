@@ -9,19 +9,15 @@ const Page = props => (
     <h4>Learn</h4>
     <p>
       Read{" "}
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/11.21">
-        Doctrine and Covenants 11:21
-      </a>. What promises does the Lord give to those who study His word? You
-      will need a basic understanding and a testimony of gospel truths to
-      fulfill your duties now as a priesthood holder and in the future as a
-      full-time missionary and as a husband and father.
-    </p>
-    <p>
-      Look at this list of doctrinal topics, and choose four or more that you
-      would like to learn about. One of these should be âThe Priesthood and
-      Priesthood Keys.â You can use the scriptures (including the Topical
-      Guide), True to the Faith, Preach My Gospel, and the words of latter-day
-      prophets to learn about these topics.
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/20.68">
+        Doctrine and Covenants 20:68
+      </a>. Part of your duty as a priest is to “expound all things concerning
+      the church of Christ.” Review the lists of doctrinal topics you studied as
+      a <a href="/LDSYouth/dutyToGod/deacon/deaconSSDoctrine.html">deacon</a>{" "}
+      and as a{" "}
+      <a href="/LDSYouth/dutyToGod/teacher/teacherSSDoctrine.html">teacher</a>.
+      Then write in the next section four or more additional topics you will
+      learn about and teach over the next two years.
     </p>
     <ul>
       <li>The Godhead</li>
@@ -45,32 +41,50 @@ const Page = props => (
       <li>The Word of Wisdom</li>
       <li>Tithing</li>
     </ul>
-    <p>For each topic you study, create a simple outline. It could include:</p>
-    <ol>
-      <li>A definition of the topic</li>
-      <li>Teachings and examples from the scriptures and your own life</li>
-      <li>Your thoughts and feelings about why this topic is important.</li>
-    </ol>
     <p>
-      For examples of outlines, see{" "}
-      <a href="https://www.lds.org/manual/preach-my-gospel-a-guide-to-missionary-service/how-do-i-study-effectively-and-prepare-to-teach">
-        Preach My Gospel (chapters 2 and 3)
+      Study <a href="https://www.lds.org/scriptures/dc-testament/dc/4">D&C 4</a>;{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/13">13</a>;{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/20.46-60">
+        20:46–60
+      </a>;{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/84.18-29">
+        84:18–27
+      </a>;{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/107.1-21">
+        107:1–21
+      </a>;{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/121.34-46">
+        121:34–46
+      </a>; and{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/123.142-43">
+        124:142–43
       </a>{" "}
-      or visit <a href="https://dutytogod.lds.org">dutytogod.lds.org</a>.
+      again. Reflect on your experiences and update your{" "}
+      <a href="/LDSYouth/deacon/deaconSSDoctrine.html">
+        outline on “The Priesthood and Priesthood Keys”
+      </a>. Write about how your understanding and appreciation of the
+      priesthood has changed.
+    </p>
+    <p>
+      In preparation to become a full-time missionary, make a list of questions
+      someone might ask about the topics you have studied, and discuss these
+      questions with a parent or priesthood leader.
+      <TextArea id="priestSSDoctrine1" />
     </p>
 
     <h4>Act</h4>
     <p>Doctrinal topics I will study:</p>
-    <TextArea id="deaconSSDoctrine1" />
+    <TextArea id="priestSSDoctrine2" />
 
     <h4>Share</h4>
     <p>
       Using the outlines you have prepared, teach others about these doctrinal
-      topics. Counsel with your parents and quorum leaders to determine when you
-      can do this.
+      topics. You could do this in family home evening, in a quorum meeting, in
+      a home teaching visit, in seminary, or in a teaching opportunity with the
+      full-time missionaries.
     </p>
     <p>When I will teach about these topics:</p>
-    <TextArea id="deaconSSDoctrine2" />
+    <TextArea id="priestSSDoctrine3" />
   </div>
 );
 

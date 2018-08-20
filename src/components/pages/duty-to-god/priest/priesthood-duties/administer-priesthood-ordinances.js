@@ -9,60 +9,64 @@ const Page = props => (
     <h4>Learn</h4>
     <p>
       Read{" "}
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/20.76-79">
-        Doctrine and Covenants 20:76â79
-      </a>. What do the sacramental bread and water represent? Read
-      <a href="https://www.lds.org/scriptures/nt/luke/22.19-20">
-        Luke 22:19â20
+      <a href="https://www.lds.org/scriptures/bofm/3-ne/18.1-11">
+        3 Nephi 18:1–11
       </a>{" "}
       and{" "}
-      <a href="https://www.lds.org/scriptures/bofm/3-ne/18.1-11">
-        3 Nephi 18:1â11
-      </a>. Whom do you represent when you pass the sacrament?
+      <a href="https://www.lds.org/scriptures/nt/matt/26.26-28">
+        Matthew 26:26–28
+      </a>. What do you learn from these verses about your duty to administer
+      the sacrament?
     </p>
-
-    <TextArea id="deaconPDAdminister1" />
-
+    <TextArea id="priestPDAdminister1" />
     <p>
-      Ask your parents or your quorum leaders the following questions, and write
-      their answers:
+      Thoughtfully read the sacrament prayers (see{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/20.77">
+        D&C 20:77
+      </a>,{" "}
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/20.79">79</a>).
+      Write down your thoughts about the meaning of the covenants and sacred
+      words in these prayers.
     </p>
+    <TextArea id="priestPDAdminister2" />
+    <p>Write your answers to these questions:</p>
 
     <ol>
-      <li>What does the ordinance of the sacrament mean to you?</li>
       <li>
-        What can I do as a deacon to help you have a meaningful experience with
-        the sacrament?
+        As you officiate at the sacrament table, what can you do to set a good
+        example for other Aaronic Priesthood holders?
+      </li>
+      <li>
+        {" "}
+        What can you do to help make the sacrament a more meaningful experience
+        for the members of the congregation?
       </li>
     </ol>
 
-    <TextArea id="deaconPDAdminister2" />
+    <TextArea id="priestPDAdminister3" />
 
     <p>
-      After counseling with your quorum, write in the next section what you will
-      do to pass the sacrament in a way that shows reverence for the Savior and
-      His Atonement and encourages others to show the same reverence. Also write
-      what you will do to have a more meaningful experience when you partake of
-      the sacrament.
+      Attend a baptismal service, and share with a parent or quorum leader what
+      you learn about the ordinance of baptism.
     </p>
 
-    <h4>Act</h4>
+    <h2>Act</h2>
     <p>
-      Several things I will do to show reverence when I pass the sacrament and
-      to encourage others to show the same reverence:
+      My plan to set a good example for other Aaronic Priesthood holders as I
+      bless the sacrament:
     </p>
-    <TextArea id="deaconPDAdminister3" />
+    <TextArea id="priestPDAdminister4" />
     <p>
-      What I will do to have a more meaningful experience when I partake of the
-      sacrament:
+      My plan to help make the sacrament a more meaningful experience for the
+      members of the congregation:
     </p>
-    <TextArea id="deaconPDAdminister4" />
+    <TextArea id="priestPDAdminister5" />
 
-    <h4>Share</h4>
+    <h2>Share</h2>
     <p>
-      After following through with your plan, discuss with members of your
-      quorum how your experiences with the sacrament have helped you become more
-      reverent.
+      After following through with your plans, discuss with members of your
+      quorum how your experiences have influenced your feelings about the
+      sacrament and the Savior.
     </p>
   </div>
 );

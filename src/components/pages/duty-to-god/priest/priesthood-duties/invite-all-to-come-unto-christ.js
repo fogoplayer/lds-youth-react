@@ -8,41 +8,45 @@ const Page = props => (
 
     <h4>Learn</h4>
     <p>
-      Read{" "}
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/20.59">
-        Doctrine and Covenants 20:59
-      </a>. What does the phrase âcome unto Christâ mean to you? Share your
-      thoughts and feelings with a quorum leader or your parents, and ask what
-      the phrase means to them.
+      Review the{" "}
+      <a href="/LDSYouth/dutyToGod/teacher/teacherPDInvite.html">plan</a> you
+      made to become a good home teacher. Looking back on your home teaching
+      efforts, what do you feel you have done well? On the next page, write some
+      ways you want to improve.
     </p>
     <p>
-      Contrast the missionary stories of Ammon (<a href="https://www.lds.org/scriptures/bofm/alma/17">
-        Alma 17â19
-      </a>) and Corianton (<a href="https://www.lds.org/scriptures/bofm/alma/39.1-11">
-        Alma 39:1â11
-      </a>). What influence did their actions have on the people they taught?
-      Consider ways you can set a good example that can help people come unto
-      Christ.
-    </p>
-    <p>
-      Think about family members and friends whom you could invite to come unto
-      Christ. Write down their names and what you will do to help them (such as
-      inviting them to a Church activity or giving them a copy of the Book of
-      Mormon or a Church magazine).
+      Write your answers to the following questions, and discuss them with your
+      parents or quorum members:
     </p>
 
-    <h4>Act</h4>
-    <p>Ways I will set a good example for others:</p>
-    <TextArea id="deaconPDInvite1" />
+    <ol>
+      <li>
+        How does your example affect your ability to teach the gospel to others?
+      </li>
+      <li>
+        What can you do as a priest to teach the gospel through your actions as
+        well as your words?
+      </li>
+    </ol>
+
+    <p>
+      Continue in your efforts to share the gospel. Think about family members
+      and friends whom you could invite to come unto Christ. Write down their
+      names and what you will do to help them. Include names of Aaronic
+      Priesthood holders who aren’t actively participating in the Church.
+    </p>
+
+    <h2>Act</h2>
+    <p>My plan to improve as a home teacher:</p>
+    <TextArea id="priestPDInvite1" />
     <p>Names of people and how I will help them come unto Christ:</p>
-    <TextArea id="deaconPDInvite2" />
+    <TextArea id="priestPDInvite2" />
 
-    <h4>Share</h4>
+    <h2>Share</h2>
     <p>
-      Write down in a journal or a notebook the experiences you have as you
-      invite others to come unto Christ. Also write down ways you feel you are
-      becoming a better missionary. Consider sharing your experiences with
-      others.
+      Share with your parents or a priesthood leader the experiences you have as
+      you help others come unto Christ. Discuss how this is helping you prepare
+      for a full-time mission and become a lifelong missionary.
     </p>
   </div>
 );
