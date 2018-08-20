@@ -50,11 +50,11 @@ const Page = props => (
       />
       <CollectionItem
         text="Serve Others"
-        url="/duty-to-god/deacon/preisthood-duties/live-worthily"
+        url="/duty-to-god/deacon/preisthood-duties/serve-others"
       />
       <CollectionItem
-        text="Understand Doctrine"
-        url="/duty-to-god/deacon/preisthood-duties/understand-doctrine"
+        text="Invite All to Come Unto Christ"
+        url="/duty-to-god/deacon/preisthood-duties/invite-all-to-come-unto-christ"
       />
       <CollectionItem
         text="Review"
