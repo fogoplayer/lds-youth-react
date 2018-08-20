@@ -8,20 +8,24 @@ const Page = props => (
 
     <h4>Learn</h4>
     <p>
-      Read{" "}
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/11.21">
-        Doctrine and Covenants 11:21
-      </a>. What promises does the Lord give to those who study His word? You
-      will need a basic understanding and a testimony of gospel truths to
-      fulfill your duties now as a priesthood holder and in the future as a
-      full-time missionary and as a husband and father.
+      Write some questions that people outside the Church might have about
+      Church beliefs. What doctrinal topics could you study to help answer these
+      questions?
     </p>
     <p>
-      Look at this list of doctrinal topics, and choose four or more that you
-      would like to learn about. One of these should be âThe Priesthood and
-      Priesthood Keys.â You can use the scriptures (including the Topical
-      Guide), True to the Faith, Preach My Gospel, and the words of latter-day
-      prophets to learn about these topics.
+      Review the list of the doctrinal topics you studied as a deacon. Based on
+      your experiences and additional study, update your outline on “The
+      Priesthood and Priesthood Keys.” Choose four or more additional topics
+      (see below) you would like to learn about and teach, and write your
+      choices in the next section. You can use the{" "}
+      <a href="https://www.lds.org/scriptures/">scriptures</a> (including the{" "}
+      <a href="https://www.lds.org/scriptures/tg">Topical Guide</a>),{" "}
+      <a href="https://www.lds.org/manual/true-to-the-faith">
+        True to the Faith
+      </a>,{" "}
+      <a href="https://www.lds.org/manual/preach-my-gospel-a-guide-to-missionary-service">
+        Preach My Gospel
+      </a>, and the words of latter-day prophets to learn about these topics.
     </p>
     <ul>
       <li>The Godhead</li>
@@ -56,21 +60,22 @@ const Page = props => (
       <a href="https://www.lds.org/manual/preach-my-gospel-a-guide-to-missionary-service/how-do-i-study-effectively-and-prepare-to-teach">
         Preach My Gospel (chapters 2 and 3)
       </a>{" "}
-      or visit <a href="https://dutytogod.lds.org">dutytogod.lds.org</a>.
+      or visit <a href="https://dutytogod.lds.org">dutytogod.lds.org</a>
     </p>
 
     <h4>Act</h4>
     <p>Doctrinal topics I will study:</p>
-    <TextArea id="deaconSSDoctrine1" />
+    <TextArea id="teacherSSDoctrine1" />
 
     <h4>Share</h4>
     <p>
       Using the outlines you have prepared, teach others about these doctrinal
-      topics. Counsel with your parents and quorum leaders to determine when you
-      can do this.
+      topics. This could be in a formal teaching setting (family home evening,
+      quorum meeting, seminary, sacrament meeting, or Mutual opening exercises),
+      or it could be in a conversation with a friend.
     </p>
     <p>When I will teach about these topics:</p>
-    <TextArea id="deaconSSDoctrine2" />
+    <TextArea id="teacherSSDoctrine2" />
   </div>
 );
 

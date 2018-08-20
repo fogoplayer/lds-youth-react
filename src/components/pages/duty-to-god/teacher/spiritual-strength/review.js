@@ -7,17 +7,18 @@ const Page = props => (
     <h2>Review</h2>
 
     <p>
-      Near the end of your years as a deacon, talk with your parents or a
-      priesthood leader about your experiences accomplishing your plans to pray
-      and study the scriptures, live worthily, and understand doctrine. Discuss
-      how doing these things is helping you strengthen your testimony and your
-      relationship with Heavenly Father.
+      Near the end of your years as a teacher, talk with your parents or a
+      priesthood leader about your experiences accomplishing your plans to
+      administer priesthood ordinances, serve others, and invite all to come
+      unto Christ. Discuss ways you were able to bless others through your
+      priesthood service. Talk about how your experiences are helping you become
+      a faithful priesthood servant.
     </p>
 
     <p>My Signature</p>
-    <Signoff id="deaconSSReview1" />
+    <Signoff id="teacherPDReview1" />
     <p>Signature of Parent or Leader</p>
-    <Signoff id="deaconSSReview2" />
+    <Signoff id="teacherPDReview2" />
   </div>
 );
 
