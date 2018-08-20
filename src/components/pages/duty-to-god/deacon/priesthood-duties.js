@@ -46,19 +46,19 @@ const Page = props => (
     <ul className="collection">
       <CollectionItem
         text="Administer Priesthood Ordinances"
-        url="/duty-to-god/deacon/preisthood-duties/administer-priesthood-ordinances"
+        url="/duty-to-god/deacon/priesthood-duties/administer-priesthood-ordinances"
       />
       <CollectionItem
         text="Serve Others"
-        url="/duty-to-god/deacon/preisthood-duties/serve-others"
+        url="/duty-to-god/deacon/priesthood-duties/serve-others"
       />
       <CollectionItem
         text="Invite All to Come Unto Christ"
-        url="/duty-to-god/deacon/preisthood-duties/invite-all-to-come-unto-christ"
+        url="/duty-to-god/deacon/priesthood-duties/invite-all-to-come-unto-christ"
       />
       <CollectionItem
         text="Review"
-        url="/duty-to-god/deacon/preisthood-duties/review"
+        url="/duty-to-god/deacon/priesthood-duties/review"
       />
     </ul>
   </div>
