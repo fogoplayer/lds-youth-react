@@ -7,7 +7,9 @@ class Sidenav extends React.Component {
   }
   componentDidMount() {
     //Initialize materialize components
-    let elems = document.getElementById("sidenav").querySelectorAll(".collapsible");
+    let elems = document
+      .getElementById("sidenav")
+      .querySelectorAll(".collapsible");
     M.Collapsible.init(elems, {});
     elems = document.querySelectorAll(".sidenav");
     M.Sidenav.init(elems, {});
@@ -361,7 +363,7 @@ class Sidenav extends React.Component {
                                 to="/duty-to-god/priest/ftsoy"
                                 className="indent-2"
                               >
-                                FTSOY: Physical Health
+                                FTSOY: Family and Friends
                               </Link>
                             </li>
                           </ul>
