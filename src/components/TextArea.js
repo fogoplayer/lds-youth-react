@@ -13,7 +13,9 @@ const TextArea = props => (
       minHeight: "28px",
       marginBottom: "11px"
     }}
-  />
+  >
+    {props.placeholder ? props.placeholder : ""}
+  </div>
 );
 
 export default TextArea;

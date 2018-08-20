@@ -8,47 +8,47 @@ const Page = props => (
 
     <h4>Learn</h4>
     <p>
-      Write down what you learn about serving others from the following
-      scriptures:{" "}
-      <a href="https://www.lds.org/scriptures/nt/james/1.27">James 1:27</a>,{" "}
-      <a href="https://www.lds.org/scriptures/bofm/mosiah/2.17">Mosiah 2:17</a>,
-      and{" "}
-      <a href="https://www.lds.org/scriptures/bofm/mosiah/18.8-10">
-        Mosiah 18:8â10
-      </a>. Talk with a parent or quorum leader about the relationship between
-      being a priesthood holder and serving others
+      Contrast Nephi’s attitude with that of Laman and Lemuel as they responded
+      to assignments (see{" "}
+      <a href="https://www.lds.org/scriptures/bofm/1-ne/2.16-18">
+        1 Nephi 2:16–18
+      </a>; <a href="https://www.lds.org/scriptures/bofm/1-ne/3.1-7">3:1–7</a>,{" "}
+      <a href="https://www.lds.org/scriptures/bofm/1-ne/3.28-31">28–31</a>;{" "}
+      <a href="https://www.lds.org/scriptures/bofm/1-ne/4.1-2">4:1–2</a>;{" "}
+      <a href="https://www.lds.org/scriptures/bofm/1-ne/17.7-19">17:7–19</a>,{" "}
+      <a href="https://www.lds.org/scriptures/bofm/1-ne/17.50-51">50–51</a>;{" "}
+      <a href="https://www.lds.org/scriptures/bofm/1-ne/18.1-4">18:1–4</a>). In
+      the space below, write several phrases from your study that represent the
+      attitude we should have when fulfilling responsibilities. Consider sharing
+      your list with members of your quorum.
     </p>
-
-    <TextArea id="deaconPDServe1" />
-
+    <TextArea
+      id="teacherPDServe1"
+      placeholder="Example: &quot;Let us be faithful&quot; (1 Nephi 4:1)"
+    />
     <p>
-      Discuss with members of your quorum the opportunities you have to serve
-      others (ask your bishop or quorum leaders for ideas). As an Aaronic
-      Priesthood holder, you serve others by assisting your bishop or branch
-      president in âadministering temporal thingsâ (<a href="https://www.lds.org/scriptures/dc-testament/dc/107.68">
-        D&C 107:68
-      </a>). This may include caring for the poor and needy, cleaning the
-      meetinghouse and grounds, gathering fast offerings, and fulfilling
-      assignments from your quorum president. It could also include service
-      projects you decide to do on your own
-    </p>
-    <p>
-      List some specific things your quorum will do to give service. Also plan
-      several things you will do on your own to give service, including service
-      to members of your family
+      With your quorum, discuss opportunities you have to serve others (ask your
+      bishop or quorum leaders for ideas). List some specific things your quorum
+      will do to give service. Also plan several things you will do on your own
+      to give service, including service to members of your family.
     </p>
 
     <h4>Act</h4>
-    <p>My quorumâs plan to give service:</p>
-    <TextArea id="deaconPDServe1" />
+    <p>My quorum’s plan to give service:</p>
+    <TextArea id="teacherPDServe2" />
     <p>My personal plan to give service: </p>
-    <TextArea id="deaconPDServe2" />
+    <TextArea id="teacherPDServe3" />
 
     <h4>Share</h4>
     <p>
-      Share with a parent or quorum members some of your experiences serving
-      others. For example, you could talk about how your service has affected
-      you and the people you have served.
+      Share with a parent, leader, or quorum members some of your experiences
+      serving others. For example, you could talk about how your service has
+      affected the people you have served and how your attitude has affected
+      your experiences. You could also talk about how these experiences are
+      helping you serve Jesus Christ (see{" "}
+      <a href="https://www.lds.org/scriptures/nt/matt/25.35-40">
+        Matthew 25:35–40
+      </a>) and become more like Him.
     </p>
   </div>
 );
