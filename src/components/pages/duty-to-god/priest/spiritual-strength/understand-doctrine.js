@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import TextArea from "../../../../TextArea";
 
@@ -13,11 +14,15 @@ const Page = props => (
         Doctrine and Covenants 20:68
       </a>. Part of your duty as a priest is to “expound all things concerning
       the church of Christ.” Review the lists of doctrinal topics you studied as
-      a <a href="/LDSYouth/dutyToGod/deacon/deaconSSDoctrine.html">deacon</a>{" "}
+      a{" "}
+      <Link to="/duty-to-god/deacon/spiritual-strength/understand-doctrine">
+        deacon
+      </Link>{" "}
       and as a{" "}
-      <a href="/LDSYouth/dutyToGod/teacher/teacherSSDoctrine.html">teacher</a>.
-      Then write in the next section four or more additional topics you will
-      learn about and teach over the next two years.
+      <Link to="/duty-to-god/teacher/spiritual-strength/understand-doctrine">
+        teacher
+      </Link>. Then write in the next section four or more additional topics you
+      will learn about and teach over the next two years.
     </p>
     <ul>
       <li>The Godhead</li>

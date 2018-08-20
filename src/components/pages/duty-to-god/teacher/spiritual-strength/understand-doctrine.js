@@ -13,11 +13,13 @@ const Page = props => (
       questions?
     </p>
     <p>
-      Review the list of the doctrinal topics you studied as a deacon. Based on
-      your experiences and additional study, update your outline on “The
-      Priesthood and Priesthood Keys.” Choose four or more additional topics
-      (see below) you would like to learn about and teach, and write your
-      choices in the next section. You can use the{" "}
+      Review the list of the doctrinal topics you studied as a{" "}
+      <Link to="/duty-to-god/deacon/spiritual-strength/understand-doctrine">
+        deacon
+      </Link>. Based on your experiences and additional study, update your
+      outline on “The Priesthood and Priesthood Keys.” Choose four or more
+      additional topics (see below) you would like to learn about and teach, and
+      write your choices in the next section. You can use the{" "}
       <a href="https://www.lds.org/scriptures/">scriptures</a> (including the{" "}
       <a href="https://www.lds.org/scriptures/tg">Topical Guide</a>),{" "}
       <a href="https://www.lds.org/manual/true-to-the-faith">
