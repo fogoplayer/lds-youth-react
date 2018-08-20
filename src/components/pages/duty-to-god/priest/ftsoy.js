@@ -6,123 +6,139 @@ import Signoff from "../../../Signoff";
 
 const Page = props => (
   <div>
-    <h2>For The Strength Of Youth: Physical Health</h2>
+    <h2>For The Strength Of Youth: Family and Friends</h2>
 
     <p>
-      After you have begun working on your plans in â<a href="/LDSYouth/dutyToGod/deacon/deaconSS.html">
+      After you have begun working on your plans in “<a href="/LDSYouth/dutyToGod/priest/priestSS.html">
         Spiritual Strength
-      </a>â and â<a href="/LDSYouth/dutyToGod/deacon/deaconPD.html">
+      </a>” and “<a href="LDSYouth/dutyToGod/priest/priestPD.html">
         Priesthood Duties
-      </a>,â create a project based on the standards in the â<a href="https://www.lds.org/youth/for-the-strength-of-youth/physical-and-emotional-health">
-        Physical Health
-      </a>â section of For the Strength of Youth. Use the steps on the following
-      pages as a guide. Your project should be challenging and should include a
-      signifi cant time commitment. It should be based on your own needs and
-      interests. It should establish a pattern that will help you build and
-      maintain physical health throughout your life.
+      </a>,” create a project based on the standards in the “<a href="https://www.lds.org/youth/for-the-strength-of-youth/family">
+        Family
+      </a>” and “<a href="https://www.lds.org/youth/for-the-strength-of-youth/friends">
+        Friends
+      </a>” sections of For the Strength of Youth. Use the steps on the
+      following pages as a guide. Your project should be challenging and should
+      include a significant time commitment. It should also be based on your own
+      needs and interests. It should be focused on choosing friends wisely and
+      learning how to treat others, especially your family members, in a
+      Christlike way.
     </p>
 
     <h4>Step One: Learn</h4>
     <p>
-      Read â<a href="https://www.lds.org/youth/for-the-strength-of-youth/physical-and-emotional-health">
-        Physical Health
-      </a>â in For the Strength of Youth, and study the following scriptures:{" "}
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/88.124">
-        Doctrine and Covenants 88:124
-      </a>,{" "}
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/88.124">
-        Doctrine and Covenants 89
-      </a>, and{" "}
-      <a href="https://www.lds.org/scriptures/nt/1-cor/3.16-17">
-        1 Corinthians 3:16â17
-      </a>. Identify principles that relate to physical health. Write down your
-      answers to the following questions, and share them with a parent, a
-      priesthood leader, or quorum members:
+      Study <a href="https://www.lds.org/scriptures/nt/matt/5">Matthew 5–7</a>{" "}
+      or <a href="https://www.lds.org/scriptures/bofm/3-ne/12">3 Nephi 12–14</a>{" "}
+      and make a list of what the Savior taught about how to treat others. Then
+      find examples in the scriptures where Christ or others exemplified some of
+      these principles. Read “<a href="https://www.lds.org/youth/for-the-strength-of-youth/family">
+        Family
+      </a>” and “<a href="https://www.lds.org/youth/for-the-strength-of-youth/friends">
+        Friends
+      </a>” in For the Strength of Youth, and find phrases that express these
+      principles.
+    </p>
+    <TextArea id="priestFTSOY1" />
+    <p>
+      Write your answers to the following questions, and share them with your
+      parents or quorum members:
     </p>
     <ol>
       <li>
-        Why is it important to be physically healthy? How will being physically
-        healthy help you fulfill your priesthood duties (including as a
-        missionary, as a father, and in your service to others)?
+        How is your priesthood service different when you love those you serve?
       </li>
       <li>
-        What are the spiritual benefits of being physically healthy? What are
-        the spiritual consequences of not caring for our physical bodies
-        properly?
+        What experiences have you had in which someone showed Christlike love
+        for you?
       </li>
+      <li>How can you show your love for family members and others?</li>
     </ol>
-    <TextArea id="deaconFTSOY1" />
+
+    <TextArea id="priestFTSOY2" />
 
     <h4>Step 2: Create a Project</h4>
     <p>
       Create a project that will help you apply what you have learned about
-      physical health. It should include two parts: (1) regular exercise and (2)
-      nutrition. Have a parent or leader approve your project before you begin
-      working on it. Here are some examples of things you could include in each
-      part of your project:
+      loving others. It should include two parts: (1) plans to improve your
+      relationship with your family and (2) plans to be a better friend. Have a
+      parent or leader approve your project before you begin working on it. Here
+      are some examples of things you could include in each part of your
+      project:
     </p>
 
-    <h5>Examples-Regular Exercise</h5>
+    <h5>Examples-Family</h5>
     <ol>
       <li>
-        Create a monthly exercise chart. Include a variety of exercises that
-        help you become more physically fit, such as running, biking, or
-        training for a sport.
+        Make a list of ways you can help build a happy home. Base your list on
+        the standards in the “<a href="https://www.lds.org/youth/for-the-strength-of-youth/family">
+          Family
+        </a>” section of For the Strength of Youth (for example, be cheerful,
+        helpful, and considerate; be a peacemaker; and honor your parents). Do
+        those things, and record the difference it makes in your home.
       </li>
-      <li>Learn and participate in a sport.</li>
       <li>
-        Increase your capabilities in a physical activity you are already
-        involved in.
+        Plan an activity with a family member with whom you would like to
+        improve your relationship. For example, you could take an interest in
+        his or her hobbies, find a place to talk, or play games together.
       </li>
     </ol>
 
-    <h5>Examples-Nutrition</h5>
+    <h5>Examples-Friends</h5>
     <ol>
       <li>
-        Make a commitment to live the Word of Wisdom. Include in your
-        commitment: (a) how you will avoid situations in which you may be
-        tempted to violate this commitment and (b) how you will respond to
-        temptations (for example, ways you might explain to others why you obey
-        the Word of Wisdom).
+        Make a list of things you can do to be a better friend. For examples,
+        see the “<a href="https://www.lds.org/youth/for-the-strength-of-youth/friends">
+          Friends
+        </a>” section of For the Strength of Youth. Do those things, and record
+        the difference it makes in your relationships. If appropriate, include
+        names of specific people in your list.
       </li>
       <li>
-        Learn principles of proper nutrition from{" "}
-        <a href="https://www.lds.org/scriptures/dc-testament/dc/89">
-          Doctrine and Covenants 89
-        </a>{" "}
-        and from books, the Internet, or other sources. Teach your family or
-        quorum what you discover. Keep a record of what you eat for a month, and
-        then make changes to your diet based on what you have learned about
-        nutrition.
+        Interview a mother, grandmother, sister, or other woman to learn about
+        how to show proper respect to women. Make a plan to apply what you
+        learn. Note how carrying out your plan improves your relationship with
+        women. Here are some questions you might ask:
+        <ol>
+          <li>How can a son show proper respect for his mother?</li>
+          <li>
+            How can an Aaronic Priesthood holder show proper respect for young
+            women?
+          </li>
+          <li>
+            How can a young man show proper respect for his future wife before
+            and after they are married?
+          </li>
+        </ol>
       </li>
       <li>
-        Learn how to prepare three nutritionally balanced meals. Prepare them
-        for your family.
+        Invite a new convert, a friend of another faith, or a less-active member
+        to attend a Church activity with you. Help him or her feel welcome and
+        included.
       </li>
     </ol>
 
     <h5>My Project</h5>
-    <p>Regular Exercise</p>
-    <TextArea id="deaconFTSOY2" />
-    <p>Nutrition</p>
-    <TextArea id="deaconFTSOY3" />
+    <p>Family</p>
+    <TextArea id="priestFTSOY3" />
+    <p>Friends</p>
+    <TextArea id="priestFTSOY4" />
 
     <p>Approval of a Parent or Leader</p>
-    <Signoff id="deaconFTSOYSignoff1" />
+    <Signoff id="priestFTSOYSignoff1" />
     <p>Estimated Date of Completion</p>
-    <Signoff id="deaconFTSOYSignoff2" />
+    <Signoff id="priestFTSOYSignoff2" />
     <p>My Signature</p>
-    <Signoff id="deaconFTSOYSignoff3" />
+    <Signoff id="priestFTSOYSignoff3" />
     <p>Date Completed</p>
-    <Signoff id="deaconFTSOYSignoff4" />
+    <Signoff id="priestFTSOYSignoff4" />
 
     <h4>Step 3: Report Your Experiences</h4>
     <p>
       In the space below, write what you have learned from carrying out your
-      project and how it has prepared you for your future responsibilities.
-      Report on your experiences to your family or quorum members.
+      project and how it has helped you become a better disciple of Jesus
+      Christ. Report on what you learned to your family or quorum members.
     </p>
-    <TextArea id="deaconFTSOY4" />
+    <TextArea id="priestFTSOY5" />
   </div>
 );
 

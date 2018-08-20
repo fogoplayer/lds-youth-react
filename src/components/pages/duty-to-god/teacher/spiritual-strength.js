@@ -25,7 +25,7 @@ const Page = props => (
     <ul className="collection">
       <CollectionItem
         text="Pray and Study the Scriptures"
-        url="/duty-to-god/teacher/spiritual-strength/pray-and-study"
+        url="/duty-to-god/teacher/spiritual-strength/pray-and-study-the-scriptures"
       />
       <CollectionItem
         text="Live Worthily"

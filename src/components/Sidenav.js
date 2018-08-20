@@ -117,10 +117,10 @@ class Sidenav extends React.Component {
                                       </li>
                                       <li>
                                         <Link
-                                          to="/duty-to-god/deacon/priesthood-duties/invite"
+                                          to="/duty-to-god/deacon/priesthood-duties/invite-all-to-come-unto-christ"
                                           className="indent-3"
                                         >
-                                          Invite Others to Come Unto Christ
+                                          Invite All to Come Unto Christ
                                         </Link>
                                       </li>
                                       <li>
@@ -228,10 +228,10 @@ class Sidenav extends React.Component {
                                       </li>
                                       <li>
                                         <Link
-                                          to="/duty-to-god/teacher/priesthood-duties/invite"
+                                          to="/duty-to-god/teacher/priesthood-duties/invite-all-to-come-unto-christ"
                                           className="indent-3"
                                         >
-                                          Invite Others to Come Unto Christ
+                                          Invite All to Come Unto Christ
                                         </Link>
                                       </li>
                                       <li>
@@ -339,10 +339,10 @@ class Sidenav extends React.Component {
                                       </li>
                                       <li>
                                         <Link
-                                          to="/duty-to-god/priest/priesthood-duties/invite"
+                                          to="/duty-to-god/priest/priesthood-duties/invite-all-to-come-unto-christ"
                                           className="indent-3"
                                         >
-                                          Invite Others to Come Unto Christ
+                                          Invite All to Come Unto Christ
                                         </Link>
                                       </li>
                                       <li>
