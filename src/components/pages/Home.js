@@ -14,7 +14,7 @@ const Home = props => [
   <div className="row">
     <BasicCardButton
       title="Contact the Developer"
-      url="https://goo.gl/forms/mhCJvscVsMq4EM973"
+      url="https://goo.gl/forms/sJsx9aksO5grGZKo1"
     />
     <BasicCardButton
       title="Contribute"
