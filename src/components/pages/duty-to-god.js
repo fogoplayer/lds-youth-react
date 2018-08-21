@@ -10,7 +10,9 @@ class page extends React.Component {
   }
 
   componentDidMount() {
-    const elems = document.getElementById("content").querySelectorAll(".collapsible");
+    const elems = document
+      .getElementById("content")
+      .querySelectorAll(".collapsible");
     M.Collapsible.init(elems, {});
   }
 
@@ -96,7 +98,7 @@ class page extends React.Component {
                       text="For the Strength Of Youth: Family and Friends"
                     />
                     <CollectionItem
-                      url="duty-to-god/priest/preparing"
+                      url="duty-to-god/priest/preparing-to-receive-the-melchizedek-priesthood"
                       text="Preparing to Recieve the Melchizedek Priesthood"
                     />
                   </ul>
