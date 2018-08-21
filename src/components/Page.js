@@ -2,7 +2,7 @@ import React from "react";
 import { ReactDOM } from "react-dom";
 
 import "../styles.css";
-import page from "./pages/duty-to-god/priest/preparing-to-recieve-the-melchizedek-priesthood";
+// import page from "./pages/duty-to-god/appendix/aaronic-priesthood-ordinances";
 
 class Page extends React.Component {
   constructor(props) {
