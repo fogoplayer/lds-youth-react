@@ -33,6 +33,16 @@ class Sidenav extends React.Component {
               <div className="collapsible-body">
                 <ul>
                   <li>
+                    <Link to="/duty-to-god/message-from-the-first-presidency">
+                      Message from the First Presidency
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/duty-to-god/message-from-the-first-presidency">
+                      Your Duty To God
+                    </Link>
+                  </li>
+                  <li>
                     <ul className="collapsible">
                       <li>
                         <Link to="/duty-to-god" className="collapsible-header">
@@ -148,6 +158,8 @@ class Sidenav extends React.Component {
                         </div>
                       </li>
                     </ul>
+                  </li>
+                  <li>
                     <ul className="collapsible">
                       <li>
                         <Link to="/duty-to-god" className="collapsible-header">
@@ -259,6 +271,8 @@ class Sidenav extends React.Component {
                         </div>
                       </li>
                     </ul>
+                  </li>
+                  <li>
                     <ul className="collapsible">
                       <li>
                         <Link to="/duty-to-god" className="collapsible-header">
@@ -365,6 +379,73 @@ class Sidenav extends React.Component {
                               >
                                 FTSOY: Family and Friends
                               </Link>
+                            </li>
+                            <li>
+                              <Link
+                                to="/duty-to-god/priest/preparing-to-recieve-the-melchizedek-priesthood"
+                                className="indent-2"
+                              >
+                                Preparing to Receive the Melchizedek Preisthood
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/duty-to-god/to-quorum-presidents">
+                      To Quorum Presidents
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/duty-to-god/to-quorum-advisers-and-parents">
+                      To Quorum Advisers and Parents
+                    </Link>
+                  </li>
+                  <li>
+                    <ul className="collapsible">
+                      <li>
+                        <Link to="/duty-to-god" className="collapsible-header">
+                          Appendix
+                        </Link>
+                        <div className="collapsible-body">
+                          <ul>
+                            <li>
+                              <ul className="collapsible">
+                                <li>
+                                  <Link
+                                    to="/duty-to-god/appendix/aaronic-priesthood-ordinances"
+                                    className="collapsible-header indent-2"
+                                  >
+                                    Aaronic Priesthood Ordinances
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link
+                                    to="/duty-to-god/appendix/the-living-christ"
+                                    className="collapsible-header indent-2"
+                                  >
+                                    The Living Christ: The Testimony o...
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link
+                                    to="/duty-to-god/appendix/the-family"
+                                    className="collapsible-header indent-2"
+                                  >
+                                    The Family: A Proclamation to the...
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link
+                                    to="/duty-to-god/appendix/notes"
+                                    className="collapsible-header indent-2"
+                                  >
+                                    Notes
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                           </ul>
                         </div>
