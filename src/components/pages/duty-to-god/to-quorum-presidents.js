@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Page = props => (
   <div>
@@ -45,16 +45,21 @@ const Page = props => (
         plans your quorum members have made. For example, you could invite a
         quorum member to teach a lesson in quorum meeting about one of the
         doctrines he is studying (see Understand Doctrine for{" "}
-        <Link to="/LDSYouth/dutyToGod/deacon/deaconSSDoctrine.html">deacon</a>,{" "}
-        <Link to="/LDSYouth/dutyToGod/teacher/teacherSSDoctrine.html">teacher</a>,
-        and{" "}
-        <a href="/LDSYouth/dutyToGod/priest/priestSSDoctrine.html">priest</a>).
+        <Link to="/duty-to-god/deacon/spiritual-strength/understand-doctrine">
+          deacon
+        </Link>,{" "}
+        <Link to="/duty-to-god/teacer/spiritual-strength/understand-doctrine">
+          teacher
+        </Link>, and{" "}
+        <Link to="/duty-to-god/teacer/spiritual-strength/understand-doctrinec">
+          priest
+        </Link>).
       </li>
       <li>
         As you exercise your priesthood keys to help quorum members learn and
         fulfill their duties, your relationship with them will be strengthened.
         When quorum members work closely together, they help each other stay
-        strong in the gospel and united as a quorum.{" "}
+        strong in the gospel and united as a quorum.
       </li>
     </ol>
   </div>
