@@ -6,6 +6,20 @@ class Sidenav extends React.Component {
     super(props);
   }
   componentDidMount() {
+    //Automatically open menu on page load
+    const expandSidenav = function(node) {
+      console.log("lezzgo!");
+      document.querySelectorAll(".collapsible-header").forEach(node => {
+        if (window.location.href.includes(node.href)) {
+          node.parentNode.classList.add("active");
+        } else {
+          node.parentNode.classList.remove("active");
+        }
+      });
+    };
+    expandSidenav(document.getElementById("sidenav"));
+    window.addEventListener("popstate", expandSidenav);
+
     //Initialize materialize components
     let elems = document
       .getElementById("sidenav")
@@ -13,6 +27,8 @@ class Sidenav extends React.Component {
     M.Collapsible.init(elems, {});
     elems = document.querySelectorAll(".sidenav");
     M.Sidenav.init(elems, {});
+
+    //Add indentation
     elems[0]
       .querySelectorAll(".indent-2")
       .forEach(e => (e.style.padding = `0 23.5px 0 ${16 + 15 * 2}px`));
@@ -385,7 +401,7 @@ class Sidenav extends React.Component {
                                 to="/duty-to-god/priest/preparing-to-recieve-the-melchizedek-priesthood"
                                 className="indent-2"
                               >
-                                Preparing to Receive the Melchizedek Preisthood
+                                Preparing to Receive the Melchi...
                               </Link>
                             </li>
                           </ul>
