@@ -17,6 +17,12 @@ class Page extends React.Component {
     path.forEach(pathSegment => {
       componentPath += "/" + pathSegment;
     });
+    if (componentPath.includes("the-family")) {
+      componentPath = "./pages/common/the-family";
+    }
+    if (componentPath.includes("the-living-christ")) {
+      componentPath = "./pages/common/the-living-christ";
+    }
     import(componentPath).then(module => {
       this.setState({ module: module.default });
     });
