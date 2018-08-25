@@ -98,15 +98,11 @@ class page extends React.Component {
           </li>
           <CollectionItem
             text="Young Womanhood Recognition"
-            url="personal-progress/young-womenhood-recognition"
+            url="personal-progress/young-womanhood-recognition"
           />
           <CollectionItem
             text="Personal Progress Record Sheet"
             url="personal-progress/personal-progress-record-sheet"
-          />
-          <CollectionItem
-            text="Personal Progress Value Achievement"
-            url="personal-progress/personal-progress-value-achievement"
           />
           <CollectionItem
             text="My Testimony"
@@ -128,8 +124,14 @@ class page extends React.Component {
             text="Overview For Parents and Leaders"
             url="personal-progress/overview-for-parents-and-leaders"
           />
-          <CollectionItem text="Scripture Index" url="personal-progress/" />
-          <CollectionItem text="Subject Index" url="personal-progress/" />
+          <CollectionItem
+            text="Scripture Index"
+            url="personal-progress/scripture-index"
+          />
+          <CollectionItem
+            text="Subject Index"
+            url="personal-progress/subject-index"
+          />
           <CollectionItem
             text="The Family: A Proclamation to the World"
             url="personal-progress/the-family"

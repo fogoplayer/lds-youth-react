@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     <h2 class="yellow-text text-darken-1">Good Works</h2>
@@ -24,13 +27,13 @@ const Page = props => (
     <ol>
       <li>
         Learn why service is a fundamental principle of the gospel. Read{" "}
-        <a href="https://lds.org/scriptures/nt/matt/5.13-16">Matthew 5:13â16</a>;{" "}
-        <a href="https://lds.org/scriptures/nt/matt/25.34-40">25:34â40</a>;{" "}
-        <a href="https://lds.org/scriptures/nt/gal/6.9-10">Galatians 6:9â10</a>;{" "}
-        <a href="https://lds.org/scriptures/nt/james/1.22-27">James 1:22â27</a>;{" "}
+        <a href="https://lds.org/scriptures/nt/matt/5.13-16">Matthew 5:13-16</a>;{" "}
+        <a href="https://lds.org/scriptures/nt/matt/25.34-40">25:34-40</a>;{" "}
+        <a href="https://lds.org/scriptures/nt/gal/6.9-10">Galatians 6:9-10</a>;{" "}
+        <a href="https://lds.org/scriptures/nt/james/1.22-27">James 1:22-27</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/mosiah/2.17">Mosiah 2:17</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/mosiah/4.26">4:26</a>; and{" "}
-        <a href="https://lds.org/scriptures/bofm/3-ne/13.1-4">3 Nephi 13:1â4</a>.
+        <a href="https://lds.org/scriptures/bofm/3-ne/13.1-4">3 Nephi 13:1-4</a>.
         Others often give service you may not notice, such as preparing meals,
         reading to or listening to younger children, repairing clothing, or
         helping a brother or sister. For two weeks record in your journal the
@@ -42,7 +45,7 @@ const Page = props => (
 
       <li>
         Service is an essential principle of family living. Help plan your
-        familyâs menus, obtain the food, and prepare part of the meals for two
+        family's menus, obtain the food, and prepare part of the meals for two
         weeks. During that time help your family gather to share mealtimes.
         Report to your class what you have learned.
         <Signoff color="yellow" id="goodWorksSignoff2" />
@@ -51,7 +54,7 @@ const Page = props => (
       <li>
         Read{" "}
         <a href="https://lds.org/scriptures/bofm/mosiah/18.7-10">
-          Mosiah 18:7â10
+          Mosiah 18:7-10
         </a>, and in your journal list three ways you can comfort others or help
         them bear their burdens. Do the things on your list, and tell a family
         member or leader about the experience and how your attitude and
@@ -84,7 +87,7 @@ const Page = props => (
       <li>
         Read{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/58.26-28">
-          Doctrine and Covenants 58:26â28
+          Doctrine and Covenants 58:26-28
         </a>. Think of ways a young woman, as well as a wife and mother, could
         apply this scripture in her family. Develop a pattern of service in your
         life by choosing a family member you can help. Serve that person for at

@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     <h2 class="purple-text">Integrity</h2>
@@ -29,13 +32,13 @@ const Page = props => (
         Integrity is the willingness and desire to live by our beliefs and
         standards. Read{" "}
         <a href="https://lds.org/scriptures/bofm/moro/10.30-33">
-          Moroni 10:30â33
+          Moroni 10:30-33
         </a>{" "}
-        and think about what it means to âdeny yourselves of all ungodliness.â
+        and think about what it means to "deny yourselves of all ungodliness."
         Read the pamphlet{" "}
         <a href="https://lds.org/youth/for-the-strength-of-youth">
           For the Strength of Youth
-        </a>. Reflect on how the Lordâs standards differ from the worldâs
+        </a>. Reflect on how the Lord's standards differ from the world's
         standards. Record in your journal appropriate standards for behavior,
         dress, and conversation, as well as literature, movies, television,
         Internet, music, cell phones, and other media. Also write your plan to
@@ -63,13 +66,13 @@ const Page = props => (
         The Savior is the perfect example of integrity; He did what He promised
         the Father He would do. Read{" "}
         <a href="https://lds.org/scriptures/bofm/3-ne/11.10-11">
-          3 Nephi 11:10â11
+          3 Nephi 11:10-11
         </a>. Study the lives of other individuals in the scriptures who lived
         with integrity. Read{" "}
         <a href="https://lds.org/scriptures/ot/gen/39">Genesis 39</a>;{" "}
         <a href="https://lds.org/scriptures/ot/esth/1">the book of Esther</a>;{" "}
         <a href="https://lds.org/scriptures/ot/job/2.3">Job 2:3</a>;{" "}
-        <a href="https://lds.org/scriptures/ot/job/27.3-6">27:3â6</a>;{" "}
+        <a href="https://lds.org/scriptures/ot/job/27.3-6">27:3-6</a>;{" "}
         <a href="https://lds.org/scriptures/ot/dan/3">Daniel 3</a> and{" "}
         <a href="https://lds.org/scriptures/ot/dan/6">6</a>;{" "}
         <a href="https://lds.org/scriptures/nt/acts/26">Acts 26</a>;{" "}
@@ -77,7 +80,7 @@ const Page = props => (
           Doctrine and Covenants 124:15
         </a>; and{" "}
         <a href="https://lds.org/scriptures/pgp/js-h/1.21-25">
-          Joseph SmithâHistory 1:21â25
+          Joseph Smith-History 1:21-25
         </a>. In your journal identify the ways these people demonstrated
         integrity. Think of a time when you had the courage to show integrity,
         especially when it was not easy or popular. Share your experience and
@@ -110,8 +113,8 @@ const Page = props => (
       <li>
         Learn about standing as a witness. Read{" "}
         <a href="https://lds.org/scriptures/bofm/mosiah/18.9">Mosiah 18:9</a>.
-        Then recor in your journal how you can personally âstand as [a witness]
-        of God at all times and in all things, and in all places.â Choose a
+        Then recor in your journal how you can personally "stand as [a witness]
+        of God at all times and in all things, and in all places." Choose a
         personal behavior that you need to improve so you can be a better
         example. Develop integrity in your life as you practice your new
         behavior for three weeks. Record your progress in your journal.
@@ -122,7 +125,7 @@ const Page = props => (
       <li>
         Living the law of the fast is an opportunity to practice integrity. On a
         designated fast Sunday, abstain from food and drink for two consecutive
-        meals and contribute to your familyâs fast offering. Have a specific
+        meals and contribute to your family's fast offering. Have a specific
         purpose in mind as you fast. You might fast for a sick friend, to
         overcome a bad habit, to obtain a special blessing for yourself or
         someone else, or to give thanks. Begin and close your fast with a
@@ -132,9 +135,9 @@ const Page = props => (
 
       <li>
         List the issues, trends, and problems that weaken the family. Read the
-        First Presidency message, â<a href="proclamationToTheWorld.html">
+        First Presidency message, "<a href="proclamationToTheWorld.html">
           The Family: A Proclamation to the World
-        </a>â, and the{" "}
+        </a>", and the{" "}
         <a href="https://lds.org/youth/for-the-strength-of-youth/family">
           section on family in For the Strength of Youth
         </a>. Then research in the Church magazines the counsel of those whom we

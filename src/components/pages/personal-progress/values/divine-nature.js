@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     class="container">
@@ -7,7 +10,7 @@ const Page = props => (
     <h5>
       <em>
         <p>
-          Be partakers of the divine natureâ¦ Giving all diligence, add to your
+          Be partakers of the divine nature... Giving all diligence, add to your
           faith virtue; and to virtue knowledge; and to knowledge temperance;
           and to temperance patience; and to patience godliness; and to
           godliness brotherly kindness; and to brotherly kindness charity (<a href="https://www.lds.org/scriptures/nt/2-pet/1.4-7">

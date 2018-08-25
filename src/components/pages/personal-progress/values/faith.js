@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     <h2>Faith</h2>
@@ -37,7 +40,7 @@ const Page = props => (
           Ether 12:6-22
         </a>; and{" "}
         <a href="https://www.lds.org/scriptures/pgp/js-h/1.11-20">
-          Joseph SmithâHistory 1:11-20
+          Joseph Smith-History 1:11-20
         </a>. Read two general conference talks on faith. Exercise your own
         faith by establishing a habit of prayer in your life. Begin by regularly
         saying your morning and evening prayers. After three weeks of following
@@ -49,19 +52,19 @@ const Page = props => (
       </li>
 
       <li>
-        Discover the principles of faith taught by the mothers of Helamanâs
+        Discover the principles of faith taught by the mothers of Helaman's
         stripling warriors. Read{" "}
         <a href="https://www.lds.org/scriptures/bofm/alma/56.45-48">
           Alma 56:45-48
         </a>{" "}
         and <a href="https://www.lds.org/scriptures/bofm/alma/57.21">57:21</a>.
-        Review what â<a href="/personal-progress/proclamation-to-theworld.html">
+        Review what \"<a href="/personal-progress/proclamation-to-theworld.html">
           The Family: A Proclamation to the World
-        </a>â says about a motherâs role. With a mother, grandmother, or leader,
-        discuss the qualities a woman needs in order to teach children to have
-        faith and to base their decisions on gospel truths. How can these
-        principles help you in your life today and help you prepare to be a
-        faithful woman, wife, and mother? Record your thoughts and feelings in
+        </a>\" says about a mother's role. With a mother, grandmother, or
+        leader, discuss the qualities a woman needs in order to teach children
+        to have faith and to base their decisions on gospel truths. How can
+        these principles help you in your life today and help you prepare to be
+        a faithful woman, wife, and mother? Record your thoughts and feelings in
         your journal.
         <Signoff id="faithSignoff2" />
         <TextArea id="faithGoal2" />

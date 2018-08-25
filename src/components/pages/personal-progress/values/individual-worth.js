@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     <h2 class="red-text">Individual Worth</h2>
@@ -27,17 +30,17 @@ const Page = props => (
     <ol>
       <li>
         You are a daughter of Heavenly Father, who knows you and loves you. Read{" "}
-        <a href="https://www.lds.org/scriptures/ot/ps/8.4-6">Psalm 8:4â6</a>;{" "}
+        <a href="https://www.lds.org/scriptures/ot/ps/8.4-6">Psalm 8:4-6</a>;{" "}
         <a href="https://www.lds.org/scriptures/ot/jer/1.5">Jeremiah 1:5</a>;{" "}
         <a href="https://www.lds.org/scriptures/nt/john/13.34">John 13:34</a>;{" "}
         <a href="https://www.lds.org/scriptures/dc-testament/dc/18.10">
           Doctrine and Covenants 18:10
         </a>;{" "}
         <a href="https://www.lds.org/scriptures/pgp/abr/3.22-23">
-          Abraham 3:22â23
+          Abraham 3:22-23
         </a>; and{" "}
         <a href="https://www.lds.org/scriptures/pgp/js-h/1.1-20">
-          Joseph SmithâHistory 1:1â20
+          Joseph Smith-History 1:1-20
         </a>. Write in your journal how these scriptures teach you that Heavenly
         Father knows you, loves you, and is mindful of you.
         <Signoff color="red" id="individualWorthSignoff1" />
@@ -119,15 +122,15 @@ const Page = props => (
       <li>
         Heavenly Father has given you special gifts. Read{" "}
         <a href="https://www.lds.org/scriptures/nt/1-cor/12.4-12">
-          1 Corinthians 12:4â12
+          1 Corinthians 12:4-12
         </a>; <a href="https://www.lds.org/scriptures/nt/1-cor/12.13">13</a>;{" "}
         <a href="https://www.lds.org/scriptures/bofm/moro/7.12-13">
-          Moroni 7:12â13
+          Moroni 7:12-13
         </a>;{" "}
-        <a href="https://www.lds.org/scriptures/bofm/moro/10.8-18">10:8â18</a>;
+        <a href="https://www.lds.org/scriptures/bofm/moro/10.8-18">10:8-18</a>;
         and{" "}
         <a href="https://www.lds.org/scriptures/dc-testament/dc/46.11-26">
-          Doctrine and Covenants 46:11â26
+          Doctrine and Covenants 46:11-26
         </a>. Ask a family member, a Young Women leader, and a friend to write
         down positive qualities the Lord has given you. List your gifts in your
         journal, and write how you can continue to develop these gifts and use

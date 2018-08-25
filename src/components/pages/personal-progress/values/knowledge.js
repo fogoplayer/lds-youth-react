@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     <h2 class="green-text">Knowledge</h2>
@@ -29,12 +32,12 @@ const Page = props => (
         <a href="https://lds.org/scriptures/bofm/2-ne/28.30">2 Nephi 28:30</a>;
         and{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/88.78-80">
-          Doctrine and Covenants 88:78â80
+          Doctrine and Covenants 88:78-80
         </a>,{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/88.118">118</a>;{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/90.15">90:15</a>;{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/130.18-19">
-          130:18â19
+          130:18-19
         </a>;{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/131.6">131:6</a>.
         Think about why you need to gain knowledge and understanding about how
@@ -49,7 +52,7 @@ const Page = props => (
         In your journal list talents you have and others you would like to
         develop. Read{" "}
         <a href="https://lds.org/scriptures/nt/matt/25.14-30">
-          Matthew 25:14â30
+          Matthew 25:14-30
         </a>. Learn a new skill or talent that will help you care for your own
         future family or home (for example, playing the piano, singing,
         budgeting, time management, cooking, sewing, or child care). Share with

@@ -1,5 +1,8 @@
 import React from "react";
 
+import Signoff from "../../../Signoff";
+import TextArea from "../../../TextArea";
+
 const Page = props => (
   <div>
     <h2 class="orange-text">Choice and Accountability</h2>
@@ -30,11 +33,11 @@ const Page = props => (
         <a href="https://lds.org/scriptures/bofm/1-ne/15.8">1 Nephi 15:8</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/2-ne/32.3">2 Nephi 32:3</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/alma/34.19-27">
-          Alma 34:19â27
-        </a>; <a href="https://lds.org/scriptures/bofm/ether/2">Ether 2â3</a>;
+          Alma 34:19-27
+        </a>; <a href="https://lds.org/scriptures/bofm/ether/2">Ether 2-3</a>;
         and{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/9.7-9">
-          Doctrine and Covenants 9:7â9
+          Doctrine and Covenants 9:7-9
         </a>. Follow a pattern of regular scripture study and prayer to receive
         help in making personal decisions such as choosing good friends, being
         kind to others, getting up on time, or other decisions. Discuss with a
@@ -59,12 +62,12 @@ const Page = props => (
       </li>
 
       <li>
-        Agency, or the ability to choose, is one of Godâs greatest gifts to His
+        Agency, or the ability to choose, is one of God's greatest gifts to His
         children. Read about agency in{" "}
         <a href="https://lds.org/scriptures/ot/josh/24.15">Joshua 24:15</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/2-ne/2">2 Nephi 2</a>; and{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/82.2-10">
-          Doctrine and Covenants 82:2â10
+          Doctrine and Covenants 82:2-10
         </a>. With a parent or leader, discuss the blessings and
         responsibilities of agency. Record in your journal your understanding of
         agency and the consequences of choices and actions.
@@ -86,15 +89,15 @@ const Page = props => (
         Read about repentance in{" "}
         <a href="https://lds.org/scriptures/ot/isa/1.18">Isaiah 1:18</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/alma/26.22">Alma 26:22</a>;{" "}
-        <a href="https://lds.org/scriptures/bofm/alma/34.30-35">34:30â35</a>;{" "}
+        <a href="https://lds.org/scriptures/bofm/alma/34.30-35">34:30-35</a>;{" "}
         <a href="https://lds.org/scriptures/bofm/moro/8.25-26">
-          Moroni 8:25â26
+          Moroni 8:25-26
         </a>; and{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/19.15-20">
-          Doctrine and Covenants 19:15â20
+          Doctrine and Covenants 19:15-20
         </a>;{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/58.42-43">
-          58:42â43
+          58:42-43
         </a>. Record in your journal what repentance means to you. Study the
         process of repentance, pray for guidance, and apply the principles of
         repentance in your life.
@@ -107,17 +110,17 @@ const Page = props => (
         leader, or friend, learn more about the Holy Ghost by reading and
         discussing{" "}
         <a href="https://lds.org/scriptures/ot/ezek/36.26-27">
-          Ezekiel 36:26â27
+          Ezekiel 36:26-27
         </a>; <a href="https://lds.org/scriptures/nt/john/14.26">John 14:26</a>;{" "}
         <a href="https://lds.org/scriptures/nt/john/16.13">16:13</a>;{" "}
         <a href="https://lds.org/scriptures/nt/gal/5.22-25">
-          Galatians 5:22â25
+          Galatians 5:22-25
         </a>;{" "}
         <a href="https://lds.org/scriptures/bofm/2-ne/32.5">2 Nephi 32:5</a>;{" "}
-        <a href="https://lds.org/scriptures/bofm/moro/10.4-5">Moroni 10:4â5</a>;
+        <a href="https://lds.org/scriptures/bofm/moro/10.4-5">Moroni 10:4-5</a>;
         and{" "}
         <a href="https://lds.org/scriptures/dc-testament/dc/11.121-14">
-          Doctrine and Covenants 11:12â14
+          Doctrine and Covenants 11:12-14
         </a>. Then record in your journal how the Holy Ghost can help you make
         good decisions in your daily life. Pray for and live worthy of the
         constant companionship of the Holy Ghost.
@@ -137,8 +140,8 @@ const Page = props => (
       </li>
 
       <li>
-        Making choices is part of Heavenly Fatherâs plan for us. Read{" "}
-        <a href="https://lds.org/scriptures/pgp/moses/4.1-4">Moses 4:1â4</a>;{" "}
+        Making choices is part of Heavenly Father's plan for us. Read{" "}
+        <a href="https://lds.org/scriptures/pgp/moses/4.1-4">Moses 4:1-4</a>;{" "}
         <a href="https://lds.org/scriptures/pgp/moses/7.32">7:32</a>; and{" "}
         <a href="https://lds.org/scriptures/bofm/2-ne/9.51">2 Nephi 9:51</a>.
         Establish a pattern of wise money management by making a budget for
