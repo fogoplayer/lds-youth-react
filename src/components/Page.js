@@ -11,8 +11,7 @@ class Page extends React.Component {
   }
 
   componentDidMount() {
-    const path = this.props.location.pathname.substring(1).split("/");
-    console.log(path);
+    let path = this.props.location.pathname.substring(1).split("/");
     let componentPath = "./pages";
     path.forEach(pathSegment => {
       componentPath += "/" + pathSegment;
@@ -23,9 +22,46 @@ class Page extends React.Component {
     if (componentPath.includes("the-living-christ")) {
       componentPath = "./pages/common/the-living-christ";
     }
-    import(componentPath).then(module => {
-      this.setState({ module: module.default });
-    });
+    const importComponent = componentPath => {
+      import(componentPath).then(
+        //Success
+        module => {
+          //Use additional specifier to set active attributes
+          this.setState({ module: module.default });
+          if (
+            componentPath.substring(7) !== window.location.pathname &&
+            document.getElementById(
+              window.location.pathname.substring(componentPath.length - 6)
+            )
+          ) {
+            document
+              .getElementById(
+                window.location.pathname.substring(componentPath.length - 6)
+              )
+              .click();
+          }
+        },
+        //Failure
+        e => {
+          console.error(e);
+          //If user accidentally put a slash at the end, render anyway
+          if (componentPath.charAt(componentPath.length - 1) === "/") {
+            importComponent(
+              componentPath.substring(0, componentPath.length - 1)
+            );
+          } else {
+            let path = this.props.location.pathname.substring(1).split("/");
+            path = path.slice(0, -1);
+            let componentPath = "./pages";
+            path.forEach(pathSegment => {
+              componentPath += "/" + pathSegment;
+            });
+            importComponent(componentPath);
+          }
+        }
+      );
+    };
+    importComponent(componentPath);
   }
 
   render() {
