@@ -8,7 +8,7 @@ const Page = props => (
       <div class="col s12 l3">
         <center>
           <img
-            style="width:100%; max-width:300px; height:auto;"
+            style={{ width: "100%", maxWidth: "300px", height: "auto" }}
             src="../images/torch.png"
           />
         </center>
