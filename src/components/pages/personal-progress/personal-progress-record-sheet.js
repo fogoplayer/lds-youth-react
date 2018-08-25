@@ -1,5 +1,7 @@
 import React from "react";
 
+import Signoff from "../../Signoff";
+
 const Page = props => (
   <div>
     <h2>Personal Progress Record Sheet</h2>

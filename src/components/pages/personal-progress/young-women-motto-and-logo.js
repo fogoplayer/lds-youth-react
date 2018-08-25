@@ -15,9 +15,10 @@ const Page = props => (
       </div>
       <div class="col s12 l9">
         <p>
-          The Young Women motto is stand for truth and righteousness. The Young
-          Women logo is a torch surrounded by the Young Women motto. The torch
-          represents the light of Christ, inviting all to come unto Christ (<a href="https://www.lds.org/scriptures/bofm/moro/10.32">
+          The Young Women motto is "stand for truth and righteousness." The
+          Young Women logo is a torch surrounded by the Young Women motto. The
+          torch represents the light of Christ, inviting all to come unto Christ
+          (<a href="https://www.lds.org/scriptures/bofm/moro/10.32">
             Moroni 10:32
           </a>). It invites all young women to make a commitment to hold up
           their light by being an example and remaining worthy to make and keep

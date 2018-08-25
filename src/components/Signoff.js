@@ -21,7 +21,9 @@ const Signoff = props => (
       border: "0px",
       borderBottom: "1px solid black"
     }}
-  />
+  >
+    {props.placeholder ? props.placeholder : ""}
+  </div>
 );
 
 export default Signoff;

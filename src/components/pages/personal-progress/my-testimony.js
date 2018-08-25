@@ -1,9 +1,11 @@
 import React from "react";
 
+import TextArea from "../../TextArea";
+
 const Page = props => (
   <div>
     <h2>My Testimony</h2>
-    <TextArea id="myTestimony"/>
+    <TextArea id="myTestimony" />
   </div>
 );
 

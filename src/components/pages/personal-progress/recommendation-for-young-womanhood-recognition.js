@@ -1,10 +1,11 @@
 import React from "react";
 
+import Signoff from "../../Signoff";
+
 const Page = props => (
   <div>
     <h2>Reccomendation for Young Womanhood Recognition</h2>
-    Name
-    <Signoff id="name" />
+    <Signoff id="name" placeholder="Name" />
     <p>
       has faithfully completed all the requirements necessary to receive the
       Young Womanhood Recognition. She honors her commitment to live the
