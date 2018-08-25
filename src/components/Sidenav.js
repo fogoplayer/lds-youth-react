@@ -8,7 +8,6 @@ class Sidenav extends React.Component {
   componentDidMount() {
     //Automatically open menu on page load
     const expandSidenav = function(node) {
-      console.log("lezzgo!");
       document.querySelectorAll(".collapsible-header").forEach(node => {
         if (window.location.href.includes(node.href)) {
           node.parentNode.classList.add("active");
@@ -61,7 +60,10 @@ class Sidenav extends React.Component {
                   <li>
                     <ul className="collapsible">
                       <li>
-                        <Link to="/duty-to-god" className="collapsible-header">
+                        <Link
+                          to="/duty-to-god/deacon"
+                          className="collapsible-header"
+                        >
                           Deacon
                         </Link>
                         <div className="collapsible-body">
@@ -178,7 +180,10 @@ class Sidenav extends React.Component {
                   <li>
                     <ul className="collapsible">
                       <li>
-                        <Link to="/duty-to-god" className="collapsible-header">
+                        <Link
+                          to="/duty-to-god/teacher"
+                          className="collapsible-header"
+                        >
                           Teacher
                         </Link>
                         <div className="collapsible-body">
@@ -291,7 +296,10 @@ class Sidenav extends React.Component {
                   <li>
                     <ul className="collapsible">
                       <li>
-                        <Link to="/duty-to-god" className="collapsible-header">
+                        <Link
+                          to="/duty-to-god/priest"
+                          className="collapsible-header"
+                        >
                           Priest
                         </Link>
                         <div className="collapsible-body">
@@ -422,7 +430,10 @@ class Sidenav extends React.Component {
                   <li>
                     <ul className="collapsible">
                       <li>
-                        <Link to="/duty-to-god" className="collapsible-header">
+                        <Link
+                          to="/duty-to-god/appendix"
+                          className="collapsible-header"
+                        >
                           Appendix
                         </Link>
                         <div className="collapsible-body">
@@ -467,6 +478,184 @@ class Sidenav extends React.Component {
                         </div>
                       </li>
                     </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <Link to="/personal-progress" className="collapsible-header">
+                Personal Progress
+              </Link>
+              <div className="collapsible-body">
+                <ul>
+                  <li>
+                    <Link to="/personal-progress/welcome-to-personal-progress">
+                      Welcome to Personal Progress
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/young-women-motto-and-logo">
+                      YW Motto and Logo
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/young-women-theme">
+                      YW Theme
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/young-women-classes-and-symbols">
+                      YW Classes and Symbols
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/">Overview for YW</Link>
+                  </li>
+                  <li>
+                    <ul className="collapsible">
+                      <li>
+                        <Link
+                          to="/personal-progress/values"
+                          className="collapsible-header"
+                        >
+                          YW Value Experiences and Projects
+                        </Link>
+                        <div className="collapsible-body">
+                          <ul>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/faith"
+                              >
+                                {" "}
+                                Faith
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/divine-nature"
+                              >
+                                {" "}
+                                Divine Nature
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/individual-worth"
+                              >
+                                {" "}
+                                Individual Worth
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/knowledge"
+                              >
+                                {" "}
+                                Knowledge
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/choice-and-accountability"
+                              >
+                                {" "}
+                                Choice and Accountability
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/good-works"
+                              >
+                                {" "}
+                                Good Works
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/integrity"
+                              >
+                                {" "}
+                                Integrity
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                className="indent-2"
+                                to="/personal-progress/values/virtue"
+                              >
+                                {" "}
+                                Virtue
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/young-womanhood-recognition">
+                      Young Womanhood Recognition
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/personal-progress-record-sheet">
+                      Personal Progress Record Sheet
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/my-testimony">
+                      My Testimony
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/completion-of-personal-progress">
+                      Completion of Personal Progress
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/">
+                      Recommendation for Young Womanhood Recognition
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/what-do-i-do-when-i-complete-personal-progress">
+                      What Do I Do When I Complete Personal Progress?
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/overview-for-parents-and-leaders">
+                      Overview For Parents and Leaders
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/scripture-index">
+                      Scripture Index
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/subject-index">
+                      Subject Index
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/the-family">
+                      The Family: A Proclamation to the World
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/the-living-christ">
+                      The Living Christ: The Testimony of the Apostles
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/personal-progress/my-journal">My Journal</Link>
                   </li>
                 </ul>
               </div>
