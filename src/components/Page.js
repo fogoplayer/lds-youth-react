@@ -12,7 +12,7 @@ class Page extends React.Component {
 
   componentDidMount() {
     let path = this.props.location.pathname.substring(1).split("/");
-    let componentPath = "./pages";
+    let componentPath = "";//"./pages";
     path.forEach(pathSegment => {
       componentPath += "/" + pathSegment;
     });
@@ -23,7 +23,7 @@ class Page extends React.Component {
       componentPath = "./pages/common/the-living-christ";
     }
     const importComponent = componentPath => {
-      import(componentPath).then(
+      import("./pages" + componentPath).then(
         //Success
         module => {
           //Use additional specifier to set active attributes
