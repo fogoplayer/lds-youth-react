@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 import Signoff from "../../../Signoff";
 import TextArea from "../../../TextArea";
@@ -173,6 +174,35 @@ const Page = props => (
       project.
     </p>
     <p>
+      Have your parent or leader approve the project before you begin. Write an
+      evaluation after you finish. Below are some ideas for a value project.
+    </p>
+    <ul>
+      <li>Develop a skill you could use in your future home, such as
+      cooking, sewing, making repairs, organizing, or designing.
+      Teach that skill to someone, and explain how establishing a
+      house of order (see
+        <a href="https://www.lds.org/scriptures/dc-testament/dc/109.8">
+          D&C 109:8
+        </a>) is one of your divine roles.</li>
+      <li>For an extended period of time, serve someone in need, such as
+      a young mother, a person with disabilities, or an elderly person.
+      Record in your journal how your service has helped you recognize
+      the divine nature in yourself and in others.</li>
+      <li>List the divine attributes and roles of women as taught in 
+      “<Link to="/personal-progress/the-family">The Family: A Proclamation
+      to the World</Link>”, and carry out a project that helps you learn
+      more about one of those roles.</li>
+      <li>Using an artistic skill or handicraft you have learned, make
+      something for your current or future home. Record in your
+      journal how being creative is part of your divine nature and
+      how sharing your creativity has blessed others.</li>
+      <li>Working in harmony with others is a divine attribute (see
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/38.27">D&C 38:27</a>). Carry out a project that will promote unity in
+      your extended family, your school, or your community. Record
+      in your journal how you can make a difference when you work
+      in unity with others.</li>
+    </ul>
       <TextArea id="divineNatureGoalVP" />
     </p>
     <Signoff color="blue" id="divineNatureSignoffVP" />

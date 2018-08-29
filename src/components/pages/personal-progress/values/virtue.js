@@ -93,7 +93,7 @@ const Page = props => (
         Because the Savior loves you and has given His life for you, you can
         repent. Repentance is an act of faith in Jesus Christ. Read{" "}
         <a href="https://www.lds.org/scriptures/bofm/moro/10.32-33">
-          Moroni 10:3233
+          Moroni 10:32-33
         </a>, the{" "}
         <a href="https://lds.org/scriptures/bofm/enos">book of Enos</a>, and the{" "}
         <a href="https://lds.org/youth/for-the-strength-of-youth/repentance">
