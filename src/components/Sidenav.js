@@ -38,7 +38,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
   render() {
     this.screenWidth = document.body.clientWidth;
     return (
-      <ul className="sidenav sidenav-fixed" id="sidenav">
+      <ul className="sidenav sidenav-fixed sidenav-close" id="sidenav">
         <li className="no-padding">
           <ul className="collapsible">
             <li>
