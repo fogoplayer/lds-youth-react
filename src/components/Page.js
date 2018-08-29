@@ -52,7 +52,7 @@ class Page extends React.Component {
           } else {
             let path = this.props.location.pathname.substring(1).split("/");
             path = path.slice(0, -1);
-            let componentPath = "./pages";
+            let componentPath = "";
             path.forEach(pathSegment => {
               componentPath += "/" + pathSegment;
             });
