@@ -1,10 +1,10 @@
+/* global M */
 import React from "react";
-import { render } from "react-dom";
 
 import CollapsibleHeader from "../../components/CollapsibleHeader";
 import CollectionItem from "../../components/CollectionItem";
 
-class page extends React.Component {
+class page extends React.Component {// eslint-disable-next-line
   constructor(props) {
     super(props);
   }

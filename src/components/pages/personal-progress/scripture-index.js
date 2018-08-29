@@ -162,17 +162,4 @@ const Page = props => (
         </div>
     </div>
 );
-export default Page;             <p><a href="  </div>
-);
-export default Page;h 1:13</a></p>
-        </div>
-  </div>
-);
-
-export default Page;
-3</a></p>
-        </div>
-  </div>
-);
-
 export default Page;

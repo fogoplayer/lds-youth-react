@@ -10,6 +10,7 @@ const Page = props => (
           <img
             style={{ width: "100%", maxWidth: "300px", height: "auto" }}
             src="../images/torch.png"
+            alt="Personal Progress Torch"
           />
         </center>
       </div>

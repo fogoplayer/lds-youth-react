@@ -1,5 +1,4 @@
 import React from "react";
-import { render } from "react-dom";
 import { Switch, Route } from "react-router-dom";
 
 import Navbar from "./Navbar";

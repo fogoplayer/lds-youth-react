@@ -1,8 +1,7 @@
 /* global M */
 import React from "react";
-import { render } from "react-dom";
 import { Link } from "react-router-dom";
-class Sidenav extends React.Component {
+class Sidenav extends React.Component { // eslint-disable-next-line
   constructor(props) {
     super(props);
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Signoff from "../../../Signoff";
 import TextArea from "../../../TextArea";
@@ -32,7 +32,7 @@ const Page = props => (
       <li>
         What are some of the divine qualities of a daughter of God? Read \"<a href="/personal-progress/proclamationToTheWorld.html">
           The Family: A Proclamation to the World
-        </a>\";{" "}
+        </a>";{" "}
         <a href="https://www.lds.org/scriptures/nt/2-pet/1">2 Peter 1</a>;{" "}
         <a href="https://www.lds.org/scriptures/bofm/alma/7.23-24">
           Alma 7:23-24
@@ -176,7 +176,7 @@ const Page = props => (
     <p>
       Have your parent or leader approve the project before you begin. Write an
       evaluation after you finish. Below are some ideas for a value project.
-    </p>
+      </p>
     <ul>
       <li>Develop a skill you could use in your future home, such as
       cooking, sewing, making repairs, organizing, or designing.
@@ -189,7 +189,7 @@ const Page = props => (
       a young mother, a person with disabilities, or an elderly person.
       Record in your journal how your service has helped you recognize
       the divine nature in yourself and in others.</li>
-      <li>List the divine attributes and roles of women as taught in 
+      <li>List the divine attributes and roles of women as taught in
       “<Link to="/personal-progress/the-family">The Family: A Proclamation
       to the World</Link>”, and carry out a project that helps you learn
       more about one of those roles.</li>
@@ -198,15 +198,13 @@ const Page = props => (
       journal how being creative is part of your divine nature and
       how sharing your creativity has blessed others.</li>
       <li>Working in harmony with others is a divine attribute (see
-      <a href="https://www.lds.org/scriptures/dc-testament/dc/38.27">D&C 38:27</a>). Carry out a project that will promote unity in
-      your extended family, your school, or your community. Record
-      in your journal how you can make a difference when you work
+      <a href="https://www.lds.org/scriptures/dc-testament/dc/38.27">D&C 38:27</
+      a  >). Carry out a project that will promote unit     your extended family, your sch
+      o  ol, or your community. Re     in your journal how you can make a difference when you work
       in unity with others.</li>
     </ul>
-      <TextArea id="divineNatureGoalVP" />
-    </p>
-    <Signoff color="blue" id="divineNatureSignoffVP" />
-  </div>
+    <TextArea id="divineNatureGoalVP" />
+    <Signoff color="blue" id="divineNatureSignoffVP" />  < /div>
 );
 
 export default Page;

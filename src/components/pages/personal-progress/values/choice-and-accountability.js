@@ -19,7 +19,7 @@ const Page = props => (
       </em>
     </h5>
 
-    <h4 class="orange-text" class="orange-text">
+    <h4 class="orange-text">
       Required Value Experiences
     </h4>
     <p>
