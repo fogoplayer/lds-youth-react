@@ -1,5 +1,5 @@
 import React from "react";
-//<div className="col s12 m6 l3">
+//<div className="col s12 m6 l4">
 const Page = props => (
     <div>
         <h2>Scripture Index</h2>
@@ -10,7 +10,7 @@ const Page = props => (
             note those that are part of seminary scripture mastery verses.
         </p>
         <div className="row">
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Faith</h4>
                 <p><a href="https://www.lds.org/scriptures/ot/isa/53.3-12">Isaiah 53:3-12 </a></p>
                 <p><a href="https://www.lds.org/scriptures/ot/mal/3.8-12">Malachi 3:8-12</a></p>
@@ -38,7 +38,7 @@ const Page = props => (
                 <p><a href="https://www.lds.org/scriptures/pgp/abr/3.24-27">Abraham 3:24-27</a></p>
                 <p><a href="https://www.lds.org/scriptures/pgp/js-h/1.11-20">Joseph Smith-History 1:11-20</a></p>
             </div>
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Divine Nature</h4>
                 <p><a href="https://www.lds.org/scriptures/ot/prov/31.10-31">Proverbs 31:10-31</a></p>
                 <p><a href="https://www.lds.org/scriptures/nt/matt/5.9">Matthew 5:9</a></p>
@@ -56,7 +56,7 @@ const Page = props => (
                 <p><a href="https://www.lds.org/scriptures/dc-testament/dc/109.8">D&C 109:8</a></p>
                 <p><a href="https://www.lds.org/scriptures/dc-testament/dc/121.45">D&C 121:45</a></p>
             </div>
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Individual Worth</h4>
                 <p><a href="https://www.lds.org/scriptures/ot/ps/8.4-6">Psalm 8:4-6</a></p>
                 <p><a href="https://www.lds.org/scriptures/ot/jer/1.5">Jeremiah 1:5</a></p>
@@ -72,7 +72,7 @@ const Page = props => (
                 <p><a href="https://www.lds.org/scriptures/pgp/abr/3.22-23">Abraham 3:22-23</a></p>
                 <p><a href="https://www.lds.org/scriptures/pgp/js-h/1.1-20">Joseph Smith-History 1:1-20</a></p>
             </div>
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Knowledge</h4>
                 <p><a href="https://lds.org/scriptures/ot/prov/1.5">Proverbs 1:5</a></p>
                 <p><a href="https://lds.org/scriptures/ot/prov/4.7">Proverbs 4:7</a></p>
@@ -85,9 +85,7 @@ const Page = props => (
                 <p><a href="https://lds.org/scriptures/dc-testament/dc/131.6">D&C 131:6</a></p>
                 <p><a href="https://lds.org/scriptures/pgp/a-of-f/1.13">Articles of Faith 1:13</a></p>
             </div>
-        </div>
-        <div className="row">
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Choice and Accountability</h4>
                 <p><a href="https://lds.org/scriptures/ot/josh/24.15">Joshua 24:15</a></p>
                 <p><a href="https://lds.org/scriptures/ot/isa/1.18">Isaiah 1:18</a></p>
@@ -114,7 +112,7 @@ const Page = props => (
                 <p><a href="https://lds.org/scriptures/pgp/moses/4.1-4">Moses 4:1-4</a></p>
                 <p><a href="https://lds.org/scriptures/pgp/moses/7.32">Moses 7:32</a></p>
             </div>
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Good Works</h4>
                 <p><a href="https://lds.org/scriptures/nt/matt/5.13-16">Matthew 5:13-16</a></p>
                 <p><a href="https://lds.org/scriptures/nt/matt/24.14">Matthew 24:14</a></p>
@@ -130,7 +128,7 @@ const Page = props => (
                 <p><a href="https://lds.org/scriptures/dc-testament/dc/58.26-28">D&C 58:26-28</a></p>
                 <p><a href="https://lds.org/scriptures/dc-testament/dc/88.81">D&C 88:81</a></p>
             </div>
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Integrity</h4>
                 <p><a href="https://lds.org/scriptures/ot/gen/39">Genesis 39</a></p>
                 <p><a href="https://lds.org/scriptures/ot/esth/1">Esther</a></p>
@@ -145,7 +143,7 @@ const Page = props => (
                 <p><a href="https://lds.org/scriptures/dc-testament/dc/124.15">D&C 124:15</a></p>
                 <p><a href="https://lds.org/scriptures/pgp/js-h/1.21-25">Joseph Smith-History 1:21-25</a></p>
             </div>
-            <div className="col s12 m6 l3">
+            <div className="col s12 m6 l4">
                 <h4>Virtue</h4>
                 <p><a href="https://www.lds.org/scriptures/ot/prov/31.10-31">Proverbs 31:10-31</a></p>
                 <p><a href="https://lds.org/scriptures/nt/john/14.26-27">John 14:26-27</a></p>
