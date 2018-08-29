@@ -1,5 +1,5 @@
 import React from "react";
-//<div className="col s12 m6 l4">
+
 const Page = props => (
     <div>
         <h2>Scripture Index</h2>
