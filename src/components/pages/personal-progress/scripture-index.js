@@ -157,7 +157,8 @@ const Page = props => (
             <p><a href="https://lds.org/scriptures/dc-testament/dc/45.57-59">D&C 45:57–59</a></p>
             <p><a href="https://lds.org/scriptures/dc-testament/dc/88.3-4">D&C 88:3–4</a></p>
             <p><a href="https://lds.org/scriptures/dc-testament/dc/121.45-46">D&C 121:45–46</a></p>
-            <p><a href="https://lds.org/scriptures/pgp/a-of-f/1.13">Articles of Faith 1:13</a></p>
+            <p><a href="https://lds.org/scriptures/
+      </div>pgp/a-of-f/1.13">Articles of Faith 1:13</a></p>
         </div>
   </div>
 );
