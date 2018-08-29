@@ -12,15 +12,15 @@ class Page extends React.Component {
 
   componentDidMount() {
     let path = this.props.location.pathname.substring(1).split("/");
-    let componentPath = "";//"./pages";
+    let componentPath = "";
     path.forEach(pathSegment => {
       componentPath += "/" + pathSegment;
     });
     if (componentPath.includes("the-family")) {
-      componentPath = "./pages/common/the-family";
+      componentPath = "/common/the-family";
     }
     if (componentPath.includes("the-living-christ")) {
-      componentPath = "./pages/common/the-living-christ";
+      componentPath = "/common/the-living-christ";
     }
     const importComponent = componentPath => {
       import("./pages" + componentPath).then(
