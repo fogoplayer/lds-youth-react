@@ -8,7 +8,7 @@ const Page = props => (
             experiences and value projects. We encourage you to mark them all and note
             the associated Young Women value in your scriptures. You may wish to also
             note those that are part of seminary scripture mastery verses.
-</p>
+        </p>
         <div className="row">
             <div className="col s12 m6 l3">
                 <h4>Faith</h4>
@@ -85,6 +85,8 @@ const Page = props => (
                 <p><a href="https://lds.org/scriptures/dc-testament/dc/131.6">D&C 131:6</a></p>
                 <p><a href="https://lds.org/scriptures/pgp/a-of-f/1.13">Articles of Faith 1:13</a></p>
             </div>
+        </div>
+        <div className="row">
             <div className="col s12 m6 l3">
                 <h4>Choice and Accountability</h4>
                 <p><a href="https://lds.org/scriptures/ot/josh/24.15">Joshua 24:15</a></p>
@@ -160,6 +162,6 @@ const Page = props => (
                 <p><a href="https://lds.org/scriptures/pgp/a-of-f/1.13">Articles of Faith 1:13</a></p>
             </div>
         </div>
-    </div>
+    </div >
 );
 export default Page;
