@@ -660,6 +660,9 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                 </ul>
               </div>
             </li>
+            <div className="divider" />
+            <li><a href="https://goo.gl/forms/sJsx9aksO5grGZKo1"><i class="material-icons">email</i>Contact the Developer</a></li>
+            <li><a href="https://github.com/fogoplayer/lds-youth-react"><i class="material-icons">code</i>Contribute</a></li>
           </ul>
         </li>
       </ul>
