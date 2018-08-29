@@ -620,13 +620,13 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                     </Link>
                   </li>
                   <li>
-                    <Link to="/personal-progress/">
-                      Recommendation for Young Womanhood Recognition
+                    <Link to="/personal-progress/recommendation-for-young-womanhood-recognition">
+                      Recommendation for Young Womanh...
                     </Link>
                   </li>
                   <li>
                     <Link to="/personal-progress/what-do-i-do-when-i-complete-personal-progress">
-                      What Do I Do When I Complete Personal Progress?
+                      What Do I Do When I Complete Perso...
                     </Link>
                   </li>
                   <li>
@@ -646,12 +646,12 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                   </li>
                   <li>
                     <Link to="/personal-progress/the-family">
-                      The Family: A Proclamation to the World
+                      The Family: A Proclamation to the...
                     </Link>
                   </li>
                   <li>
                     <Link to="/personal-progress/the-living-christ">
-                      The Living Christ: The Testimony of the Apostles
+                      The Living Christ: The Testimony o...
                     </Link>
                   </li>
                   <li>
