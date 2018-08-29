@@ -49,7 +49,7 @@ class page extends React.Component {// eslint-disable-next-line
             }}
           >
             <ul
-              class="collapsible expandable z-depth-0"
+              className="collapsible expandable z-depth-0"
               style={{
                 margin: 0,
                 border: "none"
@@ -57,7 +57,7 @@ class page extends React.Component {// eslint-disable-next-line
             >
               <li>
                 <CollapsibleHeader text="Young Women Value Experiences and Projects" />
-                <div class="collapsible-body">
+                <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
                       text="Faith"
