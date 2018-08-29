@@ -1,0 +1,2 @@
+webpackJsonp([58],{71:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a=t(0),l=t.n(a),r=function(e){return l.a.createElement("div",null,l.a.createElement("h2",null,"My Journal"),l.a.createElement(TextArea,{id:"journal"}))};n.default=r}});
+//# sourceMappingURL=58.d568933f.chunk.js.map
