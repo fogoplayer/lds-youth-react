@@ -117,7 +117,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                               </ul>
                             </li>
                             <li>
-                              <ul class="collapsible">
+                              <ul className="collapsible">
                                 <li>
                                   <Link
                                     to="/duty-to-god/deacon/priesthood-duties"
