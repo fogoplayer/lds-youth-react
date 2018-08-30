@@ -216,7 +216,13 @@ const Page = props => (
       Prayerfully seek the guidance of the Holy Ghost to select a meaningful
       project.
     </p>
-
+    <p>Have your parent or leader approve the project before you begin. Write an evaluation after you finish. Below are some ideas for a value project.</p>
+    <ul>
+        <li>Memorize <Link to="/personal-progress/the-living-christ">The Living Christ"</Link>. As you do, consider the Savior’s influence in your life and how your faith in Him has increased. Practice following the Savior’s example. </li>
+        <li>Read <a href="https://www.lds.org/scriptures/bofm/alma/32.28-43">Alma 32:28–43</a>. Think of faith as a seed as you help plant, care for, and harvest a vegetable garden. Record in your journal how you can nourish, care for, and strengthen your faith. </li>
+        <li>Take a family history class in your ward or branch. Collect existing stories of your relatives or others who have demonstrated faith, or interview family members or others and record their stories. </li>
+        <li>Describe the blessing of faith by writing an original story, poem, or song or by completing a visual arts project that illustrates your faith in Jesus Christ.</li>
+    </ul>
     <p>
       <TextArea id="faithGoalVP" />
     </p>
