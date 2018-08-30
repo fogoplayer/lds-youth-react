@@ -137,7 +137,7 @@ const Page = props => (
     <TextArea id="virtueTestimony" />
     <p>Signature of parent or leader</p>
     <Signoff color="yellow" id="virtueSignature" />
-    <p>Date <Signoff color="yellow" id="virtueDate" />&nbsp; Hours Spent <Signoff color="yellow" id="virtueHoursSpent" /><//d v>      
+    <p>Date <Signoff color="yellow" id="virtueDate" />&nbsp; Hours Spent <Signoff color="yellow" id="virtueHoursSpent" /></div>      
       );
 
 export default Page;
