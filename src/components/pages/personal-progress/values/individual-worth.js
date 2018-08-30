@@ -162,7 +162,15 @@ const Page = props => (
       Prayerfully seek the guidance of the Holy Ghost to select a meaningful
       project.
     </p>
-
+    <p>Have your parent or leader approve the project before you begin. Write an evaluation after you finish. Below are some ideas for a value project.</p>
+    <p>You have a unique and divine mission to perform on the earth and have been blessed with talents to accomplish this mission. As you complete one of the following projects, you will witness the value and contribution of others and also see the influence you can have in the lives of others. Express your gratitude to those with whom you work, and record your experiences in your journal.</p>
+    <ul>
+        <li>Compile your personal or family history using journal entries, pictures, and important papers. </li>
+        <li>Share one of your gifts by instructing or tutoring someone in an academic subject, music, a sport, or an artistic skill. </li>
+        <li>Carry out a project to improve the living situation of someone in need. </li>
+        <li>Direct or participate in a youth choir, a play, a talent show, or an art exhibit. </li>
+        <li>Learn a marketable skill that could help you in a current or future occupation.</li>
+    </ul>    
     <p>
       <TextArea id="individualWorthGoalVP" />
     </p>

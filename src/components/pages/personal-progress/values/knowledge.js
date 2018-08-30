@@ -155,7 +155,14 @@ const Page = props => (
       Prayerfully seek the guidance of the Holy Ghost to select a meaningful
       project.
     </p>
-
+    <p>Have your parent or leader approve the project before you begin. Write an evaluation after you finish. Below are some ideas for a value project.</p>
+    <ul>
+        <li>Learn how to organize, clean, and maintain a home from your mother, grandmother, or another woman you admire. Then apply what you have learned in your home. </li>
+        <li>Prepare for higher education and obtaining marketable skills by learning about college or trade school entrance requirements, scholarships, and tuition and other expenses. Apply for entrance when appropriate. </li>
+        <li>Read <a href="https://lds.org/scriptures/dc-testament/dc/88">Doctrine and Covenants 89</a>. Consider what you can do to be more physically fit. Improve your health by developing and implementing a regular fitness program and learning to cook and eat food that is part of a healthful diet. </li>
+        <li>Learn about the proper care of clothing, including how to wash, iron, and make basic repairs and alterations. Apply the skills you learned by taking care of your clothing. </li>
+        <li>Working with your mother, grandmother, or a woman in your ward or branch, master a homemaking skill she teaches you.</li>
+    </ul>
     <p>
       <TextArea id="knowledgeGoalVP" />
     </p>

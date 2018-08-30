@@ -171,7 +171,14 @@ const Page = props => (
       Prayerfully seek the guidance of the Holy Ghost to select a meaningful
       project.
     </p>
-
+    <p>Have your parent or leader approve the project before you begin. Write an evaluation after you finish. Below are some ideas for a value project.</p>
+    <ul>
+        <li>Record examples of ways family members have demonstrated the quality of integrity in their lives. </li>
+        <li>Having integrity means keeping your commitments. Identify and keep your commitments to others as you participate as a member of a team or organization or in a leadership position in your school or community. </li>
+        <li>Using 1 Timothy 4:12 as your guide, organize and carry out an activity that will help you practice being “an example of the believers.” </li>
+        <li>Making and keeping temple covenants requires integrity. Prepare to make temple covenants by making and wearing an item of clothing that conforms with standards of modest dress as explained in the pamphlet For the Strength of Youth and in the words of living prophets. </li>
+        <li>In talks given by General Authorities, research the topics of integrity and honesty. Learn why these principles are critical to your happiness and temple preparation. Create an object (such as a picture, a book of quotations, or a hand-stitched item) that will remind you each day of your commitment to be honest and true at all times and known for your personal integrity</li>
+    </ul>
     <p>
       <TextArea id="integrityGoalVP" />
     </p>

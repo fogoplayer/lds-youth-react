@@ -5,7 +5,7 @@ import TextArea from "../../../TextArea";
 
 const Page = props => (
   <div>
-    <h2 class="yellow-text text-darken-2">Virtue</h2>
+    <h2 className="yellow-text text-darken-2">Virtue</h2>
 
     <h5>
       <em>
@@ -19,7 +19,7 @@ const Page = props => (
       </em>
     </h5>
 
-    <h4 class="yellow-text text-darken-2">Required Value Experiences</h4>
+    <h4 className="yellow-text text-darken-2">Required Value Experiences</h4>
     <p>
       Complete the following three required value experiences. Have your parent
       or leader sign and date each experience after you finish.
@@ -114,7 +114,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="yellow-text text-darken-2">Value Project</h4>
+    <h4 className="yellow-text text-darken-2">Value Project</h4>
 
     <p>You may begin this required value project at any time.</p>
 
@@ -130,9 +130,13 @@ const Page = props => (
       Savior. What did He and those who followed Him do to live virtuous lives?
       At the completion of your reading, record your testimony.
     </p>
-
-    <TextArea id="virtueGoalVP" />
-    <Signoff color="yellow" id="virtueSignOffVP" />
+    
+    <h5 className="yellow-text text-darken-2">My Testimony of the Book of Mormon</h5>
+    <p><i>“And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost” (<a href="https://www.lds.org/scriptures/bofm/moro/10.4">Moroni 10:4<a>).</i></p>
+    <TextArea id="virtueTestimony" />
+    <p>Signature of parent or leader</p>
+    <Signoff color="yellow" id="virtueSignature" />
+    <p>Date <Signoff color="yellow" id="virtueDate" />&nbsp; Hours Spent <Signoff color="yellow" id="virtueHoursSpent" /></p>
   </div>
 );
 

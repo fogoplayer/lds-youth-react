@@ -147,7 +147,14 @@ const Page = props => (
       Prayerfully seek the guidance of the Holy Ghost to select a meaningful
       project.
     </p>
-
+    <p>Have your parent or leader approve the project before you begin. Write an evaluation after you finish. Below are some ideas for a value project.</p>
+    <ul>
+        <li>Help plan and participate in a project to clean or beautify your community. </li>
+        <li>Prepare to be a homemaker by collecting recipes, shopping for food, and preparing meals for your family. </li>
+        <li>Work with a family member to gather the names of some deceased relatives who were not members of the Church. Identify their birth and death dates and prepare their names to be taken to the temple. Help plan a temple trip and do baptisms for those relatives. </li>
+        <li>Prepare to serve others by receiving training for a skill to use in emergency situations, such as first aid, resuscitation, or lifesaving skills. </li>
+        <li>Serve others. Volunteer in the community, gather items to meet humanitarian needs, spend extended time assisting with child or elderly care, or tutor in school or in your community.</li>
+    </ul>
     <p>
       <TextArea id="goodWorksGoalVP" />
     </p>
