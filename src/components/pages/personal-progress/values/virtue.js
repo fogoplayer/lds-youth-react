@@ -133,11 +133,11 @@ const Page = props => (
 
     <h5 className="yellow-text text-darken-2">My Testimony of the Book of Mormon</h5>
 ====
-    <p><i>“And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost” (<a href="https://www.lds.org/scriptures/bofm/moro/10.4">Moroni 10:4</a>).
+    <p><i>“And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost” (<a href="https://www.lds.org/scriptures/bofm/moro/10.4">Moroni 10:4</a>).</i></p>
     <TextArea id="virtueTestimony" />
     <p>Signature of parent or leader</p>
     <Signoff color="yellow" id="virtueSignature" />
-    <p>Date <Signoff color="yellow" id="virtueDate" />&nbsp; Hours Spent <Signoff color="yellow" id="virtueHoursSpent" /></div>      
+    <p>Date <Signoff color="yellow" id="virtueDate" />&nbsp; Hours Spent <Signoff color="yellow" id="virtueHoursSpent" /></p></div>      
       );
 
 export default Page;
