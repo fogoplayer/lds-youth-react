@@ -177,7 +177,14 @@ const Page = props => (
       complete. Prayerfully seek the guidance of the Holy Ghost to select a
       meaningful project.
     </p>
-
+    <p>Have your parent or leader approve the project before you begin. Write an evaluation after you finish. Below are some ideas for a value project.</p>
+<ul>
+    <li>Using For the Strength of Youth and under the direction of your parents or leaders, organize or participate in a discussion group, fashion show, or other event to help you and other youth choose to live the Lord’s standards.</li>
+    <li>Under the direction of your parents or leaders, help plan and direct a youth dance or other activity that features appropriate dancing instruction and wholesome music, lighting, and atmosphere. </li>
+    <li>Evaluate your use of media and technology. Create and implement a plan to keep improper media from entering your home. Ensure that your plan encourages the wholesome use of television, movies, music, computers, Internet, cell phones, and other media forms in the home. Share your idea with your family and others. </li>
+    <li>Learn basic clothing alteration and repair techniques as you adapt your wardrobe to standards of modest dress. </li>
+    <li>Choose to be more orderly in your home by completing a cleaning or organizing project. Record in your journal how doing this helped you in other areas of your life.</li>
+</ul>
     <p>
       <TextArea id="choiceAndAccountabilityGoalVP" />
       <Signoff color="orange" id="choiceAndAccountablilitySignoffVP" />
