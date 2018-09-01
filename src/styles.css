@@ -16,3 +16,8 @@ li div.collapsible-body {
 li div.collapsible-body .collection .collection-item {
   padding-left: 3rem;
 }
+
+.black[type="checkbox"].filled-in:checked + span:after{
+     border: 2px solid #000000;
+     background-color: #000000;
+}
