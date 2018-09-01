@@ -7,7 +7,11 @@ import Sidenav from "./Sidenav";
 import Home from "./pages/Home";
 import Page from "./Page";
 
-const App = props => (
+const App = props => {
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js');
+}
+  return(
   <div>
     <Navbar key="navbar" brand="LDS Youth" />
     <div key="container" className="container">
@@ -23,7 +27,7 @@ const App = props => (
     </div>
     <Sidenav key="sidenav" />
   </div>
-);
+);}
 
 export default App;
 //      <Route path="/duty-to-god" component={Page} />
