@@ -27,15 +27,21 @@ class Page extends React.Component {
         module => {
           //Use additional specifier to set active attributes
           this.setState({ module: module.default });
+          console.log("componentPath.substring(7) !== window.location.pathname?", componentPath.substring(7) !== window.location.pathname)
+          console.log("document.getElementById(window.location.pathname.substring(componentPath.length))", document.getElementById(
+            window.location.pathname.substring(componentPath.length + 1)
+          ));
+          console.log("substring", window.location.pathname.substring(componentPath.length))
+          console.log("componentPath", componentPath);
           if (
             componentPath.substring(7) !== window.location.pathname &&
             document.getElementById(
-              window.location.pathname.substring(componentPath.length - 6)
+              window.location.pathname.substring(componentPath.length + 1)
             )
           ) {
             document
               .getElementById(
-                window.location.pathname.substring(componentPath.length - 6)
+                window.location.pathname.substring(componentPath.length + 1)
               )
               .click();
           }
