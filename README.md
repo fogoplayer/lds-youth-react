@@ -81,10 +81,6 @@ Add buttons at the top and bottom of each page to move on to the next section or
 
 Rewriting the application as a Single Page Application (SPA) will speed up future development in several ways. Currently, I am leaning towards React, but if a third-party contributor would rather use a different framework, they are of course free to do so.
 
-##### Offline Support (Awaiting Development)
-
-Add Service Workers to make the website accessible offline. A service worker file exists, but a configuration page to decide what to download, and the accompanying code, still needs to be written.
-
 ##### Improve Data Storage (Research)
 
 I would like to switch our data storage to Firebase, which will allow both cross-device sync and offline caching.
