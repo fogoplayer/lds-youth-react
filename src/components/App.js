@@ -9,10 +9,13 @@ import Page from "./Page";
 
 const App = props => {
   if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js');
-}
-  return(
-  <div>
+    // Use the window load event to keep the page load performant
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+  return (
+    <div>
     <Navbar key="navbar" brand="LDS Youth" />
     <div key="container" className="container">
       <Switch>
@@ -27,7 +30,8 @@ const App = props => {
     </div>
     <Sidenav key="sidenav" />
   </div>
-);}
+  );
+}
 
 export default App;
 //      <Route path="/duty-to-god" component={Page} />

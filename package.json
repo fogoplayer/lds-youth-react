@@ -14,8 +14,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && workbox injectManifest workbox-config.js;",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "firebase deploy && git push"
   }
 }
