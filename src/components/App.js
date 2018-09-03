@@ -1,3 +1,4 @@
+/*global firebase navigator*/
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
@@ -13,6 +14,29 @@ const App = props => {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js');
     });
+
+    //Firebase
+    // Firebase App is always required and must be first
+    window.firebase = require("firebase/app");
+
+    // Add additional services that you want to use
+    require("firebase/auth");
+    // require("firebase/database");
+    // require("firebase/firestore");
+    // require("firebase/messaging");
+    // require("firebase/functions");
+
+    // Initialize Firebase
+    const config = {
+      apiKey: "AIzaSyBJH95AqwCt56IB33qcb1teMzdl0pTpcPY",
+      authDomain: "ldsyouth-195000.firebaseapp.com",
+      databaseURL: "https://ldsyouth-195000.firebaseio.com",
+      projectId: "ldsyouth-195000",
+      storageBucket: "ldsyouth-195000.appspot.com",
+      messagingSenderId: "431375642257"
+    };
+    firebase.initializeApp(config);
+
   }
   return (
     <div>
