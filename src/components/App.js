@@ -8,6 +8,8 @@ import Sidenav from "./Sidenav";
 import Home from "./pages/Home";
 import Page from "./Page";
 
+import {config} from "../secure-data";
+
 const App = props => {
   if ('serviceWorker' in navigator) {
     // Use the window load event to keep the page load performant
@@ -27,14 +29,6 @@ const App = props => {
     // require("firebase/functions");
 
     // Initialize Firebase
-    const config = {
-      apiKey: "AIzaSyBJH95AqwCt56IB33qcb1teMzdl0pTpcPY",
-      authDomain: "ldsyouth-195000.firebaseapp.com",
-      databaseURL: "https://ldsyouth-195000.firebaseio.com",
-      projectId: "ldsyouth-195000",
-      storageBucket: "ldsyouth-195000.appspot.com",
-      messagingSenderId: "431375642257"
-    };
     firebase.initializeApp(config);
 
   }
