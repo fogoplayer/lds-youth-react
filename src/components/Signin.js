@@ -51,7 +51,7 @@ class Signin extends React.Component { // eslint-disable-next-line
                     onClick = {function() {
                         console.warn('Click');
                         firebase.auth().signOut();
-                    }} > Sign Out </li>);
+                    }} ><a>Sign Out</a></li>);
                 }
             }
         }
