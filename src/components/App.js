@@ -21,7 +21,7 @@ const App = props => {
 
     // Add additional services that you want to use
     require("firebase/auth");
-    // require("firebase/database");
+    require("firebase/database");
     // require("firebase/firestore");
     // require("firebase/messaging");
     // require("firebase/functions");

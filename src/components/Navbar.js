@@ -33,9 +33,7 @@ class Navbar extends React.Component { // eslint-disable-next-line
   }
   render() {
     return (<div className="navbar-fixed">
-      <ul id="signinDropdown" className="dropdown-content">
-        <Signin />
-      </ul>
+      <Signin />
       <nav>
         <div className="nav-wrapper black row">
           <div className="col s12">
@@ -47,7 +45,7 @@ class Navbar extends React.Component { // eslint-disable-next-line
             </Link>
             <ul className="right">
               <li>
-                <a className="dropdown-trigger" data-target="signinDropdown">
+                <a className="dropdown-trigger" id="signInDropdownTrigger" data-target="signInDropdown">
                   <i className="material-icons left">account_circle</i>{this.state.displayName}
                 </a>
               </li>

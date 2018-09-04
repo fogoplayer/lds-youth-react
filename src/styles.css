@@ -21,3 +21,8 @@ li div.collapsible-body .collection .collection-item {
      border: 2px solid #000000;
      background-color: #000000;
 }
+
+#signInDropdown li a:hover,
+#signInDropdown li:hover{
+  background-color:inherit;
+}
