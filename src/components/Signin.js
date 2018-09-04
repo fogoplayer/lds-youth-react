@@ -5,7 +5,7 @@ import React from "react";
 class Signin extends React.Component { // eslint-disable-next-line
     constructor(props) {
         super(props);
-        this.state = { currentUserBool: !!firebase.auth().currentUser };
+        this.state = { currentUserBool: !!firebase.auth().currentUser};
     }
     componentDidMount() {
         //Change state 
@@ -20,24 +20,24 @@ class Signin extends React.Component { // eslint-disable-next-line
                     <a className="black-text" style={{width:"300px"}}>
                         <p >Sign Up with Email</p>
                         <div className="input-field">
-                            <input id="name" type="text" tabindex="1"  onKeyDown={function(event){console.error(event);event.stopPropagation()}}/>
-                            <label for="name">Name</label>
+                            <input id="name" type="text" tabIndex="1"  onKeyDown={function(event){console.error(event);event.stopPropagation()}}/>
+                            <label htmlFor="name">Name</label>
                         </div>
                         <div className="input-field">
-                            <input id="email" type="text" tabindex="2"  onKeyDown={function(event){event.stopPropagation()}}/>
-                            <label for="email">Email</label>
+                            <input id="email" type="text" tabIndex="2"  onKeyDown={function(event){event.stopPropagation()}}/>
+                            <label htmlFor="email">Email</label>
                         </div>
                         <div className="input-field">
-                            <input id="password1" type="password" tabindex="3"  onKeyDown={function(event){event.stopPropagation()}}/>
-                            <label for="password1">Password</label>
+                            <input id="password1" type="password" tabIndex="3"  onKeyDown={function(event){event.stopPropagation()}}/>
+                            <label htmlFor="password1">Password</label>
                         </div>
                         <div className="input-field">
-                            <input id="password2" type="password" data-error="Passwords must match" tabindex="4"  onKeyDown={function(event){event.stopPropagation()}}/>
-                            <label for="password2">Re-enter Password</label>
+                            <input id="password2" type="password" data-error="Passwords must match" tabIndex="4"  onKeyDown={function(event){event.stopPropagation()}}/>
+                            <label htmlFor="password2">Re-enter Password</label>
                         </div>
                         <br/>
-                        <div class="btn black right" onClick={this.signUpWithEmail}>Sign up</div>
-                        <div class="btn-flat right" tabindex="5" onClick={()=>{
+                        <div class="btn black right" onClick={()=>{this.signUpWithEmail()}}>Sign up</div>
+                        <div class="btn-flat right" tabIndex="5" onClick={()=>{
                             this.setState({currentUserBool:"signIn"});
                         }}>Sign in</div>
                         <br />
@@ -54,16 +54,16 @@ class Signin extends React.Component { // eslint-disable-next-line
                     <a className="black-text" style={{width:"300px"}}>
                         <p >Sign in with email</p>
                         <div className="input-field">
-                            <input id="email" type="text" tabindex="2" />
-                            <label for="email">Email</label>
+                            <input id="email" type="text" tabIndex="2" />
+                            <label htmlFor="email">Email</label>
                         </div>
                         <div className="input-field">
-                            <input id="password1" type="password" tabindex="3"/>
-                            <label for="password1">Password</label>
+                            <input id="password1" type="password" tabIndex="3"/>
+                            <label htmlFor="password1">Password</label>
                         </div>
                         <br/>
                         <div class="btn black right" onClick={this.signInWithEmail}>Sign In</div>
-                        <div class="btn-flat right" tabindex="5" onClick={()=>{
+                        <div class="btn-flat right" tabIndex="5" onClick={()=>{
                             this.setState({currentUserBool:false});
                         }}>Sign up</div>
                         <br />
@@ -90,14 +90,20 @@ class Signin extends React.Component { // eslint-disable-next-line
     }
     
     //Sign in functions
-    signUpWithEmail() {
+    signUpWithEmail(){
+        console.dir("this",this);
+        const name = document.getElementById("name").value;
         const email = document.getElementById("email").value;
         const password = document.getElementById("password1").value;
         const password2 = document.getElementById("password2").value;
         if(password === password2) {
-            firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+            firebase.auth().createUserWithEmailAndPassword(email, password).then(response => {
+                firebase.auth().currentUser.updateProfile({displayName: name});
+                window.location.reload();
+            }).catch(function(error) {
                 M.toast({html: `Error: ${error.code}<br/>${error.message}`});
             });
+            
             M.Dropdown.getInstance(document.getElementById("signInDropdownTrigger")).close();
         }else{
             M.toast({html: 'Passwords must match'});
