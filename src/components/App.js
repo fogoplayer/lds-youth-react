@@ -9,23 +9,23 @@ import Home from "./pages/Home";
 import Page from "./Page";
 
 const App = props => {
-  if ('serviceWorker' in navigator) {
+  if('serviceWorker' in navigator) {
     // Use the window load event to keep the page load performant
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js');
     });
-
+    
     //Firebase
     // Firebase App is always required and must be first
     window.firebase = require("firebase/app");
-
+  
     // Add additional services that you want to use
     require("firebase/auth");
     require("firebase/database");
     // require("firebase/firestore");
     // require("firebase/messaging");
     // require("firebase/functions");
-
+  
     // Initialize Firebase
     const config = {
       apiKey: "AIzaSyBJH95AqwCt56IB33qcb1teMzdl0pTpcPY",
@@ -35,8 +35,11 @@ const App = props => {
       storageBucket: "ldsyouth-195000.appspot.com",
       messagingSenderId: "431375642257"
     };
-    firebase.initializeApp(config);
-
+    
+    if (!firebase || !firebase.apps.length) {
+      firebase.initializeApp(config);
+    }
+  
   }
   return (
     <div>
