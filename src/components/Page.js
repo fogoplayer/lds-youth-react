@@ -27,8 +27,6 @@ class Page extends React.Component {
         module => {
           //Use additional specifier to set active attributes
           this.setState({ module: module.default });
-            window.location.pathname.substring(componentPath.length + 1)
-          ));
           if (
             componentPath.substring(7) !== window.location.pathname &&
             document.getElementById(

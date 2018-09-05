@@ -36,8 +36,8 @@ class Signin extends React.Component { // eslint-disable-next-line
                             <label htmlFor="password2">Re-enter Password</label>
                         </div>
                         <br/>
-                        <div class="btn black right" onClick={()=>{this.signUpWithEmail()}}>Sign up</div>
-                        <div class="btn-flat right" tabIndex="5" onClick={()=>{
+                        <div className="btn black right" onClick={()=>{this.signUpWithEmail()}}>Sign up</div>
+                        <div className="btn-flat right" tabIndex="5" onClick={()=>{
                             this.setState({currentUserBool:"signIn"});
                         }}>Sign in</div>
                         <br />
@@ -62,8 +62,8 @@ class Signin extends React.Component { // eslint-disable-next-line
                             <label htmlFor="password1">Password</label>
                         </div>
                         <br/>
-                        <div class="btn black right" onClick={this.signInWithEmail}>Sign In</div>
-                        <div class="btn-flat right" tabIndex="5" onClick={()=>{
+                        <div className="btn black right" onClick={this.signInWithEmail}>Sign In</div>
+                        <div className="btn-flat right" tabIndex="5" onClick={()=>{
                             this.setState({currentUserBool:false});
                         }}>Sign up</div>
                         <br />

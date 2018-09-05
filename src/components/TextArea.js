@@ -25,7 +25,7 @@ class TextArea extends React.Component {
       });
     }
     catch (error) {
-      console.error(error);
+      if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
     }
   }
 
@@ -36,7 +36,7 @@ class TextArea extends React.Component {
       firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/").update(dataObj);
     }
     catch (error) {
-      console.error(error);
+      if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
     }
   }
 
