@@ -5,7 +5,7 @@ import TextArea from "../../../TextArea";
 
 const Page = props => (
   <div>
-    <h2 class="purple-text">Integrity</h2>
+    <h2 className="purple-text">Integrity</h2>
 
     <h5>
       <em>
@@ -21,7 +21,7 @@ const Page = props => (
       </em>
     </h5>
 
-    <h4 class="purple-text">Required Value Experiences</h4>
+    <h4 className="purple-text">Required Value Experiences</h4>
     <p>
       Complete the following three required value experiences. Have your parent
       or leader sign and date each experience after you finish.
@@ -91,7 +91,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="purple-text">Additional Value Experiences</h4>
+    <h4 className="purple-text">Additional Value Experiences</h4>
     <p>
       Complete three additional value experiences. You may select from the
       following options or write up to two of your own. Your parent or leader
@@ -149,7 +149,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="purple-text">Personalized Value Experiences</h4>
+    <h4 className="purple-text">Personalized Value Experiences</h4>
 
     <ol start="8">
       <li>
@@ -162,7 +162,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="purple-text">Value Project</h4>
+    <h4 className="purple-text">Value Project</h4>
 
     <p>
       After you have completed six integrity value experiences, create a project

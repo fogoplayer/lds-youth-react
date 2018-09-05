@@ -37,7 +37,7 @@ class page extends React.Component {// eslint-disable-next-line
             }}
           >
             <ul
-              class="collapsible expandable z-depth-0"
+              className="collapsible expandable z-depth-0"
               style={{
                 margin: 0,
                 border: "none"
@@ -45,7 +45,7 @@ class page extends React.Component {// eslint-disable-next-line
             >
               <li>
                 <CollapsibleHeader text="Deacon" />
-                <div class="collapsible-body">
+                <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
                       url="duty-to-god/deacon/spiritual-strength"
@@ -64,7 +64,7 @@ class page extends React.Component {// eslint-disable-next-line
               </li>
               <li>
                 <CollapsibleHeader text="Teacher" />
-                <div class="collapsible-body">
+                <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
                       url="duty-to-god/teacher/spiritual-strength"
@@ -83,7 +83,7 @@ class page extends React.Component {// eslint-disable-next-line
               </li>
               <li>
                 <CollapsibleHeader text="Priest" />
-                <div class="collapsible-body">
+                <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
                       url="duty-to-god/priest/spiritual-strength"
@@ -122,7 +122,7 @@ class page extends React.Component {// eslint-disable-next-line
             }}
           >
             <ul
-              class="collapsible expandable z-depth-0"
+              className="collapsible expandable z-depth-0"
               style={{
                 margin: 0,
                 border: "none"
@@ -130,7 +130,7 @@ class page extends React.Component {// eslint-disable-next-line
             >
               <li>
                 <CollapsibleHeader text="Appendix" />
-                <div class="collapsible-body">
+                <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
                       url="duty-to-god/appendix/aaronic-priesthood-ordinances"

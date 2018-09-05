@@ -5,7 +5,7 @@ import TextArea from "../../../TextArea";
 
 const Page = props => (
   <div>
-    <h2 class="green-text">Knowledge</h2>
+    <h2 className="green-text">Knowledge</h2>
 
     <h5>
       <em>
@@ -18,7 +18,7 @@ const Page = props => (
       </em>
     </h5>
 
-    <h4 class="green-text">Required Value Experiences</h4>
+    <h4 className="green-text">Required Value Experiences</h4>
     <p>
       Complete the following three required value experiences. Have your parent
       or leader sign and date each experience after you finish.
@@ -78,7 +78,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="green-text">Additional Value Experiences</h4>
+    <h4 className="green-text">Additional Value Experiences</h4>
     <p>
       Complete three additional value experiences. You may select from the
       following options or write up to two of your own. Your parent or leader
@@ -133,7 +133,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="green-text">Personalized Value Experiences</h4>
+    <h4 className="green-text">Personalized Value Experiences</h4>
 
     <ol start="8">
       <li>
@@ -146,7 +146,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="green-text">Value Project</h4>
+    <h4 className="green-text">Value Project</h4>
 
     <p>
       After you have completed six knowledge value experiences, create a project

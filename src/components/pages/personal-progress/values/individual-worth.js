@@ -5,7 +5,7 @@ import TextArea from "../../../TextArea";
 
 const Page = props => (
   <div>
-    <h2 class="red-text">Individual Worth</h2>
+    <h2 className="red-text">Individual Worth</h2>
 
     <h5>
       <em>
@@ -21,7 +21,7 @@ const Page = props => (
       </em>
     </h5>
 
-    <h4 class="red-text">Required Value Experiences</h4>
+    <h4 className="red-text">Required Value Experiences</h4>
     <p>
       Complete the following three required value experiences. Have your parent
       or leader sign and date each experience after you finish.
@@ -79,7 +79,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="red-text">Additional Value Experiences</h4>
+    <h4 className="red-text">Additional Value Experiences</h4>
     <p>
       Complete three additional value experiences. You may select from the
       following options or write up to two of your own. Your parent or leader
@@ -140,7 +140,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="red-text">Personalized Value Experiences</h4>
+    <h4 className="red-text">Personalized Value Experiences</h4>
 
     <ol start="8">
       <li>
@@ -153,7 +153,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="red-text">Value Project</h4>
+    <h4 className="red-text">Value Project</h4>
 
     <p>
       After you have completed six individual worth value experiences, create a

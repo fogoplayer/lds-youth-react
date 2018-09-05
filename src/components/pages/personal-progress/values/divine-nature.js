@@ -5,9 +5,8 @@ import Signoff from "../../../Signoff";
 import TextArea from "../../../TextArea";
 
 const Page = props => (
-  <div>
-    class="container">
-    <h2 class="blue-text">Divine Nature</h2>
+  <div className="container">
+    <h2 className="blue-text">Divine Nature</h2>
     <h5>
       <em>
         <p>
@@ -23,7 +22,7 @@ const Page = props => (
         </p>
       </em>
     </h5>
-    <h4 class="blue-text">Required Value Experiences</h4>
+    <h4 className="blue-text">Required Value Experiences</h4>
     <p>
       Complete the following three required value experiences. Have your parent
       or leader sign and date each experience after you finish.
@@ -76,7 +75,7 @@ const Page = props => (
         <Signoff color="blue" id="divineNatureSignoff3" />
       </li>
     </ol>
-    <h4 class="blue-text">Additional Value Experiences</h4>
+    <h4 className="blue-text">Additional Value Experiences</h4>
     <p>
       Complete three additional value experiences. You may select from the
       following options or write up to two of your own. Your parent or leader
@@ -154,7 +153,7 @@ const Page = props => (
         <TextArea id="divineNatureGoal7" />
       </li>
     </ol>
-    <h4 class="blue-text">Personalized Value Experiences</h4>
+    <h4 className="blue-text">Personalized Value Experiences</h4>
     <ol start="8">
       <li>
         <TextArea id="divineNatureGoal8" />
@@ -165,7 +164,7 @@ const Page = props => (
         <Signoff color="blue" id="divineNatureSignoff9" />
       </li>
     </ol>
-    <h4 class="blue-text">Value Project</h4>
+    <h4 className="blue-text">Value Project</h4>
     <p>
       After you have completed six divine nature value experiences, create a
       project that will help you practice what you have learned. This should be

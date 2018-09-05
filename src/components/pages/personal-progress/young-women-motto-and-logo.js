@@ -4,8 +4,8 @@ const Page = props => (
   <div>
     <h2>Young Women Motto And Logo</h2>
 
-    <div class="row">
-      <div class="col s12 l3">
+    <div className="row">
+      <div className="col s12 l3">
         <center>
           <img
             style={{ width: "100%", maxWidth: "300px", height: "auto" }}
@@ -14,7 +14,7 @@ const Page = props => (
           />
         </center>
       </div>
-      <div class="col s12 l9">
+      <div className="col s12 l9">
         <p>
           The Young Women motto is "stand for truth and righteousness." The
           Young Women logo is a torch surrounded by the Young Women motto. The

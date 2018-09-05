@@ -5,7 +5,7 @@ import TextArea from "../../../TextArea";
 
 const Page = props => (
   <div>
-    <h2 class="yellow-text text-darken-1">Good Works</h2>
+    <h2 className="yellow-text text-darken-1">Good Works</h2>
 
     <h5>
       <em>
@@ -18,7 +18,7 @@ const Page = props => (
       </em>
     </h5>
 
-    <h4 class="yellow-text text-darken-1">Required Value Experiences</h4>
+    <h4 className="yellow-text text-darken-1">Required Value Experiences</h4>
     <p>
       Complete the following three required value experiences. Have your parent
       or leader sign and date each experience after you finish.
@@ -64,7 +64,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="yellow-text text-darken-1">Additional Value Experiences</h4>
+    <h4 className="yellow-text text-darken-1">Additional Value Experiences</h4>
     <p>
       Complete three additional value experiences. You may select from the
       following options or write up to two of your own. Your parent or leader
@@ -94,7 +94,7 @@ const Page = props => (
         least a month. Record in your journal your actions and feelings about
         how this improved your relationship with that person.
         <Signoff color="yellow" id="goodWorksSignoff5" />
-        <div contextmenu="true" class="textArea" id="goodWorksGoal5" />
+        <div contextmenu="true" className="textArea" id="goodWorksGoal5" />
       </li>
 
       <li>
@@ -125,7 +125,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="yellow-text text-darken-1">Personalized Value Experiences</h4>
+    <h4 className="yellow-text text-darken-1">Personalized Value Experiences</h4>
 
     <ol start="8">
       <li>
@@ -138,7 +138,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <h4 class="yellow-text text-darken-1">Value Project</h4>
+    <h4 className="yellow-text text-darken-1">Value Project</h4>
 
     <p>
       After you have completed six good works value experiences, create a
