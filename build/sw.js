@@ -22,7 +22,7 @@ if (workbox) {
   workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "d7235fead4452dddb2914b71b9ec178b"
+    "revision": "3428c1d7a52ff710094180dc9c6e6085"
   },
   {
     "url": "images/duty-to-god.jpg",
@@ -38,7 +38,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "137a405d4335936964318b065e0b257f"
+    "revision": "bb72e98d5743affcd619b0b70ea40176"
   },
   {
     "url": "manifest.json",
@@ -54,7 +54,7 @@ if (workbox) {
   },
   {
     "url": "service-worker.js",
-    "revision": "5d666a85ef05ed4b19be069cec28a9a2"
+    "revision": "50fad41e01a0cc5022650d02345f2dbc"
   },
   {
     "url": "static/css/main.2f44de79.css",
@@ -329,8 +329,8 @@ if (workbox) {
     "revision": "2a09dc7c22329b81df605cf19bc64515"
   },
   {
-    "url": "static/js/main.a0e0f5b4.js",
-    "revision": "e25d691e9fa0f9edb04ba75d22caee71"
+    "url": "static/js/main.dbf65f6a.js",
+    "revision": "d6ecea2fba17d4881eee52922dc4ef2e"
   },
   {
     "url": "static/media/MaterialIcons-Regular.012cf6a1.woff",
