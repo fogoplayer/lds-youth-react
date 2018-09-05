@@ -115,7 +115,7 @@ const Page = props => (
     </div>
 
     <p>Young Womanhood Recognition Date:</p>
-    <Signoff />
+    <Signoff id="youngWomanhoodRecognitionDate"/>
   </div>
 );
 
