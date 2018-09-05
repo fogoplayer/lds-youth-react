@@ -5,7 +5,7 @@ import Signoff from "../../../Signoff";
 import TextArea from "../../../TextArea";
 
 const Page = props => (
-  <div className="container">
+  <div>
     <h2 className="blue-text">Divine Nature</h2>
     <h5>
       <em>

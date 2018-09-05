@@ -43,22 +43,23 @@ const App = props => {
   }
   return (
     <div>
-    <Navbar key="navbar" brand="LDS Youth" />
-    <div key="container" className="container">
+      <Navbar key="navbar" brand="LDS Youth" />
+      <div key="container" className="container">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route
+            path="/"
+            component={props => (
+              <Page timestamp={new Date().toString()} {...props} />
+            )}
+          />
+        </Switch>
+      </div>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route
-          path="/"
-          component={props => (
-            <Page timestamp={new Date().toString()} {...props} />
-          )}
-        />
+        <Route path="/" component={props=>(<Sidenav key="sidenav" timestamp={new Date().toString()} {...props} />)} />
       </Switch>
     </div>
-    <Sidenav key="sidenav" />
-  </div>
   );
 }
 
 export default App;
-//      <Route path="/duty-to-god" component={Page} />
