@@ -10,8 +10,6 @@ class Navbar extends React.Component { // eslint-disable-next-line
     this.state = { displayName: "Sign In" };
   }
   componentDidMount() {
-    console.log("state:", this.state)
-
     //Initialize materialize components
     let elems = document.querySelectorAll(".dropdown-trigger");
     M.Dropdown.init(elems, {
@@ -22,7 +20,6 @@ class Navbar extends React.Component { // eslint-disable-next-line
     });
 
     firebase.auth().onAuthStateChanged(user => {
-      console.error("State Change", this.state.displayName)
       if (user) {
         this.setState({ displayName: firebase.auth().currentUser.displayName })
       }

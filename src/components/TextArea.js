@@ -32,8 +32,6 @@ class TextArea extends React.Component {
   componentWillUnmount() {
     let dataObj = {}
     dataObj[this.props.id] = document.getElementById(this.props.id).innerHTML;
-    console.log(window.location.pathname)
-    console.info('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/")
     try {
       firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/").update(dataObj);
     }

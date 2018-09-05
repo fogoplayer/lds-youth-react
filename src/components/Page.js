@@ -27,12 +27,8 @@ class Page extends React.Component {
         module => {
           //Use additional specifier to set active attributes
           this.setState({ module: module.default });
-          console.log("componentPath.substring(7) !== window.location.pathname?", componentPath.substring(7) !== window.location.pathname)
-          console.log("document.getElementById(window.location.pathname.substring(componentPath.length))", document.getElementById(
             window.location.pathname.substring(componentPath.length + 1)
           ));
-          console.log("substring", window.location.pathname.substring(componentPath.length))
-          console.log("componentPath", componentPath);
           if (
             componentPath.substring(7) !== window.location.pathname &&
             document.getElementById(
@@ -48,7 +44,6 @@ class Page extends React.Component {
         },
         //Failure
         e => {
-          console.error(e);
           //If user accidentally put a slash at the end, render anyway
           if (componentPath.charAt(componentPath.length - 1) === "/") {
             importComponent(
@@ -59,9 +54,10 @@ class Page extends React.Component {
             path = path.slice(0, -1);
             let componentPath = "";
             path.forEach(pathSegment => {
-              componentPath += "/" + pathSegment;
+                componentPath += "/" + pathSegment;
             });
             importComponent(componentPath);
+            console.error(e);
           }
         }
       );

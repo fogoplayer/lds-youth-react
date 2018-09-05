@@ -19,7 +19,6 @@ class Signoff extends React.Component {
     })
     try {
       firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + window.location.pathname + "/" + this.props.id).once('value').then(response => {
-        console.warn(response.val())
         if (response.val()) {
           this.setState({ text: JSON.parse(JSON.stringify(response.val())) });
         }
@@ -33,8 +32,6 @@ class Signoff extends React.Component {
   componentWillUnmount() {
     let dataObj = {}
     dataObj[this.props.id] = document.getElementById(this.props.id).innerHTML;
-    console.log(window.location.pathname)
-    console.info('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/")
     try {
       firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/").update(dataObj);
     }

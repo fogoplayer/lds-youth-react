@@ -23,7 +23,6 @@ class Page extends React.Component {
         }
         try {
             firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + window.location.pathname + "/" + this.textToId(this.props.text)).once('value').then(response => {
-                console.warn(response.val())
                 if (response.val()) {
                     this.ref.current.checked = response.val();
                 }
@@ -37,7 +36,6 @@ class Page extends React.Component {
     componentWillUnmount() {
         let dataObj = {}
         dataObj[this.textToId(this.props.text)] = this.ref.current.checked;
-        console.log(dataObj);
         try {
             firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/").update(dataObj);
         }
@@ -63,7 +61,6 @@ class Page extends React.Component {
 
     updateAllMatchesOnClick() {
         const elems = document.getElementsByClassName(this.textToId(this.props.text));
-        console.log(elems);
         for (let i = 0; i < elems.length; i++) {
             elems.item(i).checked = this.ref.current.checked;
         }
