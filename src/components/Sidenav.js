@@ -81,7 +81,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                                     <ul>
                                       <li>
                                         <Link
-                                          to="/duty-to-god/deacon/spiritual-strength/pray-and-study"
+                                          to="/duty-to-god/deacon/spiritual-strength/pray-and-study-the-scriptures"
                                           className="indent-3"
                                         >
                                           Pray and Study the Scriptures
@@ -201,7 +201,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                                     <ul>
                                       <li>
                                         <Link
-                                          to="/duty-to-god/teacher/spiritual-strength/pray-and-study"
+                                          to="/duty-to-god/teacher/spiritual-strength/pray-and-study-the-scriptures"
                                           className="indent-3"
                                         >
                                           Pray and Study the Scriptures
@@ -317,7 +317,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                                     <ul>
                                       <li>
                                         <Link
-                                          to="/duty-to-god/priest/spiritual-strength/pray-and-study"
+                                          to="/duty-to-god/priest/spiritual-strength/pray-and-study-the-scriptures"
                                           className="indent-3"
                                         >
                                           Pray and Study the Scriptures
