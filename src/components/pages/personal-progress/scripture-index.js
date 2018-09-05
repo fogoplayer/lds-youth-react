@@ -1,5 +1,5 @@
-import React from "react";
-import ScriptureIndexItem from "../../ScriptureIndexItem"
+import React from"react";
+import ScriptureIndexItem from"../../ScriptureIndexItem"
 
 const Page = props => (
     <div>
@@ -13,28 +13,28 @@ const Page = props => (
         <div className="row">
             <div className="col s12 m6 l4">
                 <h4>Faith</h4>
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/ot/isa/53.3-12" text="Isaiah 53:3-12 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/ot/isa/53.3-12" text="Isaiah 53:3-12" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/ot/mal/3.8-12" text="Malachi 3:8-12" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/matt/26.26-28" text="Matthew 26:26-28" />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/mark/14.22-24" text="Mark 14:22-24 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/mark/14.22-24" text="Mark 14:22-24" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/luke/22.17-20" text="Luke 22:17-20" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/john/3.16-17" text="John 3:16-17" />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/rom/5" text="Romans 5 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/1-cor/15.22" text="1 Corinthians 15:22 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/heb/11" text="Hebrews 11 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/rev/12.7-9" text="Revelation 12:7-9 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/2-ne/9.1-28" text="2 Nephi 9:1-28 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/2-ne/11.4-7" text="2 Nephi 11:4-7 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/7.11-13" text="Alma 7:11-13 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/32.17-43" text="Alma 32:17-43 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/34.8-17" text="Alma 34:8-17 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/56.45-48" text="Alma 56:45-48 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/57.21" text="Alma 57:21 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/ether/12.6-22" text="Ether 12:6-22 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/19.15-20" text="D&C 19:15-20 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/rom/5" text="Romans 5" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/1-cor/15.22" text="1 Corinthians 15:22" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/heb/11" text="Hebrews 11" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/rev/12.7-9" text="Revelation 12:7-9" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/2-ne/9.1-28" text="2 Nephi 9:1-28" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/2-ne/11.4-7" text="2 Nephi 11:4-7" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/7.11-13" text="Alma 7:11-13" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/32.17-43" text="Alma 32:17-43" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/34.8-17" text="Alma 34:8-17" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/56.45-48" text="Alma 56:45-48" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/57.21" text="Alma 57:21" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/ether/12.6-22" text="Ether 12:6-22" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/19.15-20" text="D&C 19:15-20" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/76.50-113" text="D&C 76:50-113" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/93.33-34" text="D&C 93:33-34" />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/119" text="D&C 119 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/119" text="D&C 119" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/pgp/moses/4.1-4" text="Moses 4:1-4" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/pgp/abr/3.24-27" text="Abraham 3:24-27" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/pgp/js-h/1.11-20" text="Joseph Smith-History 1:11-20" />
@@ -48,12 +48,12 @@ const Page = props => (
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/john/15.12" text="John 15:12" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/gal/5.22-23" text="Galatians 5:22-23" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/col/3.12-17" text="Colossians 3:12-17" />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/2-pet/1.4-7" text="2 Peter 1 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/1-jn/4.21" text="1 John 4:21 " />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/7.23-24" text="Alma 7:23-24 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/2-pet/1.4-7" text="2 Peter 1" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/1-jn/4.21" text="1 John 4:21" />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/alma/7.23-24" text="Alma 7:23-24" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/moro/7.44-48" text="Moroni 7:44-48" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/20.77" text="D&C 20:77, 79" />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/38.27" text="D&C 38:27 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/38.27" text="D&C 38:27" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/109.8" text="D&C 109:8" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/121.45" text="D&C 121:45" />
             </div>
@@ -64,7 +64,7 @@ const Page = props => (
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/john/13.34" text="John 13:34" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/1-cor/12.4-12" text="1 Corinthians 12:4-12" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/nt/1-cor/13" text="1 Corinthians 13" />
-                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/moro/7.12-13" text="Moroni 7:12-13 " />
+                <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/moro/7.12-13" text="Moroni 7:12-13" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/bofm/moro/10.8-18" text="Moroni 10:8-18" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/18.10" text="D&C 18:10" />
                 <ScriptureIndexItem url="https://www.lds.org/scriptures/dc-testament/dc/46.11-26" text="D&C 46:11-26" />
