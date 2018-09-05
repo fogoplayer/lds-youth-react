@@ -37,7 +37,7 @@ class Navbar extends React.Component { // eslint-disable-next-line
             <a data-target="sidenav" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-            <Link to="/" className="brand-logo">
+            <Link to="/" className="brand-logo left" style={{left:"unset"}}>
               {this.props.brand}
             </Link>
             <ul className="right">
