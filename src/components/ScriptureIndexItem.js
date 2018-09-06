@@ -22,25 +22,31 @@ class Page extends React.Component {
                 });
         }
         try {
-            firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + window.location.pathname + "/" + this.textToId(this.props.text)).once('value').then(response => {
-                if (response.val()) {
+            firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).get().then(response => {
+                         const data = response.data()[this.state.windowLocation] ? response.data()[this.state.windowLocation][this.textToId(this.props.text)] : false;
+                 if (response.val()) {
                     this.ref.current.checked = response.val();
                 }
             });
         }
         catch (error) {
-      if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
+            if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
         }
     }
 
     componentWillUnmount() {
-        let dataObj = {}
-        dataObj[this.textToId(this.props.text)] = this.ref.current.checked;
+        let dataObj = {};
+        dataObj[this.state.windowLocation] = {};
+        dataObj[this.state.windowLocation][this.textToId(this.props.text)] = this.ref.current.checked;
         try {
-            firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/").update(dataObj);
+            firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, {
+                merge: true
+            });
         }
         catch (error) {
-      if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
+            if (error.message !== "Cannot read property 'uid' of null") {
+                console.error(error);
+            }
         }
     }
 

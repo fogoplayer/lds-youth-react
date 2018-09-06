@@ -19,7 +19,7 @@ class Signoff extends React.Component {
     })
     try {
       firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).get().then(response => {
-        const data = response.data()[this.state.windowLocation][this.props.id];
+        const data = response.data()[this.state.windowLocation] ? response.data()[this.state.windowLocation][this.props.id] : false;
         if (data) {
           this.setState({ text: JSON.parse(JSON.stringify(data)) });
         }
