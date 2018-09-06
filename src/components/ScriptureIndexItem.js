@@ -24,8 +24,8 @@ class Page extends React.Component {
         try {
             firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).get().then(response => {
                          const data = response.data()[this.state.windowLocation] ? response.data()[this.state.windowLocation][this.textToId(this.props.text)] : false;
-                 if (response.val()) {
-                    this.ref.current.checked = response.val();
+                 if (data) {
+                    this.ref.current.checked = data;
                 }
             });
         }
