@@ -18,22 +18,31 @@ class Signoff extends React.Component {
       this.componentWillUnmount();
     })
     try {
-      firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + window.location.pathname + "/" + this.props.id).once('value').then(response => {
-        if (response.val()) {
-          this.setState({ text: JSON.parse(JSON.stringify(response.val())) });
+      firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).get().then(response => {
+        const data = response.data()[this.state.windowLocation][this.props.id];
+        if (data) {
+          this.setState({ text: JSON.parse(JSON.stringify(data)) });
         }
       });
     }
     catch (error) {
       if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
+      else {
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+            this.componentDidMount();
+          }
+        });
+      }
     }
   }
 
   componentWillUnmount() {
-    let dataObj = {}
-    dataObj[this.props.id] = document.getElementById(this.props.id).innerHTML;
+    let dataObj = {};
+    dataObj[this.state.windowLocation]={};
+    dataObj[this.state.windowLocation][this.props.id] = document.getElementById(this.props.id).innerHTML;
     try {
-      firebase.database().ref('/users/' + firebase.auth().currentUser.uid + "/" + this.state.windowLocation + "/").update(dataObj);
+      firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, { merge: true });
     }
     catch (error) {
       if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
