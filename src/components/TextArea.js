@@ -27,6 +27,13 @@ class TextArea extends React.Component {
     }
     catch (error) {
       if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
+      else {
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+            this.componentDidMount();
+          }
+        });
+      }
     }
   }
 
