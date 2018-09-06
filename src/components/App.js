@@ -39,6 +39,14 @@ const App = props => {
     if (!firebase || !firebase.apps.length) {
       firebase.initializeApp(config);
       firebase.firestore().settings({timestampsInSnapshots: true});
+      firebase.firestore().enablePersistence()
+        .catch(function(err) {
+          if (err.code == 'failed-precondition') {
+            alert("Warning: You have LDS Youth open in another tab, so your data will not be available while offline in this tab. You will still be able to access site content, but if you would like your content to sync offline please close the app elsewhere.");
+          }else if (err.code == 'unimplemented') {
+            M.toast({html:"Warning: your browser does not support saving your data offline. Please update your browser if you would like to use LDS Youth without an internet connection"});
+          }
+        });
     }
   
   }
