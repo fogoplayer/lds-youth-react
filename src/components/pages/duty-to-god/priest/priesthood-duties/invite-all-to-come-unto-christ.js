@@ -38,9 +38,9 @@ const Page = props => (
 
     <h2>Act</h2>
     <p>My plan to improve as a home teacher:</p>
-    <TextArea id="priestPDInvite1" />
+    <TextArea id="text1" />
     <p>Names of people and how I will help them come unto Christ:</p>
-    <TextArea id="priestPDInvite2" />
+    <TextArea id="text2" />
 
     <h2>Share</h2>
     <p>

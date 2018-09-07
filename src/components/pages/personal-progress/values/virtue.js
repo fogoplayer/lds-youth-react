@@ -48,8 +48,8 @@ const Page = props => (
           Proverbs 31:1031
         </a>. In your journal write the promised blessings of being sexually
         clean and pure and your commitment to be chaste.
-        <Signoff color="yellow" id="virtueSignoff1" />
-        <TextArea id="virtueGoal1" />
+        <Signoff color="yellow" id="sign1" />
+        <TextArea id="text1" />
       </li>
 
       <li>
@@ -73,8 +73,8 @@ const Page = props => (
           121:4546
         </a>. In your journal record what you have learned, and write about a
         time when you felt the guidance of the Holy Ghost.
-        <Signoff color="yellow" id="virtueSignoff2" />
-        <TextArea id="virtueGoal2" />
+        <Signoff color="yellow" id="sign2" />
+        <TextArea id="text2" />
       </li>
 
       <li>
@@ -85,8 +85,8 @@ const Page = props => (
         yourself, and make a list of the things you can and will do to prepare
         yourself to be pure and worthy to enter the temple and receive all the
         blessings our Heavenly Father has promised His beloved daughters.
-        <Signoff color="yellow" id="virtueSignoff3" />
-        <TextArea id="virtueGoal3" />
+        <Signoff color="yellow" id="sign3" />
+        <TextArea id="text3" />
       </li>
 
       <li>
@@ -109,8 +109,8 @@ const Page = props => (
         the commandments, and become more like Jesus Christ. Determine what you
         can do daily to remain pure and worthy, and write your plan in your
         journal.
-        <Signoff color="yellow" id="virtueSignoff4" />
-        <TextArea id="virtueGoal4" />
+        <Signoff color="yellow" id="sign4" />
+        <TextArea id="text4" />
       </li>
     </ol>
 

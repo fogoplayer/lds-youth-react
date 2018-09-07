@@ -58,7 +58,7 @@ const Page = props => (
     <p>
       My plan for strengthening my habit of regular prayer and scripture study:
     </p>
-    <TextArea id="teacherSSScriptures1" />
+    <TextArea id="text1" />
 
     <h4>Share</h4>
     <p>

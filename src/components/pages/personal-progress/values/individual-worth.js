@@ -43,8 +43,8 @@ const Page = props => (
           Joseph Smith-History 1:1-20
         </a>. Write in your journal how these scriptures teach you that Heavenly
         Father knows you, loves you, and is mindful of you.
-        <Signoff color="red" id="individualWorthSignoff1" />
-        <TextArea id="individualWorthGoal1" />
+        <Signoff color="red" id="sign1" />
+        <TextArea id="text1" />
       </li>
 
       <li>
@@ -58,7 +58,7 @@ const Page = props => (
         receive a patriarchal blessing and how it can teach you of your worth
         and identity and be a guide throughout your life. If you have not
         received your blessing, prepare to receive it.
-        <Signoff color="red" id="individualWorthSignoff2" />
+        <Signoff color="red" id="sign2" />
       </li>
 
       <li>
@@ -74,8 +74,8 @@ const Page = props => (
         others. Acknowledge them verbally or in writing. In your journal write
         what you have learned about the worth of individuals and how your own
         confidence grows when you build others.
-        <Signoff color="red" id="individualWorthSignoff3" />
-        <TextArea id="individualWorthGoal3" />
+        <Signoff color="red" id="sign3" />
+        <TextArea id="text3" />
       </li>
     </ol>
 
@@ -97,8 +97,8 @@ const Page = props => (
         like to accomplish in your life, including becoming a wife and mother.
         Then write a plan that will help you achieve your goals. Share this plan
         with a family member, leader, or friend.
-        <Signoff color="red" id="individualWorthSignoff4" />
-        <TextArea id="individualWorthGoal4" />
+        <Signoff color="red" id="sign4" />
+        <TextArea id="text4" />
       </li>
 
       <li>
@@ -106,8 +106,8 @@ const Page = props => (
         in your community, or at church. How did your participation in this
         activity strengthen your feelings of individual worth and
         self-confidence? Record your thoughts in your journal.
-        <Signoff color="red" id="individualWorthSignoff5" />
-        <TextArea id="individualWorthGoal5" />
+        <Signoff color="red" id="sign5" />
+        <TextArea id="text5" />
       </li>
 
       <li>
@@ -116,7 +116,7 @@ const Page = props => (
         as much information about your family history as possible. Then complete
         a pedigree chart of your family and list the temple ordinances that have
         been completed for each person.
-        <Signoff color="red" id="individualWorthSignoff6" />
+        <Signoff color="red" id="sign6" />
       </li>
 
       <li>
@@ -135,8 +135,8 @@ const Page = props => (
         down positive qualities the Lord has given you. List your gifts in your
         journal, and write how you can continue to develop these gifts and use
         them to serve your family and others.
-        <Signoff color="red" id="individualWorthSignoff7" />
-        <TextArea id="individualWorthGoal7" />
+        <Signoff color="red" id="sign7" />
+        <TextArea id="text7" />
       </li>
     </ol>
 
@@ -144,12 +144,12 @@ const Page = props => (
 
     <ol start="8">
       <li>
-        <TextArea id="individualWorthGoal8" />
-        <Signoff color="red" id="individualWorthSignoff8" />
+        <TextArea id="text8" />
+        <Signoff color="red" id="sign8" />
       </li>
       <li>
-        <TextArea id="individualWorthGoal9" />
-        <Signoff color="red" id="individualWorthSignoff9" />
+        <TextArea id="text9" />
+        <Signoff color="red" id="sign9" />
       </li>
     </ol>
 
@@ -172,9 +172,9 @@ const Page = props => (
         <li>Learn a marketable skill that could help you in a current or future occupation.</li>
     </ul>    
     <p>
-      <TextArea id="individualWorthGoalVP" />
+      <TextArea id="textVP" />
     </p>
-    <Signoff color="red" id="individualWorthSignoffVP" />
+    <Signoff color="red" id="signVP" />
   </div>
 );
 

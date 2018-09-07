@@ -43,7 +43,7 @@ const Page = props => (
         kind to others, getting up on time, or other decisions. Discuss with a
         parent or leader how regular scripture study and prayer helped you make
         correct decisions.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff1" />
+        <Signoff color="orange" id="sign1" />
       </li>
 
       <li>
@@ -57,8 +57,8 @@ const Page = props => (
         selective about television, music, books, or other media, or you might
         improve your modesty, language, or honesty. After three weeks share your
         progress with your family, your class, or a leader.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff2" />
-        <TextArea id="choiceAndAccountabilityGoal2" />
+        <Signoff color="orange" id="sign2" />
+        <TextArea id="text2" />
       </li>
 
       <li>
@@ -71,8 +71,8 @@ const Page = props => (
         </a>. With a parent or leader, discuss the blessings and
         responsibilities of agency. Record in your journal your understanding of
         agency and the consequences of choices and actions.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff3" />
-        <TextArea id="choiceAndAccountabilityGoal3" />
+        <Signoff color="orange" id="sign3" />
+        <TextArea id="text3" />
       </li>
     </ol>
 
@@ -101,8 +101,8 @@ const Page = props => (
         </a>. Record in your journal what repentance means to you. Study the
         process of repentance, pray for guidance, and apply the principles of
         repentance in your life.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff4" />
-        <TextArea id="choiceAndAccountabilityGoal4" />
+        <Signoff color="orange" id="sign4" />
+        <TextArea id="text4" />
       </li>
 
       <li>
@@ -124,8 +124,8 @@ const Page = props => (
         </a>. Then record in your journal how the Holy Ghost can help you make
         good decisions in your daily life. Pray for and live worthy of the
         constant companionship of the Holy Ghost.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff5" />
-        <TextArea id="choiceAndAccountabilityGoal5" />
+        <Signoff color="orange" id="sign5" />
+        <TextArea id="text5" />
       </li>
 
       <li>
@@ -135,8 +135,8 @@ const Page = props => (
         dating, and the media to be morally clean and worthy to enter the
         temple. Record in your journal how these choices will help you remain
         free and happy.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff6" />
-        <TextArea id="choiceAndAccountabilityGoal6" />
+        <Signoff color="orange" id="sign6" />
+        <TextArea id="text6" />
       </li>
 
       <li>
@@ -150,8 +150,8 @@ const Page = props => (
         you to meet your most important needs before satisfying your wants.
         Record in your journal what you have learned and how following these
         patterns will continue to bless your life.
-        <Signoff color="orange" id="choiceAndAccountabilitySignoff7" />
-        <TextArea id="choiceAndAccountabilityGoal7" />
+        <Signoff color="orange" id="sign7" />
+        <TextArea id="text7" />
       </li>
     </ol>
 
@@ -159,12 +159,12 @@ const Page = props => (
 
     <ol start="8">
       <li>
-        <TextArea id="choiceAndAccountabilityGoal8" />
-        <Signoff color="orange" id="choiceAndAccountablilitySignoff8" />
+        <TextArea id="text8" />
+        <Signoff color="orange" id="sign8" />
       </li>
       <li>
-        <TextArea id="choiceAndAccountabilityGoal9" />
-        <Signoff color="orange" id="choiceAndAccountablilitySignoff9" />
+        <TextArea id="text9" />
+        <Signoff color="orange" id="sign9" />
       </li>
     </ol>
 
@@ -186,8 +186,8 @@ const Page = props => (
     <li>Choose to be more orderly in your home by completing a cleaning or organizing project. Record in your journal how doing this helped you in other areas of your life.</li>
 </ul>
     <p>
-      <TextArea id="choiceAndAccountabilityGoalVP" />
-      <Signoff color="orange" id="choiceAndAccountablilitySignoffVP" />
+      <TextArea id="textVP" />
+      <Signoff color="orange" id="signVP" />
     </p>
   </div>
 );

@@ -23,7 +23,7 @@ const Page = props => (
       your list with members of your quorum.
     </p>
     <TextArea
-      id="teacherPDServe1"
+      id="text1"
       placeholder="Example: &quot;Let us be faithful&quot; (1 Nephi 4:1)"
     />
     <p>
@@ -35,9 +35,9 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>My quorum’s plan to give service:</p>
-    <TextArea id="teacherPDServe2" />
+    <TextArea id="text2" />
     <p>My personal plan to give service: </p>
-    <TextArea id="teacherPDServe3" />
+    <TextArea id="text3" />
 
     <h4>Share</h4>
     <p>

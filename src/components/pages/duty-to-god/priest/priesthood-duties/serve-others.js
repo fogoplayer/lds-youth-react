@@ -42,9 +42,9 @@ const Page = props => (
 
     <h2>Act</h2>
     <p>My quorum’s plan to give service:</p>
-    <TextArea id="priestPDServe1" />
+    <TextArea id="text1" />
     <p>My personal plan to give service: </p>
-    <TextArea id="priestPDServe2" />
+    <TextArea id="text2" />
 
     <h2>Share</h2>
     <p>

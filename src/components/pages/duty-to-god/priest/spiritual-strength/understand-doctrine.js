@@ -74,12 +74,12 @@ const Page = props => (
       In preparation to become a full-time missionary, make a list of questions
       someone might ask about the topics you have studied, and discuss these
       questions with a parent or priesthood leader.
-      <TextArea id="priestSSDoctrine1" />
+      <TextArea id="text1" />
     </p>
 
     <h4>Act</h4>
     <p>Doctrinal topics I will study:</p>
-    <TextArea id="priestSSDoctrine2" />
+    <TextArea id="text2" />
 
     <h4>Share</h4>
     <p>
@@ -89,7 +89,7 @@ const Page = props => (
       full-time missionaries.
     </p>
     <p>When I will teach about these topics:</p>
-    <TextArea id="priestSSDoctrine3" />
+    <TextArea id="text3" />
   </div>
 );
 

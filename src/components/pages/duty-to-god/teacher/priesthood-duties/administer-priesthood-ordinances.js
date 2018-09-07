@@ -38,12 +38,12 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>My plan to prepare the sacrament in a reverent and dignified manner:</p>
-    <TextArea id="teacherPDAdminister1" />
+    <TextArea id="text1" />
     <p>
       My plan to set a good example for deacons when I am asked to pass the
       sacrament:
     </p>
-    <TextArea id="teacherPDAdminister2" />
+    <TextArea id="text2" />
 
     <h4>Share</h4>
     <p>

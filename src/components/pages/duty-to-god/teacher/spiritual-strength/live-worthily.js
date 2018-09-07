@@ -27,7 +27,7 @@ const Page = props => (
       Repeat steps 1 and 2 above for each of these blessings.
     </p>
 
-    <TextArea id="teacherSSWorthily1" />
+    <TextArea id="text1" />
 
     <p>
       Study{" "}
@@ -49,12 +49,12 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>Sections from For the Strength of Youth I will study</p>
-    <TextArea id="teacherSSWorthily2" />
+    <TextArea id="text2" />
     <p>
       Specific things I will do to live these standards and help others do the
       same:
     </p>
-    <TextArea id="teacherSSWorthily3" />
+    <TextArea id="text3" />
 
     <h4>Share</h4>
     <p>

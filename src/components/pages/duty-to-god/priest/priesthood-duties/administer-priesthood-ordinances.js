@@ -18,7 +18,7 @@ const Page = props => (
       </a>. What do you learn from these verses about your duty to administer
       the sacrament?
     </p>
-    <TextArea id="priestPDAdminister1" />
+    <TextArea id="text1" />
     <p>
       Thoughtfully read the sacrament prayers (see{" "}
       <a href="https://www.lds.org/scriptures/dc-testament/dc/20.77">
@@ -28,7 +28,7 @@ const Page = props => (
       Write down your thoughts about the meaning of the covenants and sacred
       words in these prayers.
     </p>
-    <TextArea id="priestPDAdminister2" />
+    <TextArea id="text2" />
     <p>Write your answers to these questions:</p>
 
     <ol>
@@ -43,7 +43,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <TextArea id="priestPDAdminister3" />
+    <TextArea id="text3" />
 
     <p>
       Attend a baptismal service, and share with a parent or quorum leader what
@@ -55,12 +55,12 @@ const Page = props => (
       My plan to set a good example for other Aaronic Priesthood holders as I
       bless the sacrament:
     </p>
-    <TextArea id="priestPDAdminister4" />
+    <TextArea id="text4" />
     <p>
       My plan to help make the sacrament a more meaningful experience for the
       members of the congregation:
     </p>
-    <TextArea id="priestPDAdminister5" />
+    <TextArea id="text5" />
 
     <h2>Share</h2>
     <p>

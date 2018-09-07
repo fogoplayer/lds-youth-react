@@ -24,7 +24,7 @@ const Page = props => (
       Consider ways you can follow their example.
     </p>
 
-    <TextArea id="teacherPDInvite1" />
+    <TextArea id="text1" />
 
     <p>
       Continue your efforts to share the gospel. Think about family members and
@@ -35,9 +35,9 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>My plan to become a good home teacher:</p>
-    <TextArea id="teacherPDInvite2" />
+    <TextArea id="text2" />
     <p>Names of people and how I will help them come unto Christ:</p>
-    <TextArea id="teacherPDInvite3" />
+    <TextArea id="text3" />
 
     <h4>Share</h4>
     <p>

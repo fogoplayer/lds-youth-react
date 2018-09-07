@@ -44,8 +44,8 @@ const Page = props => (
         to apply gospel principles to your present and future home and family
         life. Write in your journal what you have learned about knowledge, and
         discuss it with a family member or Young Women leader.
-        <Signoff color="green" id="knowledgeSignoff1" />
-        <TextArea id="knowledgeGoal1" />
+        <Signoff color="green" id="text1" />
+        <TextArea id="sign1" />
       </li>
 
       <li>
@@ -57,8 +57,8 @@ const Page = props => (
         future family or home (for example, playing the piano, singing,
         budgeting, time management, cooking, sewing, or child care). Share with
         your family, class, or Young Women leader what you have learned.
-        <Signoff color="green" id="knowledgeSignoff2" />
-        <TextArea id="knowledgeGoal2" />
+        <Signoff color="green" id="text2" />
+        <TextArea id="sign2" />
       </li>
 
       <li>
@@ -73,8 +73,8 @@ const Page = props => (
         use this article of faith as a guide for all you do so the Holy Ghost
         will be your constant companion. Share those thoughts with a parent or
         leader.
-        <Signoff color="green" id="knowledgeSignoff3" />
-        <TextArea id="knowledgeGoal3" />{" "}
+        <Signoff color="green" id="text3" />
+        <TextArea id="sign3" />{" "}
       </li>
     </ol>
 
@@ -95,8 +95,8 @@ const Page = props => (
         give the talk in a sacrament meeting, in a Young Women meeting, to your
         family, or to your class. Record in your journal how you can apply this
         gospel principle in your life.
-        <Signoff color="green" id="knowledgeSignoff4" />
-        <TextArea id="knowledgeGoal4" />
+        <Signoff color="green" id="text4" />
+        <TextArea id="sign4" />
       </li>
 
       <li>
@@ -105,8 +105,8 @@ const Page = props => (
         responsibilities are, what training or education the person obtained to
         do the job, and what contributions this persons job makes to society.
         Record your findings in your journal.
-        <Signoff color="green" id="knowledgeSignoff5" />
-        <TextArea id="knowledgeGoal5" />
+        <Signoff color="green" id="text5" />
+        <TextArea id="sign5" />
       </li>
 
       <li>
@@ -117,7 +117,7 @@ const Page = props => (
         and then conduct them at least two times at a family home evening, in a
         Young Women or other Church meeting, or at seminary. Read the scriptures
         listed at the bottom of each hymn.
-        <Signoff color="green" id="knowledgeSignoff6" />
+        <Signoff color="green" id="text6" />
       </li>
 
       <li>
@@ -128,8 +128,8 @@ const Page = props => (
         case of an emergency. Teach a family home evening lesson or share with a
         Young Women leader what you have learned and what additional skills you
         would like to learn to be prepared for emergencies.
-        <Signoff color="green" id="knowledgeSignoff7" />
-        <TextArea id="knowledgeGoal7" />
+        <Signoff color="green" id="text7" />
+        <TextArea id="sign7" />
       </li>
     </ol>
 
@@ -137,12 +137,12 @@ const Page = props => (
 
     <ol start="8">
       <li>
-        <TextArea id="knowledgeGoal8" />
-        <Signoff color="green" id="knowledgeSignoff8" />
+        <TextArea id="sign8" />
+        <Signoff color="green" id="text8" />
       </li>
       <li>
-        <TextArea id="knowledgeGoal9" />
-        <Signoff color="green" id="knowledgeSignoff9" />
+        <TextArea id="sign9" />
+        <Signoff color="green" id="text9" />
       </li>
     </ol>
 
@@ -164,9 +164,9 @@ const Page = props => (
         <li>Working with your mother, grandmother, or a woman in your ward or branch, master a homemaking skill she teaches you.</li>
     </ul>
     <p>
-      <TextArea id="knowledgeGoalVP" />
+      <TextArea id="signVP" />
     </p>
-    <Signoff color="green" id="knowledgeSignoffVP" />
+    <Signoff color="green" id="textVP" />
   </div>
 );
 

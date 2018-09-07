@@ -41,14 +41,14 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>My plan to give a talk or lesson about repentance and the Atonement:</p>
-    <TextArea id="priestSSWorthily1" />
+    <TextArea id="text1" />
     <p>Sections from For the Strength of Youth I will study</p>
-    <TextArea id="priestSSWorthily2" />
+    <TextArea id="text2" />
     <p>
       Specific things I will do to live these standards and help others do the
       same:
     </p>
-    <TextArea id="priestSSWorthily3" />
+    <TextArea id="text3" />
 
     <h4>Share</h4>
     <p>

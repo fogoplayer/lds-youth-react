@@ -16,9 +16,9 @@ const Page = props => (
     </p>
 
     <p>My Signature</p>
-    <Signoff id="teacherPDReview1" />
+    <Signoff id="sign1" />
     <p>Signature of Parent or Leader</p>
-    <Signoff id="teacherPDReview2" />
+    <Signoff id="sign2" />
   </div>
 );
 

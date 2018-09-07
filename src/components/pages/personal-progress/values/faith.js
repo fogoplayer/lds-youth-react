@@ -48,8 +48,8 @@ const Page = props => (
         this pattern, discuss with a parent or leader what you have learned
         about faith and how daily personal prayer has strengthened your faith.
         In your journal express your feelings about faith and prayer.
-        <Signoff id="faithSignoff1" />
-        <TextArea id="faithGoal1" />
+        <Signoff id="sign1" />
+        <TextArea id="text1" />
       </li>
 
       <li>
@@ -67,8 +67,8 @@ const Page = props => (
         these principles help you in your life today and help you prepare to be
         a faithful woman, wife, and mother? Record your thoughts and feelings in
         your journal.
-        <Signoff id="faithSignoff2" />
-        <TextArea id="faithGoal2" />
+        <Signoff id="sign2" />
+        <TextArea id="text2" />
       </li>
 
       <li>
@@ -85,8 +85,8 @@ const Page = props => (
         has strengthened his or her faith. Share your own experiences as well.
         In your journal write down one of those experiences and describe your
         feelings about faith.
-        <Signoff id="faithSignoff3" />
-        <TextArea id="faithGoal3" />
+        <Signoff id="sign3" />
+        <TextArea id="text3" />
       </li>
     </ol>
 
@@ -116,8 +116,8 @@ const Page = props => (
         the sacrament and remember your baptismal covenants and what you do to
         keep those promises. Record in your journal how your understanding of
         these promises has strengthened your faith in the Savior.
-        <Signoff id="faithSignoff4" />
-        <TextArea id="faithGoal4" />
+        <Signoff id="sign4" />
+        <TextArea id="text4" />
       </li>
 
       <li>
@@ -141,8 +141,8 @@ const Page = props => (
           Doctrine and Covenants 19:15-20
         </a>. In your journal write your feelings about the Savior and what He
         has done for you. Share your feelings in a testimony meeting.
-        <Signoff id="faithSignoff5" />
-        <TextArea id="faithGoal5" />
+        <Signoff id="sign5" />
+        <TextArea id="text5" />
       </li>
 
       <li>
@@ -174,7 +174,7 @@ const Page = props => (
         salvation to your class, your family, or a friend. Discuss how knowledge
         of the plan affects your actions, helps you understand your identity,
         and has strengthened your faith.
-        <Signoff id="faithSignoff6" />
+        <Signoff id="sign6" />
       </li>
 
       <li>
@@ -190,8 +190,8 @@ const Page = props => (
         paying tithing has helped your faith grow. List blessings in your life,
         both large and small, that have come because of your faith in the
         principle of tithing.
-        <TextArea id="faithGoal7" />
-        <Signoff id="faithSignoff7" />
+        <TextArea id="text7" />
+        <Signoff id="sign7" />
       </li>
     </ol>
 
@@ -199,12 +199,12 @@ const Page = props => (
 
     <ol start="8">
       <li>
-        <TextArea id="faithGoal8" />
-        <Signoff id="faithSignoff8" />
+        <TextArea id="text8" />
+        <Signoff id="sign8" />
       </li>
       <li>
-        <TextArea id="faithGoal9" />
-        <Signoff id="faithSignoff9" />
+        <TextArea id="text9" />
+        <Signoff id="sign9" />
       </li>
     </ol>
 
@@ -225,9 +225,9 @@ const Page = props => (
         <li>Describe the blessing of faith by writing an original story, poem, or song or by completing a visual arts project that illustrates your faith in Jesus Christ.</li>
     </ul>
     <p>
-      <TextArea id="faithGoalVP" />
+      <TextArea id="textVP" />
     </p>
-    <Signoff id="faithSignoffVP" />
+    <Signoff id="signVP" />
   </div>
 );
 

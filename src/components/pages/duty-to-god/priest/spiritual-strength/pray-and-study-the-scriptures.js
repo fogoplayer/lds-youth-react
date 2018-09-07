@@ -23,7 +23,7 @@ const Page = props => (
         recent general conference? How has following this counsel blessed you?
       </li>
     </ol>
-    <TextArea id="priestSSScriptures1" />
+    <TextArea id="text1" />
     <p>
       On the next page, write your plans to have meaningful prayer and scripture
       study during your years as a priest. Your scripture study could include
@@ -35,7 +35,7 @@ const Page = props => (
     <p>
       My plan for strengthening my habit of regular prayer and scripture study:
     </p>
-    <TextArea id="priestSSScriptures2" />
+    <TextArea id="text2" />
 
     <h4>Share</h4>
     <p>

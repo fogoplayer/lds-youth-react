@@ -37,7 +37,7 @@ const Page = props => (
       </a>” in For the Strength of Youth, and find phrases that express these
       principles.
     </p>
-    <TextArea id="priestFTSOY1" />
+    <TextArea id="text1" />
     <p>
       Write your answers to the following questions, and share them with your
       parents or quorum members:
@@ -53,7 +53,7 @@ const Page = props => (
       <li>How can you show your love for family members and others?</li>
     </ol>
 
-    <TextArea id="priestFTSOY2" />
+    <TextArea id="text2" />
 
     <h4>Step 2: Create a Project</h4>
     <p>
@@ -118,18 +118,18 @@ const Page = props => (
 
     <h5>My Project</h5>
     <p>Family</p>
-    <TextArea id="priestFTSOY3" />
+    <TextArea id="text3" />
     <p>Friends</p>
-    <TextArea id="priestFTSOY4" />
+    <TextArea id="text4" />
 
     <p>Approval of a Parent or Leader</p>
-    <Signoff id="priestFTSOYSignoff1" />
+    <Signoff id="sign1" />
     <p>Estimated Date of Completion</p>
-    <Signoff id="priestFTSOYSignoff2" />
+    <Signoff id="sign2" />
     <p>My Signature</p>
-    <Signoff id="priestFTSOYSignoff3" />
+    <Signoff id="sign3" />
     <p>Date Completed</p>
-    <Signoff id="priestFTSOYSignoff4" />
+    <Signoff id="sign4" />
 
     <h4>Step 3: Report Your Experiences</h4>
     <p>
@@ -137,7 +137,7 @@ const Page = props => (
       project and how it has helped you become a better disciple of Jesus
       Christ. Report on what you learned to your family or quorum members.
     </p>
-    <TextArea id="priestFTSOY5" />
+    <TextArea id="text5" />
   </div>
 );
 

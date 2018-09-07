@@ -39,8 +39,8 @@ const Page = props => (
         helping a brother or sister. For two weeks record in your journal the
         quiet acts of service your family members and others perform.
         Acknowledge their service in some meaningful way.
-        <Signoff color="yellow" id="goodWorksSignoff1" />
-        <TextArea id="goodWorksGoal1" />
+        <Signoff color="yellow" id="sign1" />
+        <TextArea id="text1" />
       </li>
 
       <li>
@@ -48,7 +48,7 @@ const Page = props => (
         family's menus, obtain the food, and prepare part of the meals for two
         weeks. During that time help your family gather to share mealtimes.
         Report to your class what you have learned.
-        <Signoff color="yellow" id="goodWorksSignoff2" />
+        <Signoff color="yellow" id="sign2" />
       </li>
 
       <li>
@@ -59,8 +59,8 @@ const Page = props => (
         them bear their burdens. Do the things on your list, and tell a family
         member or leader about the experience and how your attitude and
         understanding have changed.
-        <Signoff color="yellow" id="goodWorksSignoff3" />
-        <TextArea id="goodWorksGoal2" />
+        <Signoff color="yellow" id="sign3" />
+        <TextArea id="text2" />
       </li>
     </ol>
 
@@ -81,7 +81,7 @@ const Page = props => (
           Teaching, No Greater Call
         </a>{" "}
         as a resource.
-        <Signoff color="yellow" id="goodWorksSignoff4" />
+        <Signoff color="yellow" id="sign4" />
       </li>
 
       <li>
@@ -93,8 +93,8 @@ const Page = props => (
         life by choosing a family member you can help. Serve that person for at
         least a month. Record in your journal your actions and feelings about
         how this improved your relationship with that person.
-        <Signoff color="yellow" id="goodWorksSignoff5" />
-        <div contextmenu="true" className="textArea" id="goodWorksGoal5" />
+        <Signoff color="yellow" id="sign5" />
+        <div contextmenu="true" className="textArea" id="text5" />
       </li>
 
       <li>
@@ -106,8 +106,8 @@ const Page = props => (
         perform errands for or read to a homebound person or others in need.
         Record in your journal the reactions of the person you served and
         possible goals for future service opportunities.
-        <Signoff color="yellow" id="goodWorksSignoff6" />
-        <TextArea id="goodWorksGoal6" />
+        <Signoff color="yellow" id="sign6" />
+        <TextArea id="text6" />
       </li>
 
       <li>
@@ -121,7 +121,7 @@ const Page = props => (
         less active to go with you to a Church meeting or activity. Introduce
         your friend to others, and make sure he or she is involved. Share your
         testimony of the gospel, and invite him or her to come again.
-        <Signoff color="yellow" id="goodWorksSignoff7" />
+        <Signoff color="yellow" id="sign7" />
       </li>
     </ol>
 
@@ -129,12 +129,12 @@ const Page = props => (
 
     <ol start="8">
       <li>
-        <TextArea id="goodWorksGoal8" />
-        <Signoff color="yellow" id="goodWorksSignoff8" />
+        <TextArea id="text8" />
+        <Signoff color="yellow" id="sign8" />
       </li>
       <li>
-        <TextArea id="goodWorksGoal9" />
-        <Signoff color="yellow" id="goodWorksSignoff9" />
+        <TextArea id="text9" />
+        <Signoff color="yellow" id="sign9" />
       </li>
     </ol>
 
@@ -156,9 +156,9 @@ const Page = props => (
         <li>Serve others. Volunteer in the community, gather items to meet humanitarian needs, spend extended time assisting with child or elderly care, or tutor in school or in your community.</li>
     </ul>
     <p>
-      <TextArea id="goodWorksGoalVP" />
+      <TextArea id="textVP" />
     </p>
-    <Signoff color="yellow" id="goodWorksSignoffVP" />
+    <Signoff color="yellow" id="signVP" />
   </div>
 );
 

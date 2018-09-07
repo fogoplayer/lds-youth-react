@@ -19,7 +19,7 @@ const Page = props => (
       being a priesthood holder and serving others
     </p>
 
-    <TextArea id="deaconPDServe1" />
+    <TextArea id="text1" />
 
     <p>
       Discuss with members of your quorum the opportunities you have to serve
@@ -40,9 +40,9 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>My quorum’s plan to give service:</p>
-    <TextArea id="deaconPDServe1" />
+    <TextArea id="text1" />
     <p>My personal plan to give service: </p>
-    <TextArea id="deaconPDServe2" />
+    <TextArea id="text2" />
 
     <h4>Share</h4>
     <p>

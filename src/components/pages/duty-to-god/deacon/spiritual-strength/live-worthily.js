@@ -19,7 +19,7 @@ const Page = props => (
           <li>What is the relationship between repentance, the Atonement,
           and personal worthiness?</li>
         </ol>
-        <TextArea id="deaconSSWorthily1" />
+        <TextArea id="text1" />
         <p>Discuss your answers with your parents or quorum members.
         Discuss how repentance will help you prepare to enter
         the temple and participate in sacred ordinances.</p>
@@ -30,10 +30,10 @@ const Page = props => (
         
         <h4>Act</h4>
         <p>Sections from For the Strength of Youth I will study</p>
-        <TextArea id="deaconSSWorthily2" />
+        <TextArea id="text2" />
         <p>Specific things I will do to live these standards and help others
         do the same:</p>
-        <TextArea id="deaconSSWorthily3" />
+        <TextArea id="text3" />
         
         <h4>Share</h4>
         <p>After studying and applying these

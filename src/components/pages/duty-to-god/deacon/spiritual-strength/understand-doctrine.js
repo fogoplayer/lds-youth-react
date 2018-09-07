@@ -61,7 +61,7 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>Doctrinal topics I will study:</p>
-    <TextArea id="deaconSSDoctrine1" />
+    <TextArea id="text1" />
 
     <h4>Share</h4>
     <p>
@@ -70,7 +70,7 @@ const Page = props => (
       can do this.
     </p>
     <p>When I will teach about these topics:</p>
-    <TextArea id="deaconSSDoctrine2" />
+    <TextArea id="text2" />
   </div>
 );
 

@@ -16,7 +16,7 @@ const Page = props => (
           <li> Blessings that will come as you study the scriptures and
           words of the living prophets.</li>
         </ol>
-        <TextArea id="deaconSSScriptures1" />
+        <TextArea id="text1" />
         <p>Share your list with your parents, priesthood leaders, or
         other quorum members. Discuss specific blessings you have
         received from following counsel the Lord has given in the
@@ -31,7 +31,7 @@ const Page = props => (
         <h4>Act</h4>
         <p>My plan for developing a habit of regular prayer and scripture
         study:</p>
-        <TextArea id="deaconSSScriptures2" />
+        <TextArea id="text2" />
         
         <h4>Share</h4>
         <p>Share what you are learning from your

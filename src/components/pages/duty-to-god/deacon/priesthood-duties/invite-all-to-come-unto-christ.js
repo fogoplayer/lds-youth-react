@@ -33,9 +33,9 @@ const Page = props => (
 
     <h4>Act</h4>
     <p>Ways I will set a good example for others:</p>
-    <TextArea id="deaconPDInvite1" />
+    <TextArea id="text1" />
     <p>Names of people and how I will help them come unto Christ:</p>
-    <TextArea id="deaconPDInvite2" />
+    <TextArea id="text2" />
 
     <h4>Share</h4>
     <p>

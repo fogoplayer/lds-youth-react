@@ -41,8 +41,8 @@ const Page = props => (
         </a>. In your own words, list the divine qualities discussed in your
         reading. Think about how you can discover and develop each of these
         qualities. Record your ideas in your journal.
-        <Signoff color="blue" id="divineNatureSignoff1" />
-        <TextArea id="divineNatureGoal1" />
+        <Signoff color="blue" id="sign1" />
+        <TextArea id="text1" />
       </li>
 
       <li>
@@ -59,8 +59,8 @@ const Page = props => (
         being a mother. List the attributes in your journal. Then choose one of
         those attributes and strive to develop it. After two weeks report your
         success to a parent or leader.
-        <Signoff color="blue" id="divineNatureSignoff2" />
-        <TextArea id="divineNatureGoal2" />{" "}
+        <Signoff color="blue" id="sign2" />
+        <TextArea id="text2" />{" "}
       </li>
 
       <li>
@@ -72,7 +72,7 @@ const Page = props => (
         helpful, and verbally express your love. Share your experiences and the
         divine qualities you've discovered with that family member or with a
         parent or leader.
-        <Signoff color="blue" id="divineNatureSignoff3" />
+        <Signoff color="blue" id="sign3" />
       </li>
     </ol>
     <h4 className="blue-text">Additional Value Experiences</h4>
@@ -96,8 +96,8 @@ const Page = props => (
         and further develop your divine qualities and to help you always
         remember the Lord Jesus Christ. After two weeks record your experience
         in your journal.
-        <Signoff color="blue" id="divineNatureSignoff4" />
-        <TextArea id="divineNatureGoal4" />
+        <Signoff color="blue" id="sign4" />
+        <TextArea id="text4" />
       </li>
 
       <li>
@@ -113,8 +113,8 @@ const Page = props => (
         journal how being more obedient motivated you to want to continue doing
         so and how it has helped you understand your divine nature and the
         divine roles of mothers and fathers.
-        <Signoff color="blue" id="divineNatureSignoff5" />
-        <TextArea id="divineNatureGoal5" />
+        <Signoff color="blue" id="sign5" />
+        <TextArea id="text5" />
       </li>
 
       <li>
@@ -136,8 +136,8 @@ const Page = props => (
         your journal. Select one quality, and for two weeks strive to make it a
         part of your daily life. Record your progress and experiences in your
         journal.
-        <Signoff color="blue" id="divineNatureSignoff6" />
-        <TextArea id="divineNatureGoal6" />
+        <Signoff color="blue" id="sign6" />
+        <TextArea id="text6" />
       </li>
 
       <li>
@@ -149,19 +149,19 @@ const Page = props => (
         write in your journal what new habits you want to develop, how being a
         peacemaker is part of your divine nature, and how you will continue to
         be a peacemaker.
-        <Signoff color="blue" id="divineNatureSignoff7" />
-        <TextArea id="divineNatureGoal7" />
+        <Signoff color="blue" id="sign7" />
+        <TextArea id="text7" />
       </li>
     </ol>
     <h4 className="blue-text">Personalized Value Experiences</h4>
     <ol start="8">
       <li>
-        <TextArea id="divineNatureGoal8" />
-        <Signoff color="blue" id="divineNatureSignoff8" />
+        <TextArea id="text8" />
+        <Signoff color="blue" id="sign8" />
       </li>
       <li>
-        <TextArea id="divineNatureGoal9" />
-        <Signoff color="blue" id="divineNatureSignoff9" />
+        <TextArea id="text9" />
+        <Signoff color="blue" id="sign9" />
       </li>
     </ol>
     <h4 className="blue-text">Value Project</h4>
@@ -184,8 +184,8 @@ const Page = props => (
         <li>Using an artistic skill or handicraft you have learned, make something for your current or future home. Record in your journal how being creative is part of your divine nature and how sharing your creativity has blessed others.</li>
         <li>Working in harmony with others is a divine attribute (see <a href="https://www.lds.org/scriptures/dc-testament/dc/38.27">D&C 38:27</a>). Carry out a project that will promote unity in your extended family, your school, or your community. Record in your journal how you can make a difference when you work in unity with others.</li>
     </ul>
-    <TextArea id="divineNatureGoalVP" />
-    <Signoff color="blue" id="divineNatureSignoffVP" />  < /div>
+    <TextArea id="textVP" />
+    <Signoff color="blue" id="signVP" />  < /div>
 );
 
 export default Page;

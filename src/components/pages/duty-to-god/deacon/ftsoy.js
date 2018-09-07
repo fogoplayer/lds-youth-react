@@ -50,7 +50,7 @@ const Page = props => (
         properly?
       </li>
     </ol>
-    <TextArea id="deaconFTSOY1" />
+    <TextArea id="text1" />
 
     <h4>Step 2: Create a Project</h4>
     <p>
@@ -102,18 +102,18 @@ const Page = props => (
 
     <h5>My Project</h5>
     <p>Regular Exercise</p>
-    <TextArea id="deaconFTSOY2" />
+    <TextArea id="text2" />
     <p>Nutrition</p>
-    <TextArea id="deaconFTSOY3" />
+    <TextArea id="text3" />
 
     <p>Approval of a Parent or Leader</p>
-    <Signoff id="deaconFTSOYSignoff1" />
+    <Signoff id="sign1" />
     <p>Estimated Date of Completion</p>
-    <Signoff id="deaconFTSOYSignoff2" />
+    <Signoff id="sign2" />
     <p>My Signature</p>
-    <Signoff id="deaconFTSOYSignoff3" />
+    <Signoff id="sign3" />
     <p>Date Completed</p>
-    <Signoff id="deaconFTSOYSignoff4" />
+    <Signoff id="sign4" />
 
     <h4>Step 3: Report Your Experiences</h4>
     <p>
@@ -121,7 +121,7 @@ const Page = props => (
       project and how it has prepared you for your future responsibilities.
       Report on your experiences to your family or quorum members.
     </p>
-    <TextArea id="deaconFTSOY4" />
+    <TextArea id="text4" />
   </div>
 );
 

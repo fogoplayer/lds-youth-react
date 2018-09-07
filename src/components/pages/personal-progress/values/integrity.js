@@ -45,8 +45,8 @@ const Page = props => (
         stay morally clean and worthy to attend the temple. After keeping your
         standards for at least one month, record your feelings in your journal
         and continue to keep your commitment.
-        <Signoff color="purple" id="integritySignoff1" />
-        <TextArea id="integrityGoal1" />
+        <Signoff color="purple" id="sign1" />
+        <TextArea id="text1" />
       </li>
 
       <li>
@@ -58,8 +58,8 @@ const Page = props => (
         the guidance of the Holy Ghost to help you live with integrity. Write in
         your journal the things you can do to improve your personal integrity
         and at least one new habit you want to develop.
-        <Signoff color="purple" id="integritySignoff2" />
-        <TextArea id="integrityGoal2" />
+        <Signoff color="purple" id="sign2" />
+        <TextArea id="text2" />
       </li>
 
       <li>
@@ -86,8 +86,8 @@ const Page = props => (
         especially when it was not easy or popular. Share your experience and
         your feelings about it in a testimony meeting or lesson or with a parent
         or leader.
-        <Signoff color="purple" id="integritySignoff3" />
-        <TextArea id="integrityGoal3" />
+        <Signoff color="purple" id="sign3" />
+        <TextArea id="text3" />
       </li>
     </ol>
 
@@ -106,8 +106,8 @@ const Page = props => (
         application of the word. Make a list of ways you can ake your actions
         consistent with your knowledge of right and wrong, and record in your
         journal what it means to you to have integrity.
-        <Signoff color="purple" id="integritySignoff4" />
-        <TextArea id="integrityGoal4" />
+        <Signoff color="purple" id="sign4" />
+        <TextArea id="text4" />
       </li>
 
       <li>
@@ -118,8 +118,8 @@ const Page = props => (
         personal behavior that you need to improve so you can be a better
         example. Develop integrity in your life as you practice your new
         behavior for three weeks. Record your progress in your journal.
-        <Signoff color="purple" id="integritySignoff5" />
-        <TextArea id="integrityGoal5" />
+        <Signoff color="purple" id="sign5" />
+        <TextArea id="text5" />
       </li>
 
       <li>
@@ -130,7 +130,7 @@ const Page = props => (
         overcome a bad habit, to obtain a special blessing for yourself or
         someone else, or to give thanks. Begin and close your fast with a
         prayer.
-        <Signoff color="purple" id="integritySignoff6" />
+        <Signoff color="purple" id="sign6" />
       </li>
 
       <li>
@@ -144,8 +144,8 @@ const Page = props => (
         sustain as prophets, seers, and revelators. Write in your journal your
         plan to strengthen your present family and the values and traditions you
         want to establish with your future family.
-        <Signoff color="purple" id="integritySignoff7" />
-        <TextArea id="integrityGoal7" />
+        <Signoff color="purple" id="sign7" />
+        <TextArea id="text7" />
       </li>
     </ol>
 
@@ -153,12 +153,12 @@ const Page = props => (
 
     <ol start="8">
       <li>
-        <TextArea id="integrityGoal8" />
-        <Signoff color="purple" id="integritySignoff8" />
+        <TextArea id="text8" />
+        <Signoff color="purple" id="sign8" />
       </li>
       <li>
-        <TextArea id="integrityGoal9" />
-        <Signoff color="purple" id="integritySignoff9" />
+        <TextArea id="text9" />
+        <Signoff color="purple" id="sign9" />
       </li>
     </ol>
 
@@ -180,9 +180,9 @@ const Page = props => (
         <li>In talks given by General Authorities, research the topics of integrity and honesty. Learn why these principles are critical to your happiness and temple preparation. Create an object (such as a picture, a book of quotations, or a hand-stitched item) that will remind you each day of your commitment to be honest and true at all times and known for your personal integrity</li>
     </ul>
     <p>
-      <TextArea id="integrityGoalVP" />
+      <TextArea id="textVP" />
     </p>
-    <Signoff color="purple" id="integritySignoff" />
+    <Signoff color="purple" id="sign" />
   </div>
 );
 

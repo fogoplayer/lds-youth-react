@@ -21,7 +21,7 @@ const Page = props => (
       </a>. Whom do you represent when you pass the sacrament?
     </p>
 
-    <TextArea id="deaconPDAdminister1" />
+    <TextArea id="text1" />
 
     <p>
       Ask your parents or your quorum leaders the following questions, and write
@@ -36,7 +36,7 @@ const Page = props => (
       </li>
     </ol>
 
-    <TextArea id="deaconPDAdminister2" />
+    <TextArea id="text2" />
 
     <p>
       After counseling with your quorum, write in the next section what you will
@@ -51,12 +51,12 @@ const Page = props => (
       Several things I will do to show reverence when I pass the sacrament and
       to encourage others to show the same reverence:
     </p>
-    <TextArea id="deaconPDAdminister3" />
+    <TextArea id="text3" />
     <p>
       What I will do to have a more meaningful experience when I partake of the
       sacrament:
     </p>
-    <TextArea id="deaconPDAdminister4" />
+    <TextArea id="text4" />
 
     <h4>Share</h4>
     <p>
