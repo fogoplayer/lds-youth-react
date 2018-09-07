@@ -35,17 +35,19 @@ class Page extends React.Component {
     }
 
     componentWillUnmount() {
-        let dataObj = {};
-        dataObj[this.state.windowLocation] = {};
-        dataObj[this.state.windowLocation][this.textToId(this.props.text)] = this.ref.current.checked;
-        try {
-            firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, {
-                merge: true
-            });
-        }
-        catch (error) {
-            if (error.message !== "Cannot read property 'uid' of null") {
-                console.error(error);
+        if (document.getElementById(this.props.id)) {
+            let dataObj = {};
+            dataObj[this.state.windowLocation] = {};
+            dataObj[this.state.windowLocation][this.textToId(this.props.text)] = this.ref.current.checked;
+            try {
+                firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, {
+                    merge: true
+                });
+            }
+            catch (error) {
+                if (error.message !== "Cannot read property 'uid' of null") {
+                    console.error(error);
+                }
             }
         }
     }

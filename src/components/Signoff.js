@@ -43,14 +43,16 @@ class Signoff extends React.Component {
   }
 
   componentWillUnmount() {
-    let dataObj = {};
-    dataObj[this.state.windowLocation]={};
-    dataObj[this.state.windowLocation][this.props.id] = document.getElementById(this.props.id).innerHTML;
-    try {
-      firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, { merge: true });
-    }
-    catch (error) {
-      if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
+    if (document.getElementById(this.props.id)) {
+      let dataObj = {};
+      dataObj[this.state.windowLocation] = {};
+      dataObj[this.state.windowLocation][this.props.id] = document.getElementById(this.props.id).innerHTML;
+      try {
+        firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, { merge: true });
+      }
+      catch (error) {
+        if (error.message !== "Cannot read property 'uid' of null") { console.error(error); }
+      }
     }
   }
 
