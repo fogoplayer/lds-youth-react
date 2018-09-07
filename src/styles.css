@@ -30,29 +30,29 @@ li div.collapsible-body .collection .collection-item {
 /*Edit input formatting*/
 
 /* label color */ 
-.input-field label {
+label {
   color: #000 !important;
 }
 
 /* label focus color */
 
-.input-field input[type=text]:focus+label,
-.input-field input[type=password]:focus+label,
-.input-field .materialize-textarea:focus+label{
+input[type=text]:focus+label,
+input[type=password]:focus+label,
+.materialize-textarea:focus+label{
   color: #000 !important;
 }
 
 /* label underline focus color */
 
-.input-field input[type=text]:focus,
-.input-field input[type=password]:focus,
-.input-field .materialize-textarea:focus{
+input[type=text]:focus,
+input[type=password]:focus,
+.materialize-textarea:focus{
   border-bottom: 1px solid #000 !important;
   box-shadow: 0 1px 0 0 #000 !important;
 }
 
 /* icon prefix focus color */
 
-.input-field .prefix.active {
+.prefix.active {
   color: #000 !important;
 }

@@ -13,7 +13,7 @@ class Signoff extends React.Component {
         firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).get().then(response => {
           const data = response.data()[this.state.windowLocation] ? response.data()[this.state.windowLocation][this.props.id] : false;
           if (data) {
-            this.setState({ text: JSON.parse(JSON.stringify(data)) });
+            document.getElementById(this.props.id).value = JSON.parse(JSON.stringify(data));
           }
         });
       }
@@ -22,13 +22,14 @@ class Signoff extends React.Component {
         else {
           firebase.auth().onAuthStateChanged(user => {
             if (user) {
-              getData()
+              getData();
+
             }
           });
         }
       }
     }
-    getData()
+    getData();
   }
 
   componentDidMount() {
@@ -56,28 +57,17 @@ class Signoff extends React.Component {
 
   render() {
     return (
-      <div
-    contentEditable="true"
-    className={
-      "textArea " +
-      (this.props.color ? this.props.color + " lighten-4" : "grey lighten-2")
-    }
-    id={this.props.id}
-    color="black"
-    style={{
-      display: "inline-block",
-      width: "150px",
-      fontSize: "18px",
-      height: "26px",
-      paddingBottom: "1.5px",
-      textAlign: "center",
-      marginBottom: "10px",
-      border: "0px",
-      borderBottom: "1px solid black"
-    }}
-  >
-    {this.state.text}
-  </div>
+      <input
+        id={this.props.id}
+        type="text"
+        className={this.props.color + " lighten-4"}
+        style={{
+          width: "150px",
+          height: "1em",
+          fontSize:"1em",
+          textAlign:"center"
+        }} 
+      />
     );
   }
 }
