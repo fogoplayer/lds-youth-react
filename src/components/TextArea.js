@@ -69,16 +69,3 @@ class TextArea extends React.Component {
   }
 }
 export default TextArea;
-
-/*
-contentEditable="true"
-      className="textArea"
-      color={this.props.color ? this.props.color : "black"}
-      style={{
-        display: "inline-block",
-        width: "calc(100% - 2px)",
-        border: "1px solid black",
-        minHeight: "28px",
-        marginBottom: "11px"
-      }}
-*/
