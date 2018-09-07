@@ -23,7 +23,6 @@ class TextArea extends React.Component {
           firebase.auth().onAuthStateChanged(user => {
             if (user) {
               getData();
-
             }
           });
         }
@@ -61,6 +60,7 @@ class TextArea extends React.Component {
           id={this.props.id}
           type="text"
           className="materialize-textarea"
+          placeholder={this.props.placeholder}
         ></textArea>
       </div>
     );
