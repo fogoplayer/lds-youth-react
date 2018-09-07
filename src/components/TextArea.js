@@ -14,6 +14,7 @@ class TextArea extends React.Component {
           const data = response.data()[this.state.windowLocation] ? response.data()[this.state.windowLocation][this.props.id] : false;
           if (data) {
             this.setState({ text: JSON.parse(JSON.stringify(data)) });
+              document.getElementById(this.props.id).value = this.state.text;
           }
         });
       }
@@ -23,6 +24,7 @@ class TextArea extends React.Component {
           firebase.auth().onAuthStateChanged(user => {
             if (user) {
               getData();
+
             }
           });
         }
@@ -38,13 +40,12 @@ class TextArea extends React.Component {
     document.getElementById(this.props.id).addEventListener("onblur", () => {
       this.componentWillUnmount();
     })
-    
   }
 
   componentWillUnmount() {
     let dataObj = {};
     dataObj[this.state.windowLocation]={};
-    dataObj[this.state.windowLocation][this.props.id] = document.getElementById(this.props.id).innerHTML;
+    dataObj[this.state.windowLocation][this.props.id] = document.getElementById(this.props.id).value;
     try {
       firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).set(dataObj, { merge: true });
     }
@@ -56,10 +57,20 @@ class TextArea extends React.Component {
 
   render() {
     return (
-      <div
-      contentEditable="true"
+      <div className="input-field">
+        <input
+          id={this.props.id}
+          type="text"
+        ></input>
+      </div>
+    );
+  }
+}
+export default TextArea;
+
+/*
+contentEditable="true"
       className="textArea"
-      id={this.props.id}
       color={this.props.color ? this.props.color : "black"}
       style={{
         display: "inline-block",
@@ -68,25 +79,4 @@ class TextArea extends React.Component {
         minHeight: "28px",
         marginBottom: "11px"
       }}
-    >
-      {this.state.text}
-    </div>
-    );
-  }
-}
-export default TextArea;
-
-/*
-Migration process:
-replace firebase.database() with firebase.firestore()
-Replace ref('/users/' with collection("users")
-replace | + firebase.auth().currentUser.uid + | with doc(firebase.auth().currentUser.uid)
-Replace dataObj[this.props.id] with 
-    dataObj[this.state.windowLocation]={};
-    dataObj[this.state.windowLocation][this.props.id] = document.getElementById(this.props.id).innerHTML;
-Replace | + "/" + this.state.windowLocation + "/").update(dataObj)| with .set(dataObj, { merge: true })
-
-Replace | + "/" + window.location.pathname + "/" + this.props.id).once('value').then(response => {| with .then(response=>)
-Add const data = response.data()[this.state.windowLocation][this.props.id];
-Replace response.val() with data
 */
