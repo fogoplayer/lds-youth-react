@@ -23,23 +23,23 @@ class page extends React.Component {// eslint-disable-next-line
         <ul className="collection">
           <CollectionItem
             text="Welcome to Personal Progress"
-            url="personal-progress/welcome-to-personal-progress"
+            url="/personal-progress/welcome-to-personal-progress"
           />
           <CollectionItem
             text="Young Women Motto and Logo"
-            url="personal-progress/young-women-motto-and-logo"
+            url="/personal-progress/young-women-motto-and-logo"
           />
           <CollectionItem
             text="Young Women Theme"
-            url="personal-progress/young-women-theme"
+            url="/personal-progress/young-women-theme"
           />
           <CollectionItem
             text="Young Women Classes and Symbols"
-            url="personal-progress/young-women-classes-and-symbols"
+            url="/personal-progress/young-women-classes-and-symbols"
           />
           <CollectionItem
             text="Overview for Young Women"
-            url="personal-progress/overview-for-young-women"
+            url="/personal-progress/overview-for-young-women"
           />
           <li
             className="collection-item"
@@ -61,35 +61,35 @@ class page extends React.Component {// eslint-disable-next-line
                   <ul className="collection">
                     <CollectionItem
                       text="Faith"
-                      url="personal-progress/values/faith"
+                      url="/personal-progress/values/faith"
                     />
                     <CollectionItem
                       text="Divine Nature"
-                      url="personal-progress/values/divine-nature"
+                      url="/personal-progress/values/divine-nature"
                     />
                     <CollectionItem
                       text="Individual Worth"
-                      url="personal-progress/values/individual-worth"
+                      url="/personal-progress/values/individual-worth"
                     />
                     <CollectionItem
                       text="Knowledge"
-                      url="personal-progress/values/knowledge"
+                      url="/personal-progress/values/knowledge"
                     />
                     <CollectionItem
                       text="Choice and Accountability"
-                      url="personal-progress/values/choice-and-accountability"
+                      url="/personal-progress/values/choice-and-accountability"
                     />
                     <CollectionItem
                       text="Good Works"
-                      url="personal-progress/values/good-works"
+                      url="/personal-progress/values/good-works"
                     />
                     <CollectionItem
                       text="Integrity"
-                      url="personal-progress/values/integrity"
+                      url="/personal-progress/values/integrity"
                     />
                     <CollectionItem
                       text="Virtue"
-                      url="personal-progress/values/virtue"
+                      url="/personal-progress/values/virtue"
                     />
                   </ul>
                 </div>
@@ -98,51 +98,51 @@ class page extends React.Component {// eslint-disable-next-line
           </li>
           <CollectionItem
             text="Young Womanhood Recognition"
-            url="personal-progress/young-womanhood-recognition"
+            url="/personal-progress/young-womanhood-recognition"
           />
           <CollectionItem
             text="Personal Progress Record Sheet"
-            url="personal-progress/personal-progress-record-sheet"
+            url="/personal-progress/personal-progress-record-sheet"
           />
           <CollectionItem
             text="My Testimony"
-            url="personal-progress/my-testimony"
+            url="/personal-progress/my-testimony"
           />
           <CollectionItem
             text="Completion of Personal Progress"
-            url="personal-progress/completion-of-personal-progress"
+            url="/personal-progress/completion-of-personal-progress"
           />
           <CollectionItem
             text="Recommendation for Young Womanhood Recognition"
-            url="personal-progress/recommendation-for-young-womanhood-recognition"
+            url="/personal-progress/recommendation-for-young-womanhood-recognition"
           />
           <CollectionItem
             text="What Do I Do When I Complete Personal Progress?"
-            url="personal-progress/what-do-i-do-when-i-complete-personal-progress"
+            url="/personal-progress/what-do-i-do-when-i-complete-personal-progress"
           />
           <CollectionItem
             text="Overview For Parents and Leaders"
-            url="personal-progress/overview-for-parents-and-leaders"
+            url="/personal-progress/overview-for-parents-and-leaders"
           />
           <CollectionItem
             text="Scripture Index"
-            url="personal-progress/scripture-index"
+            url="/personal-progress/scripture-index"
           />
           <CollectionItem
             text="Subject Index"
-            url="personal-progress/subject-index"
+            url="/personal-progress/subject-index"
           />
           <CollectionItem
             text="The Family: A Proclamation to the World"
-            url="personal-progress/the-family"
+            url="/personal-progress/the-family"
           />
           <CollectionItem
             text="The Living Christ: The Testimony of the Apostles"
-            url="personal-progress/the-living-christ"
+            url="/personal-progress/the-living-christ"
           />
           <CollectionItem
             text="My Journal"
-            url="personal-progress/my-journal"
+            url="/personal-progress/my-journal"
           />
         </ul>
       </div>
