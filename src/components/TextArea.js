@@ -13,8 +13,8 @@ class TextArea extends React.Component {
         firebase.firestore().collection('users').doc(firebase.auth().currentUser.uid).get().then(response => {
           const data = response.data()[this.state.windowLocation] ? response.data()[this.state.windowLocation][this.props.id] : false;
           if (data) {
-            this.setState({ text: JSON.parse(JSON.stringify(data)) });
-              document.getElementById(this.props.id).value = this.state.text;
+            // this.setState({ text: JSON.parse(JSON.stringify(data)) });
+              document.getElementById(this.props.id).value = JSON.parse(JSON.stringify(data));
           }
         });
       }
@@ -58,10 +58,11 @@ class TextArea extends React.Component {
   render() {
     return (
       <div className="input-field">
-        <input
+        <textArea
           id={this.props.id}
           type="text"
-        ></input>
+          className="materialize-textarea"
+        ></textArea>
       </div>
     );
   }
