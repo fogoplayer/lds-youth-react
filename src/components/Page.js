@@ -65,7 +65,7 @@ class Page extends React.Component {
 
   render() {
     const { module: Component } = this.state; // Assigning to new variable names @see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
-    return <div>{Component && <Component />}</div>;
+    return <div className="flow-text">{Component && <Component />}</div>;
   }
 }
 
