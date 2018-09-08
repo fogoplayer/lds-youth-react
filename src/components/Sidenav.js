@@ -283,7 +283,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                                     to="/duty-to-god/teacher/ftsoy"
                                     className="indent-2"
                                   >
-                                    FTSOY: Physical Health
+                                    FTSOY: Education
                                   </Link>
                                 </li>
                               </ul>
@@ -509,7 +509,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                     </Link>
                   </li>
                   <li>
-                    <Link to="/personal-progress/">Overview for YW</Link>
+                    <Link to="/personal-progress/overview-for-young-women">Overview for YW</Link>
                   </li>
                   <li>
                     <ul className="collapsible">

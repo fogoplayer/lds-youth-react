@@ -23,10 +23,10 @@ class page extends React.Component {// eslint-disable-next-line
         <ul className="collection">
           <CollectionItem
             text="Message From the First Presidency"
-            url="duty-to-god/message-from-the-first-presidency"
+            url="/duty-to-god/message-from-the-first-presidency"
           />
           <CollectionItem
-            url="duty-to-god/your-duty-to-god"
+            url="/duty-to-god/your-duty-to-god"
             text="Your Duty to God"
           />
           <li
@@ -48,15 +48,15 @@ class page extends React.Component {// eslint-disable-next-line
                 <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
-                      url="duty-to-god/deacon/spiritual-strength"
+                      url="/duty-to-god/deacon/spiritual-strength"
                       text="Spiritual Strength"
                     />
                     <CollectionItem
-                      url="duty-to-god/deacon/priesthood-duties"
+                      url="/duty-to-god/deacon/priesthood-duties"
                       text="Preisthood Duties"
                     />
                     <CollectionItem
-                      url="duty-to-god/deacon/ftsoy"
+                      url="/duty-to-god/deacon/ftsoy"
                       text="For the Strength Of Youth: Physical Health"
                     />
                   </ul>
@@ -67,15 +67,15 @@ class page extends React.Component {// eslint-disable-next-line
                 <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
-                      url="duty-to-god/teacher/spiritual-strength"
+                      url="/duty-to-god/teacher/spiritual-strength"
                       text="Spiritual Strength"
                     />
                     <CollectionItem
-                      url="duty-to-god/teacher/priesthood-duties"
+                      url="/duty-to-god/teacher/priesthood-duties"
                       text="Preisthood Duties"
                     />
                     <CollectionItem
-                      url="duty-to-god/teacher/ftsoy"
+                      url="/duty-to-god/teacher/ftsoy"
                       text="For the Strength Of Youth: Education"
                     />
                   </ul>
@@ -86,19 +86,19 @@ class page extends React.Component {// eslint-disable-next-line
                 <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
-                      url="duty-to-god/priest/spiritual-strength"
+                      url="/duty-to-god/priest/spiritual-strength"
                       text="Spiritual Strength"
                     />
                     <CollectionItem
-                      url="duty-to-god/priest/priesthood-duties"
+                      url="/duty-to-god/priest/priesthood-duties"
                       text="Preisthood Duties"
                     />
                     <CollectionItem
-                      url="duty-to-god/priest/ftsoy"
+                      url="/duty-to-god/priest/ftsoy"
                       text="For the Strength Of Youth: Family and Friends"
                     />
                     <CollectionItem
-                      url="duty-to-god/priest/preparing-to-receive-the-melchizedek-priesthood"
+                      url="/duty-to-god/priest/preparing-to-receive-the-melchizedek-priesthood"
                       text="Preparing to Recieve the Melchizedek Priesthood"
                     />
                   </ul>
@@ -107,11 +107,11 @@ class page extends React.Component {// eslint-disable-next-line
             </ul>
           </li>
           <CollectionItem
-            url="duty-to-god/to-quorum-presidents"
+            url="/duty-to-god/to-quorum-presidents"
             text="To Quorum Presidents"
           />
           <CollectionItem
-            url="duty-to-god/to-quorum-advisers-and-parents"
+            url="/duty-to-god/to-quorum-advisers-and-parents"
             text="To Quorum Advisers and Parents"
           />
           <li
@@ -133,19 +133,19 @@ class page extends React.Component {// eslint-disable-next-line
                 <div className="collapsible-body">
                   <ul className="collection">
                     <CollectionItem
-                      url="duty-to-god/appendix/aaronic-priesthood-ordinances"
+                      url="/duty-to-god/appendix/aaronic-priesthood-ordinances"
                       text="Aaronic Priesthood Ordinances"
                     />
                     <CollectionItem
-                      url="duty-to-god/appendix/the-living-christ"
+                      url="/duty-to-god/appendix/the-living-christ"
                       text="The Living Christ: The Testimony of the Apostles"
                     />
                     <CollectionItem
-                      url="duty-to-god/appendix/the-family-proclamation"
+                      url="/duty-to-god/appendix/the-family-proclamation"
                       text="The Family: A Proclamation To The World"
                     />
                     <CollectionItem
-                      url="duty-to-god/appendix/notes"
+                      url="/duty-to-god/appendix/notes"
                       text="Notes"
                     />
                   </ul>
