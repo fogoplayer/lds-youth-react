@@ -5,7 +5,7 @@ const CollapsibleHeader = props => (
     className="collapsible-header"
     id={props.text.toLowerCase().replace(" ", "-")}
   >
-    <h4>{props.text}</h4>
+    <h5>{props.text}</h5>
   </div>
 );
 
