@@ -53,7 +53,7 @@ class Sidenav extends React.Component { // eslint-disable-next-line
                     </Link>
                   </li>
                   <li>
-                    <Link to="/duty-to-god/message-from-the-first-presidency">
+                    <Link to="/duty-to-god/your-duty-to-god">
                       Your Duty To God
                     </Link>
                   </li>
