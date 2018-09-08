@@ -55,7 +55,7 @@ class Page extends React.Component {
     render() {
         return (
             <p>
-                <label>
+                <label onFocus={ () => { if (!firebase.auth().currentuser && !window.beenThereDoneThat) { alert("Warning: you are not signed in. If you would like your work to be saved, sign in."); window.beenThereDoneThat = true; } } }>
                     <input onClick={this.updateAllMatchesOnClick.bind(this)} ref={this.ref} type="checkbox" className={"filled-in black "+this.textToId(this.props.text)} />
                     <span><a href={this.props.url}>{this.props.text}</a></span>
                 </label>

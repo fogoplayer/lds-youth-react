@@ -63,6 +63,7 @@ class TextArea extends React.Component {
           type="text"
           className="materialize-textarea"
           placeholder={this.props.placeholder}
+          onFocus = { () => { if (!firebase.auth().currentuser && !window.beenThereDoneThat) { alert("Warning: you are not signed in. If you would like your work to be saved, sign in."); window.beenThereDoneThat = true; } } }
         ></textArea>
       </div>
     );

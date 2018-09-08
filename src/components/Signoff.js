@@ -63,6 +63,7 @@ class Signoff extends React.Component {
         id={this.props.id}
         type="text"
         className={this.props.color + " lighten-4"}
+        onFocus = { () => { if (!firebase.auth().currentuser && !window.beenThereDoneThat) { alert("Warning: you are not signed in. If you would like your work to be saved, sign in."); window.beenThereDoneThat = true; } } }
         style={{
           width: "150px",
           height: "1em",
