@@ -33,8 +33,8 @@ if (workbox) {
     "revision": "4df9d7fff4f73e861b0048687d9906c8"
   },
   {
-    "url": "images/logo.svg",
-    "revision": "282ed8dc8fbe85fd228923bb8ff01a77"
+    "url": "images/logo32.png",
+    "revision": "e72cab35503797a16124071dad583acc"
   },
   {
     "url": "images/personal-progress.jpg",
@@ -46,7 +46,7 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "61a612023e5e6f261c334183cbf4aa3d"
+    "revision": "99396b5dabd5dae450c8b279b7c584a4"
   },
   {
     "url": "manifest.json",
@@ -62,7 +62,7 @@ if (workbox) {
   },
   {
     "url": "service-worker.js",
-    "revision": "8ea45abcb90524b73d457b8c1a5d444d"
+    "revision": "72e8cccf4807b0ac5758ff28349b0e04"
   },
   {
     "url": "static/css/main.e5c92b2d.css",
