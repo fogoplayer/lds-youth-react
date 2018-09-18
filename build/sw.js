@@ -22,11 +22,19 @@ if (workbox) {
   workbox.precaching.precacheAndRoute([
   {
     "url": "asset-manifest.json",
-    "revision": "e5a25255e69ae0b594d3f7b9ac29e77e"
+    "revision": "bebc73d2dd71fb24b0ef32c1a3788a88"
   },
   {
     "url": "images/duty-to-god.jpg",
     "revision": "aa0d59e54116c6914fa7ce4defe75d3b"
+  },
+  {
+    "url": "images/logo.png",
+    "revision": "4df9d7fff4f73e861b0048687d9906c8"
+  },
+  {
+    "url": "images/logo.svg",
+    "revision": "282ed8dc8fbe85fd228923bb8ff01a77"
   },
   {
     "url": "images/personal-progress.jpg",
@@ -38,11 +46,11 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "4e1f78324529d11bd9ce6a085a96ef34"
+    "revision": "61a612023e5e6f261c334183cbf4aa3d"
   },
   {
     "url": "manifest.json",
-    "revision": "f5b15e7bf480ce891909c83bfa02ca5a"
+    "revision": "9743564251993b285ae204efd47dc732"
   },
   {
     "url": "materialize.min.css",
@@ -54,7 +62,7 @@ if (workbox) {
   },
   {
     "url": "service-worker.js",
-    "revision": "3cd1f27b7281f17fb19fbfaf9fc40592"
+    "revision": "8ea45abcb90524b73d457b8c1a5d444d"
   },
   {
     "url": "static/css/main.e5c92b2d.css",
@@ -333,8 +341,8 @@ if (workbox) {
     "revision": "b205abc51d0a3749239cd5a30cfd0013"
   },
   {
-    "url": "static/js/main.f7f26245.js",
-    "revision": "46b3105a6504f2a5f1dc3e76436ba613"
+    "url": "static/js/main.d2070a61.js",
+    "revision": "097fd4ac9325718cc20673fee3e9c949"
   },
   {
     "url": "static/media/MaterialIcons-Regular.012cf6a1.woff",
