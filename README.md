@@ -10,11 +10,11 @@ This project only has one main developer. Right now I am attending school full-t
 
 ##### Proofread
 
-The biggest way you can help is to proofread. This project contains thousands of lines of code, and any number of those lines could include a typo. Two errors that I’ve noticed several times in my own pre-release proofreading are random spaces in the middle of words, and paragraphs that are missing their last period.
+The biggest way you can help is to proofread. This project contains thousands of lines of text, and any number of those lines could include a typo. Two errors that I’ve noticed several times in my own pre-release proofreading are random spaces in the middle of words, and paragraphs that are missing their last period.
 
   
 
-I’ve also seen links that went to the long address, question responses that showed up in the wrong section, and pages whose title doesn’t match their content. Each of those was corrected as soon as it was found, but there may be more.
+I’ve also seen links that went to the wrong address, question responses that showed up in the wrong section, and pages whose title doesn’t match their content. Each of those was corrected as soon as it was found, but there may be more.
 
   
 
@@ -76,11 +76,3 @@ Currently, any time a key is pressed on the page the full contents of every div 
 ##### Add previous and next buttons (Awaiting Development)
 
 Add buttons at the top and bottom of each page to move on to the next section or go on to the last.
-
-##### Single Page Application (In Development)
-
-Rewriting the application as a Single Page Application (SPA) will speed up future development in several ways. Currently, I am leaning towards React, but if a third-party contributor would rather use a different framework, they are of course free to do so.
-
-##### Improve Data Storage (Research)
-
-I would like to switch our data storage to Firebase, which will allow both cross-device sync and offline caching.
