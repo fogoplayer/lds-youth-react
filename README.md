@@ -10,7 +10,7 @@ This project only has one main developer. Right now I am attending school full-t
 
 ##### Proofread
 
-The biggest way you can help is to proofread. This project contains thousands of lines of text, and any number of those lines could include a typo. Two errors that I’ve noticed several times in my own pre-release proofreading are random spaces in the middle of words, and paragraphs that are missing their last period.
+The biggest way you can help is to proofread. This project contains thousands of lines of code, and any number of those lines could include a typo. Two errors that I’ve noticed several times in my own pre-release proofreading are random spaces in the middle of words, and paragraphs that are missing their last period.
 
   
 
